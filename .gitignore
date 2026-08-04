@@ -1,0 +1,61 @@
+# TEMPLATE v1.5, 2026-07-30 (v1.5 adds the audit-artifact block).
+# Fleet kit and session files: local-only, never committed.
+# Fleet meta (Luca, the Handler, sibling sites) stays off GitHub, both buckets.
+# The spoke renames this file to .gitignore at the repo root BEFORE the first commit.
+CLAUDE.md
+plan.md
+design-constraints.md
+design-brief-skeleton.md
+imagery.md
+bootstrap-instructions.md
+siteground-sheet.md
+pre-flight.md
+initial-prompt.md
+operator-brief.md
+design-brief.md
+memory.md
+/deploy.yml
+
+# Externally fed sites only: the ingest doctrine and whatever contract document the
+# producer's owner supplied. Both are fleet meta. If this site's contract file has a
+# different name, add it here before the first commit.
+ingest.md
+INGEST_CONTRACT.md
+
+# Runtime secrets and the server-only store. The real ingest token lives ONLY on the
+# server (private/ingest-config.php, above the web root) and the store is never in the
+# repo, but ignore both defensively in case a local test copy ever appears.
+ingest-config.php
+/private/
+
+# Kit-source copies that live at the repo ROOT: the spoke moves these into place
+# (ads.txt to public/ads.txt, security-headers.htaccess merged into
+# public/.htaccess, this file to .gitignore), but a lingering root copy must never
+# be committed. The leading slash anchors to root, so the served public/ads.txt,
+# public/.htaccess and the real .gitignore stay tracked.
+/ads.txt
+/gitignore
+/security-headers.htaccess
+
+# Audit artifacts: the link-checker and the judgment-track routine write reports,
+# logs and caches on every run. They are working output, they change on every run,
+# and they hold the site's full URL inventory plus whatever error text the remote
+# servers returned. Ignore them BEFORE the first local run, otherwise the first
+# audit turns into a commit nobody wanted. If this site's checker writes somewhere
+# else, add that path here and tell Luca so the doctrine default can follow.
+/audit/
+/reports/
+link-check-report.*
+audit-report.*
+*.audit.json
+
+# Harness profile dir: spokes are told never to persist here, but if one does,
+# it must never leak to GitHub.
+.claude/
+
+# NOT ignored on purpose (the repo carries strictly the site):
+# public/ (incl. public/ads.txt), data/, .github/workflows/deploy.yml, .gitignore itself.
+
+# OS noise
+Thumbs.db
+.DS_Store

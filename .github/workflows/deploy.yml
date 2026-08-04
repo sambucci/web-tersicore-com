@@ -1,0 +1,46 @@
+# Canonical Siteground deploy workflow. Copy verbatim into each spoke repo as
+# .github/workflows/deploy.yml. Adjust local-dir ONLY if the repo structure
+# differs from the standard (deploy-ready files in public/).
+#
+# Gotchas (do not "fix" these):
+# - security: loose is REQUIRED. Siteground's TLS cert is bound to the shared
+#   node hostname (cXXXXX.sgvps.net), not to the FTP host in the secret.
+# - protocol: ftps is explicit FTPS (port 21 + STARTTLS). Never plain ftp;
+#   never invent ftps-explicit.
+# - FTP_SERVER_DIR secret is "/" because the FTP account is path-scoped to
+#   public_html at creation.
+# - Secrets required on the repo: FTP_SERVER, FTP_USERNAME, FTP_PASSWORD,
+#   FTP_SERVER_DIR.
+
+name: Deploy to Siteground
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+concurrency:
+  group: deploy-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  ftp-deploy:
+    name: FTPS deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Sync public/ to Siteground via FTPS
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          server-dir: ${{ secrets.FTP_SERVER_DIR }}
+          local-dir: ./public/
+          protocol: ftps
+          security: loose
+          exclude: |
+            **/.git*
+            **/.git*/**
+            **/.DS_Store
+            **/node_modules/**
+            **/.env
+            **/.env.*
