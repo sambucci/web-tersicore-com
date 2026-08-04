@@ -132,6 +132,8 @@ function image_credit_text(array $c): string {
     $bits = [];
     if (!empty($c['author']))      $bits[] = esc($c['author']);
     if (!empty($c['institution'])) $bits[] = esc($c['institution']);
+    // CC BY and CC BY-SA make naming the photographer a licence condition.
+    if (!empty($c['photo_credit'])) $bits[] = 'foto ' . esc($c['photo_credit']);
     if (!empty($c['license'])) {
         $lic = esc($c['license']);
         $bits[] = !empty($c['license_url'])

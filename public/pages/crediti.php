@@ -32,6 +32,7 @@ ob_start(); ?>
           <span class="linklist__meta">
             <?= esc($c['author'] ?? 'autore non indicato') ?><?php
             if (!empty($c['institution'])): ?><span class="meta__sep"></span><?= esc($c['institution']) ?><?php endif;
+            if (!empty($c['photo_credit'])): ?><span class="meta__sep"></span>foto <?= esc($c['photo_credit']) ?><?php endif;
             if (!empty($c['license'])): ?><span class="meta__sep"></span><?php
               if (!empty($c['license_url'])): ?><a href="<?= esc($c['license_url']) ?>"><?= esc($c['license']) ?></a><?php
               else: ?><?= esc($c['license']) ?><?php endif;

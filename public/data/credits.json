@@ -2,37 +2,40 @@
  {
   "file": "tomba-delle-leonesse-danzatrice-anonimo.webp",
   "title": "Tomba delle Leonesse, danzatrice",
-  "author": "Sailko",
+  "author": "Anonimo",
   "institution": "Necropoli dei Monterozzi, Tarquinia",
   "license": "CC BY 3.0",
   "license_url": "https://creativecommons.org/licenses/by/3.0",
   "source_url": "https://commons.wikimedia.org/wiki/File:Tomba_delle_leonesse,_520_ac_ca.,_02_danzatrice.jpg",
-  "modifications": "ritagliata in formato 16:10, ridimensionata a 880px, convertita in WebP"
+  "modifications": "ritagliata in formato 16:10, ridimensionata a 880px, convertita in WebP",
+  "photo_credit": "Sailko"
  },
  {
   "file": "tomba-del-triclinio-danzatori-anonimo-pittore-forse-attico.webp",
   "title": "Tomba del Triclinio, danzatori",
-  "author": "Sailko",
+  "author": "Anonimo, pittore forse attico",
   "institution": "Museo Archeologico Nazionale, Tarquinia",
   "license": "CC BY 3.0",
   "license_url": "https://creativecommons.org/licenses/by/3.0",
   "source_url": "https://commons.wikimedia.org/wiki/File:Pittore_forse_attico,_affreschi_della_tomba_del_triclinio,_500-475_ac_ca,_05_danzatori.jpg",
-  "modifications": "ritagliata in formato 16:10, ridimensionata a 880px, convertita in WebP"
+  "modifications": "ritagliata in formato 16:10, ridimensionata a 880px, convertita in WebP",
+  "photo_credit": "Sailko"
  },
  {
   "file": "coppa-attica-a-figure-rosse-con-menadi-danzanti.webp",
   "title": "Coppa attica a figure rosse con menadi danzanti",
-  "author": "ArchaiOptix",
+  "author": "Makron",
   "institution": "Antikenmuseum Basel und Sammlung Ludwig, Basilea",
   "license": "CC BY-SA 4.0",
   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
   "source_url": "https://commons.wikimedia.org/wiki/File:Makron_ARV_463_53_dancing_maenads.jpg",
-  "modifications": "ritagliata in formato 16:10, ridimensionata a 880px, convertita in WebP"
+  "modifications": "ritagliata in formato 16:10, ridimensionata a 880px, convertita in WebP",
+  "photo_credit": "ArchaiOptix"
  },
  {
   "file": "tomba-dei-leopardi-danzatori-e-musici-anonimo.webp",
   "title": "Tomba dei Leopardi, danzatori e musici",
-  "author": "Unknown authorUnknown author",
+  "author": "Anonimo",
   "institution": "Necropoli dei Monterozzi, Tarquinia",
   "license": "Public domain",
   "license_url": "",
@@ -42,7 +45,7 @@
  {
   "file": "villa-dei-misteri-menade-danzante-anonimo.webp",
   "title": "Villa dei Misteri, menade danzante",
-  "author": "WolfgangRieger",
+  "author": "Anonimo",
   "institution": "Villa dei Misteri, Pompei",
   "license": "Public domain",
   "license_url": "",
@@ -52,7 +55,7 @@
  {
   "file": "vaso-sosibios-menade-danzante-sosibios.webp",
   "title": "Vaso Sosibios, menade danzante",
-  "author": "Sosibios; detail: copy after Callimachus?",
+  "author": "Sosibios",
   "institution": "Musée du Louvre, Parigi",
   "license": "Public domain",
   "license_url": "",
@@ -72,7 +75,7 @@
  {
   "file": "danza-macabra-di-lubecca-bernt-notke.webp",
   "title": "Danza macabra di Lubecca",
-  "author": "Bernt Notke (copy, 1701, by Anton Wortmann)",
+  "author": "Bernt Notke",
   "institution": "Marienkirche, Lubecca, opera distrutta nel 1942",
   "license": "Public domain",
   "license_url": "",
@@ -82,7 +85,7 @@
  {
   "file": "danza-macabra-dell-abbazia-di-la-chaise-dieu-primo-pannello.webp",
   "title": "Danza macabra dell'abbazia di La Chaise-Dieu, primo pannello",
-  "author": "Rvalette",
+  "author": "Anonimo",
   "institution": "Abbazia di Saint-Robert, La Chaise-Dieu",
   "license": "CC0",
   "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
@@ -92,7 +95,7 @@
  {
   "file": "il-ballo-degli-ardenti-anonimo-miniatore-delle-chroniques-di-froissart.webp",
   "title": "Il ballo degli ardenti",
-  "author": "Unknown authorUnknown author",
+  "author": "Anonimo, miniatore delle Chroniques di Froissart",
   "institution": "Bibliothèque nationale de France, Parigi, ms. Français 2646, f. 245v",
   "license": "Public domain",
   "license_url": "",
@@ -102,12 +105,13 @@
  {
   "file": "trionfo-della-morte-e-danza-macabra-giacomo-borlone-de-buschis-attribu.webp",
   "title": "Trionfo della Morte e Danza macabra",
-  "author": "Nazasca",
+  "author": "Giacomo Borlone de Buschis (attribuito)",
   "institution": "Oratorio dei Disciplini, Clusone",
   "license": "CC BY-SA 4.0",
   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
   "source_url": "https://commons.wikimedia.org/wiki/File:Oratorio_dei_Disciplini-_Il_trionfo_della_morte_e_la_danza_macabra.jpg",
-  "modifications": "ritagliata in formato 16:10, ridimensionata a 880px, convertita in WebP"
+  "modifications": "ritagliata in formato 16:10, ridimensionata a 880px, convertita in WebP",
+  "photo_credit": "Nazasca"
  },
  {
   "file": "le-tre-grazie-particolare-della-primavera.webp",
@@ -122,7 +126,7 @@
  {
   "file": "la-carola-nel-giardino-roman-de-la-rose.webp",
   "title": "La carola nel giardino, Roman de la Rose",
-  "author": "Master of the Prayer Books of around 1500",
+  "author": "Maestro dei Libri di preghiere del 1500 circa",
   "institution": "British Library, Londra, Harley MS 4425, f. 14v",
   "license": "CC0",
   "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
@@ -142,7 +146,7 @@
  {
   "file": "la-danza-nuziale-all-aperto-pieter-bruegel-il-vecchio.webp",
   "title": "La danza nuziale all'aperto",
-  "author": "Pieter Brueghel the Elder",
+  "author": "Pieter Bruegel il Vecchio",
   "institution": "Detroit Institute of Arts, Detroit",
   "license": "Public domain",
   "license_url": "",
@@ -152,7 +156,7 @@
  {
   "file": "la-danza-dei-contadini-pieter-bruegel-il-vecchio.webp",
   "title": "La danza dei contadini",
-  "author": "Pieter_Bruegel_d._Ä._014.jpg: File Upload Bot (Eloquence) derivative work: Wikielwikingo (talk)",
+  "author": "Pieter Bruegel il Vecchio",
   "institution": "Kunsthistorisches Museum, Vienna",
   "license": "Public domain",
   "license_url": "",
@@ -192,7 +196,7 @@
  {
   "file": "i-piaceri-del-ballo-antoine-watteau.webp",
   "title": "I piaceri del ballo",
-  "author": "Watteau, Jean-Antoine (1684 - 1721) – Artist Details on Google Art Project",
+  "author": "Antoine Watteau",
   "institution": "Dulwich Picture Gallery, Londra",
   "license": "Public domain",
   "license_url": "",
@@ -232,7 +236,7 @@
  {
   "file": "il-ballo-di-gala-antoine-jean-duclos-da-augustin-de-saint-aubin.webp",
   "title": "Il ballo di gala",
-  "author": "Augustin de Saint-Aubin / Antoine-Jean Duclos",
+  "author": "Antoine-Jean Duclos, da Augustin de Saint-Aubin",
   "institution": "Metropolitan Museum of Art, New York",
   "license": "CC0",
   "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
@@ -252,17 +256,18 @@
  {
   "file": "il-minuetto-in-villa-giandomenico-tiepolo.webp",
   "title": "Il minuetto in villa",
-  "author": "Sailko",
+  "author": "Giandomenico Tiepolo",
   "institution": "Ca' Rezzonico, Venezia",
   "license": "CC BY 3.0",
   "license_url": "https://creativecommons.org/licenses/by/3.0",
   "source_url": "https://commons.wikimedia.org/wiki/File:Giandomenico_tiepolo,_affreschi_da_villa_di_zianigo,_1759-1797,_portego_del_mondo_nuovo,_minuetto_in_villa_02.jpg",
-  "modifications": "ritagliata in formato 16:10, ridimensionata a 880px, convertita in WebP"
+  "modifications": "ritagliata in formato 16:10, ridimensionata a 880px, convertita in WebP",
+  "photo_credit": "Sailko"
  },
  {
   "file": "marie-taglioni-nel-ruolo-della-sylphide-achille-deveria-e-henri-greved.webp",
   "title": "Marie Taglioni nel ruolo della Sylphide",
-  "author": "Devéria, Achille (Paris, 06–02–1800 - Paris, 23–12–1857), dessinateur",
+  "author": "Achille Devéria e Henri Grévedon, da Jean-Auguste Barre",
   "institution": "Musée Carnavalet, Parigi",
   "license": "CC0",
   "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
@@ -272,7 +277,7 @@
  {
   "file": "fanny-elssler-nella-cachucha-anonimo.webp",
   "title": "Fanny Elssler nella cachucha",
-  "author": "Scan by NYPL",
+  "author": "Anonimo",
   "institution": "New York Public Library, New York",
   "license": "Public domain",
   "license_url": "",
@@ -282,7 +287,7 @@
  {
   "file": "il-celebre-pas-de-quatre-di-jules-perrot.webp",
   "title": "Il celebre Pas de Quatre di Jules Perrot",
-  "author": "Maquire, T. (18..-18.. ; lithographe). Lithographe Chalon, Alfred Edward (1780-1860). Peintre du modèle",
+  "author": "Thomas Herbert Maguire, da Alfred Edward Chalon",
   "institution": "Bibliothèque nationale de France, Parigi",
   "license": "Public domain",
   "license_url": "",
