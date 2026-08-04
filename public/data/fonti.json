@@ -9,8 +9,17 @@
   "lingua": "lat/ita",
   "tipo": "trattato",
   "era": "quattrocento",
-  "documenta": [],
-  "rilevanza": "",
+  "documenta": [
+   "bassa danza",
+   "saltarello",
+   "piva",
+   "quadernaria",
+   "passo doppio",
+   "riverenza",
+   "ripresa",
+   "continenza"
+  ],
+  "rilevanza": "Il più antico trattato di danza dell'Occidente che si sia conservato, redatto alla corte estense di Ferrara e tramandato da un solo manoscritto. Domenico fissa le quattro misure sulle quali si costruisce il repertorio, bassadanza, quadernaria, saltarello e piva, e i principi che il danzatore deve possedere: misura, memoria, partire del terreno, aere e maniera, movimento corporeo. Il testo conserva le coreografie di balli come Gioioso, Belfiore, Marchesana e Verçeppe, con la successione dei movimenti battuta per battuta. Il vocabolario tecnico del Quattrocento italiano, dal sempio al doppio alla ripresa, è qui definito per la prima volta.",
   "scansione": {
    "istituzione": "Bibliothèque nationale de France",
    "url": "https://gallica.bnf.fr/ark:/12148/btv1b10076277p",
@@ -20,7 +29,14 @@
   "fonti_correlate": [
    "f02"
   ],
-  "termini": [],
+  "termini": [
+   "bassa danza",
+   "fantasmata",
+   "misura",
+   "piva",
+   "quadernaria",
+   "saltarello"
+  ],
   "immagine": null,
   "alt_immagine": null
  },
@@ -34,8 +50,17 @@
   "lingua": "ita",
   "tipo": "trattato",
   "era": "quattrocento",
-  "documenta": [],
-  "rilevanza": "",
+  "documenta": [
+   "bassa danza",
+   "ballo",
+   "saltarello",
+   "piva",
+   "passo doppio",
+   "ripresa",
+   "continenza",
+   "riverenza"
+  ],
+  "rilevanza": "Guglielmo Ebreo, allievo di Domenico da Piacenza e maestro di ballo presso le corti di Pesaro, Urbino e Napoli, raccoglie qui la dottrina del maestro e le dà forma sistematica. Il trattato circola in oltre una decina di manoscritti, alcuni sotto il nome di Giovanni Ambrosio assunto dall'autore dopo la conversione, e ogni redazione porta un repertorio in parte diverso di balli e bassedanze. Alle coreografie sono associate le melodie di tenore su cui si danzava, il che fa di questo testo una delle poche fonti quattrocentesche che leghino musica e passo. Vi si trovano i requisiti del danzatore e il lessico di sempio, doppio, ripresa e continenza applicato alla pratica di sala.",
   "scansione": {
    "istituzione": "Internet Archive (University of Toronto)",
    "url": "https://archive.org/details/trattatodellarte00gugluoft",
@@ -59,8 +84,16 @@
   "lingua": "lat",
   "tipo": "trattato",
   "era": "cinquecento",
-  "documenta": [],
-  "rilevanza": "",
+  "documenta": [
+   "basse danse",
+   "branle",
+   "riverenza",
+   "passo doppio",
+   "passo sempio",
+   "ripresa",
+   "etichetta del ballo"
+  ],
+  "rilevanza": "Poemetto in latino maccheronico composto da uno studente di diritto provenzale, che descrive la basse danse e le regole di comportamento con intento insieme didattico e comico. Le coreografie sono annotate con lettere, R per la riverenza, b per il branle, s per il simple, d per il double, secondo il sistema già in uso nei manoscritti borgognoni. Il libro conobbe decine di ristampe lungo tutto il Cinquecento e documenta la pratica del ballo studentesco e di società prima dell'epoca dei grandi trattati italiani. Alle prescrizioni sui passi si aggiungono avvertenze sull'abbigliamento, sull'igiene e sul modo di condurre la dama.",
   "scansione": {
    "istituzione": "Internet Archive (British Library)",
    "url": "https://archive.org/details/bim_eighteenth-century_antonius-de-arena-proven_arena-antoine_1758",
@@ -73,7 +106,9 @@
    "f06",
    "f07"
   ],
-  "termini": [],
+  "termini": [
+   "branle"
+  ],
   "immagine": null,
   "alt_immagine": null
  },
@@ -87,8 +122,17 @@
   "lingua": "ita",
   "tipo": "trattato",
   "era": "cinquecento",
-  "documenta": [],
-  "rilevanza": "",
+  "documenta": [
+   "balletto",
+   "cascarda",
+   "gagliarda",
+   "pavana",
+   "tordiglione",
+   "canario",
+   "spagnoletta",
+   "riverenza"
+  ],
+  "rilevanza": "Primo dei due grandi trattati di Fabritio Caroso, diviso in una parte di regole sui passi e in una raccolta di oltre ottanta balli con l'intavolatura per liuto della musica. Vi compaiono il balletto, la cascarda, la gagliarda, la pavana, il tordiglione, il canario e la spagnoletta, ciascuno con la coreografia distesa e la dedica a una dama delle corti italiane. Il vocabolario tecnico è codificato passo per passo: riverenza, continenza, seguito ordinario, seguito spezzato, trabuchetto, fioretto, campanella, cadenza. La struttura del volume, regole prima e coreografie poi, diventa il modello della trattatistica italiana successiva.",
   "scansione": {
    "istituzione": "Library of Congress",
    "url": "https://archive.org/details/danceman230",
@@ -101,7 +145,22 @@
    "f05",
    "f07"
   ],
-  "termini": [],
+  "termini": [
+   "canario",
+   "capriola",
+   "continenza",
+   "contrapasso",
+   "fioretto",
+   "gagliarda",
+   "passo puntato",
+   "ripresa",
+   "riverenza",
+   "seguito",
+   "seguito spezzato",
+   "sottopiede",
+   "tordiglione",
+   "trabuchetto"
+  ],
   "immagine": null,
   "alt_immagine": null
  },
@@ -115,8 +174,17 @@
   "lingua": "fra",
   "tipo": "trattato",
   "era": "cinquecento",
-  "documenta": [],
-  "rilevanza": "",
+  "documenta": [
+   "pavana",
+   "gagliarda",
+   "tourdion",
+   "volta",
+   "corrente",
+   "allemanda",
+   "branle",
+   "canario"
+  ],
+  "rilevanza": "Trattato in forma di dialogo tra il canonico Jehan Tabourot, che firma con l'anagramma Thoinot Arbeau, e l'allievo Capriol. Il libro allinea verticalmente le note della melodia e il nome del passo corrispondente, un accorgimento tipografico che permette di ricostruire il rapporto tra musica e movimento con una precisione rara nel Cinquecento. Documenta pavana, gagliarda, tourdion, volta, corrente, allemanda, i branles di Borgogna e di Poitou, i canaries, la morisque e la danza armata dei bouffons, oltre ai ritmi di tamburo per la marcia militare. È la principale fonte francese sulla danza del tardo Rinascimento e l'unica che ordini i branles come repertorio.",
   "scansione": {
    "istituzione": "Library of Congress",
    "url": "https://archive.org/details/danceman219",
@@ -129,7 +197,10 @@
    "f07",
    "f10"
   ],
-  "termini": [],
+  "termini": [
+   "courante",
+   "pavana"
+  ],
   "immagine": null,
   "alt_immagine": null
  },
@@ -143,8 +214,17 @@
   "lingua": "ita",
   "tipo": "trattato",
   "era": "cinquecento",
-  "documenta": [],
-  "rilevanza": "",
+  "documenta": [
+   "balletto",
+   "gagliarda",
+   "cascarda",
+   "canario",
+   "spagnoletta",
+   "passo e mezzo",
+   "contrapasso",
+   "riverenza"
+  ],
+  "rilevanza": "Riscrittura ampliata del Ballarino, con le regole rifatte e molte coreografie corrette dall'autore stesso. Caroso vi distingue la riverenza grave dalla minima e dalla semibreve, descrive i cinque passi della gagliarda e detta le norme di condotta per la dama, dal modo di reggere la veste a quello di declinare un invito. Il repertorio comprende il Ballo del Fiore, Laura Soave, Celeste Giglio, la Barriera e il Contrapasso, con l'intavolatura di liuto a fronte. È il testo più minuzioso che il Rinascimento italiano abbia prodotto sulla tecnica del ballo di corte.",
   "scansione": {
    "istituzione": "Library of Congress",
    "url": "https://archive.org/details/danceman199",
@@ -171,8 +251,17 @@
   "lingua": "ita",
   "tipo": "trattato",
   "era": "cinquecento",
-  "documenta": [],
-  "rilevanza": "",
+  "documenta": [
+   "gagliarda",
+   "balletto",
+   "brando",
+   "canario",
+   "capriola",
+   "salto del fiocco",
+   "mutanze",
+   "riverenza"
+  ],
+  "rilevanza": "Ultimo dei grandi trattati italiani del Rinascimento, diviso in tre parti: una cronaca dei maestri e delle feste milanesi, un repertorio di regole con le mutanze di gagliarda e le capriole, e una raccolta di balli con intavolatura per liuto. La seconda parte contiene la descrizione più dettagliata che si conosca del virtuosismo maschile di fine Cinquecento, dal salto del fiocco alla capriola intrecciata, antenata dell'entrechat. Tra le coreografie figurano Bianco Fiore, il Brando di Cales, la Nizzarda e il Torneo Amoroso. Negri insegnò a Milano sotto il governo spagnolo e il libro riflette il gusto di quella corte.",
   "scansione": {
    "istituzione": "Library of Congress",
    "url": "https://archive.org/details/danceman121",
@@ -185,7 +274,11 @@
    "f06",
    "f05"
   ],
-  "termini": [],
+  "termini": [
+   "campanella",
+   "groppo",
+   "zoppetto"
+  ],
   "immagine": null,
   "alt_immagine": null
  },
@@ -199,8 +292,15 @@
   "lingua": "spa",
   "tipo": "trattato",
   "era": "cinquecento",
-  "documenta": [],
-  "rilevanza": "",
+  "documenta": [
+   "gagliarda",
+   "balletto",
+   "canario",
+   "capriola",
+   "mutanze",
+   "riverenza"
+  ],
+  "rilevanza": "Traduzione castigliana manoscritta delle Nuove inventioni di Cesare Negri, esemplata in Spagna nel Seicento e rimasta inedita. Il testo trasporta nel lessico spagnolo il vocabolario tecnico milanese, e la sostituzione dei termini permette di seguire come i nomi dei passi italiani venissero adattati fuori dalla penisola. La sua esistenza documenta la fortuna del ballo italiano alla corte di Madrid nei decenni successivi alla stampa dell'originale. L'impianto coreografico segue il modello, con le regole, le mutanze di gagliarda e i balli.",
   "scansione": {
    "istituzione": "Bibliothèque nationale de France",
    "url": "https://gallica.bnf.fr/ark:/12148/btv1b10035940c",
@@ -227,8 +327,16 @@
   "lingua": "ita",
   "tipo": "trattato",
   "era": "cinquecento",
-  "documenta": [],
-  "rilevanza": "",
+  "documenta": [
+   "balletto",
+   "gagliarda",
+   "cascarda",
+   "canario",
+   "spagnoletta",
+   "contrapasso",
+   "riverenza"
+  ],
+  "rilevanza": "Ristampa romana della Nobiltà di dame, apparsa con nuovo frontespizio trent'anni dopo l'originale veneziano. Il contenuto coreografico resta quello di Caroso, regole e balli con intavolatura, mentre titolo e dedica riorientano il libro verso l'aristocrazia romana del primo Seicento. La sua uscita mostra che il repertorio cinquecentesco era ancora praticato e commerciabile a distanza di una generazione. Per lo studio del testo l'edizione vale soprattutto come testimone della trasmissione, con varianti tipografiche rispetto al 1600.",
   "scansione": {
    "istituzione": "Bibliothèque nationale de France",
    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k1167913z",
@@ -255,8 +363,13 @@
   "lingua": "fra",
   "tipo": "trattato",
   "era": "cinquecento",
-  "documenta": [],
-  "rilevanza": "",
+  "documenta": [
+   "ballo di società",
+   "danza mista",
+   "polemica antiballo",
+   "morale del ballo"
+  ],
+  "rilevanza": "Trattato di condanna della danza scritto da un pastore ugonotto e stampato a La Rochelle, roccaforte del protestantesimo francese. L'argomentazione procede per autorità scritturali e patristiche e prende di mira il ballo misto tra uomini e donne, i contatti che comporta e le occasioni in cui si tiene. Le fonti ostili di questo genere hanno valore documentario proprio per ciò che rimproverano, perché descrivono usi di sala che i manuali tecnici danno per scontati e tacciono. Il testo si inserisce nella lunga polemica riformata contro il ballo aperta nel Cinquecento.",
   "scansione": {
    "istituzione": "Library of Congress",
    "url": "https://archive.org/details/danceman023",
@@ -283,8 +396,16 @@
   "lingua": "eng",
   "tipo": "manuale",
   "era": "seisettecento",
-  "documenta": [],
-  "rilevanza": "",
+  "documenta": [
+   "country dance",
+   "longways",
+   "hey",
+   "siding",
+   "arming",
+   "arie da ballo",
+   "figure di gruppo"
+  ],
+  "rilevanza": "Raccolta di country dances inglesi con la melodia incisa e le figure descritte in prosa sotto ciascun titolo, apparsa per la prima volta nel 1651 e ristampata con continue aggiunte fino al 1728. Ogni ballo indica la formazione, longways, tondo o quadrato, e la successione delle figure per le coppie, dal siding all'arming al hey. La serie tramanda centinaia di arie da ballo popolari inglesi che altrimenti sarebbero perdute, tra cui Sellenger's Round e Gathering Peascods. Da questo repertorio, attraverso l'adattamento francese, discende la contredanse continentale.",
   "scansione": {
    "istituzione": "Library of Congress",
    "url": "https://archive.org/details/danceman004",
@@ -294,7 +415,13 @@
   "fonti_correlate": [
    "f23"
   ],
-  "termini": [],
+  "termini": [
+   "cast",
+   "country dance",
+   "hands across",
+   "hey",
+   "longways"
+  ],
   "immagine": null,
   "alt_immagine": null
  },
@@ -308,8 +435,17 @@
   "lingua": "fra",
   "tipo": "notazione",
   "era": "seisettecento",
-  "documenta": [],
-  "rilevanza": "",
+  "documenta": [
+   "notazione coreografica",
+   "cinque posizioni",
+   "pas de bourrée",
+   "coupé",
+   "contretemps",
+   "entrechat",
+   "capriola",
+   "pirouette"
+  ],
+  "rilevanza": "Il libro che introduce la notazione detta Beauchamp-Feuillet, il sistema con cui la danza francese viene messa su carta per la prima volta in modo compiuto. La pagina rappresenta il pavimento visto dall'alto: una linea traccia il percorso della coppia e su di essa si innestano i segni dei passi, delle piegate, delle rialzate, dei salti e delle giravolte, sincronizzati con le battute musicali stampate in cima. Feuillet codifica le cinque posizioni dei piedi e la tavola dei passi composti, dal pas de bourrée al coupé, dal contretemps all'entrechat. Su questo sistema si stampano per un quarantennio le raccolte di danze da sala e da teatro in Francia, Inghilterra e Germania.",
   "scansione": {
    "istituzione": "Bibliothèque nationale de France",
    "url": "https://gallica.bnf.fr/ark:/12148/btv1b86232407",
@@ -322,7 +458,29 @@
    "f15",
    "f16"
   ],
-  "termini": [],
+  "termini": [
+   "balancé",
+   "bourrée",
+   "cabriole",
+   "chassé",
+   "chemin",
+   "chorégraphie",
+   "contretemps",
+   "coupé",
+   "demi-coupé",
+   "gavotte",
+   "jeté",
+   "loure",
+   "menuet",
+   "pas battu",
+   "pas de bourrée",
+   "pas tortillé",
+   "pirouette",
+   "plié",
+   "position",
+   "sissonne",
+   "tems de courante"
+  ],
   "immagine": null,
   "alt_immagine": null
  },
@@ -336,8 +494,16 @@
   "lingua": "fra",
   "tipo": "notazione",
   "era": "seisettecento",
-  "documenta": [],
-  "rilevanza": "",
+  "documenta": [
+   "notazione coreografica",
+   "cinque posizioni",
+   "pas de bourrée",
+   "coupé",
+   "contretemps",
+   "entrechat",
+   "capriola"
+  ],
+  "rilevanza": "Seconda edizione della Chorégraphie, rivista dall'autore l'anno successivo alla prima. Il sistema di notazione resta quello del 1700, con ritocchi ai segni e all'ordine delle tavole, e la parte dedicata ai passi composti risulta ampliata. Le due edizioni ravvicinate misurano la rapidità con cui il metodo si impose sul mercato editoriale parigino. Il confronto delle varianti tra 1700 e 1701 permette di seguire l'assestamento di un sistema grafico ancora in formazione.",
   "scansione": {
    "istituzione": "Bibliothèque nationale de France",
    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k1048479h",
@@ -364,8 +530,16 @@
   "lingua": "fra",
   "tipo": "notazione",
   "era": "seisettecento",
-  "documenta": [],
-  "rilevanza": "",
+  "documenta": [
+   "minuetto",
+   "bourrée",
+   "rigaudon",
+   "gavotta",
+   "passepied",
+   "notazione coreografica",
+   "danza di sala"
+  ],
+  "rilevanza": "Volume della serie annuale di danze da sala che Feuillet pubblica a Parigi a partire dal 1700, con le coreografie stampate in notazione e la musica sopra il tracciato. Il repertorio è quello del ballo di corte e di società, costruito sulle andature di minuetto, bourrée, rigaudon, gavotta e passepied, e le coreografie sono per la maggior parte di Guillaume-Louis Pécour. Ogni raccolta porta in copertina l'anno per cui le danze sono destinate, così che la successione dei volumi restituisce il ricambio della moda stagione per stagione. È la prima impresa editoriale periodica costruita intorno alla danza.",
   "scansione": {
    "istituzione": "Library of Congress",
    "url": "https://archive.org/details/danceman211",
@@ -378,7 +552,9 @@
    "f15",
    "f16"
   ],
-  "termini": [],
+  "termini": [
+   "rigaudon"
+  ],
   "immagine": null,
   "alt_immagine": null
  },
@@ -392,8 +568,16 @@
   "lingua": "fra",
   "tipo": "notazione",
   "era": "seisettecento",
-  "documenta": [],
-  "rilevanza": "",
+  "documenta": [
+   "minuetto",
+   "gavotta",
+   "bourrée",
+   "loure",
+   "sarabanda",
+   "notazione coreografica",
+   "danza di sala"
+  ],
+  "rilevanza": "Raccolta di danze stampate in notazione Beauchamp-Feuillet, uscita a Parigi nel 1704 nella serie curata da Feuillet stesso. Ogni coreografia occupa una o più tavole incise, con il tracciato del percorso sul pavimento, i segni dei passi e la musica in testa alla pagina. Il repertorio appartiene alla danza francese del regno di Luigi XIV, costruita sulle andature di minuetto, gavotta, bourrée, sarabanda e loure. Raccolte come questa sono la base materiale su cui poggia oggi ogni ricostruzione del ballo barocco.",
   "scansione": {
    "istituzione": "Library of Congress",
    "url": "https://archive.org/details/danceman198",
@@ -406,7 +590,9 @@
    "f14",
    "f16"
   ],
-  "termini": [],
+  "termini": [
+   "entrée grave"
+  ],
   "immagine": null,
   "alt_immagine": null
  },
@@ -420,8 +606,15 @@
   "lingua": "fra",
   "tipo": "notazione",
   "era": "seisettecento",
-  "documenta": [],
-  "rilevanza": "",
+  "documenta": [
+   "contredanse",
+   "rond",
+   "moulinet",
+   "chaîne",
+   "figure di gruppo",
+   "notazione coreografica"
+  ],
+  "rilevanza": "Applicazione del sistema di notazione alla contredanse, la forma di gruppo che la Francia adotta dal country dance inglese. Il volume raccoglie una trentina di coreografie per file contrapposte e per cerchio, e per rappresentarle Feuillet deve adattare la propria grafica, perché il tracciato non segue più una sola coppia ma l'intero insieme dei danzatori. Il libro fissa il lessico delle figure francesi, dal rond al moulinet alla chaîne, e sancisce l'ingresso della contredanse nelle sale parigine. Da qui parte la fortuna europea del genere che occuperà l'intero Settecento.",
   "scansione": {
    "istituzione": "Library of Congress",
    "url": "https://archive.org/details/danceman070",
@@ -434,7 +627,9 @@
    "f14",
    "f15"
   ],
-  "termini": [],
+  "termini": [
+   "contredanse"
+  ],
   "immagine": null,
   "alt_immagine": null
  },
@@ -448,8 +643,14 @@
   "lingua": "eng",
   "tipo": "notazione",
   "era": "seisettecento",
-  "documenta": [],
-  "rilevanza": "",
+  "documenta": [
+   "danza di corte",
+   "rigaudon",
+   "minuetto",
+   "notazione coreografica",
+   "danza di sala"
+  ],
+  "rilevanza": "Raccolta di danze da corte inglesi messe in notazione da John Weaver, contenente coreografie del maestro noto come Mr Isaac eseguite davanti alla famiglia reale. Le danze celebrative venivano composte per il compleanno del sovrano e restavano poi nel repertorio delle sale londinesi, e queste tavole ne conservano la forma esatta. Il volume documenta l'adozione inglese del sistema francese di scrittura pochi anni dopo la sua invenzione. Tra i pezzi figurano The Richmond e The Rigadoon.",
   "scansione": {
    "istituzione": "Library of Congress",
    "url": "https://archive.org/details/danceman164",
@@ -476,8 +677,15 @@
   "lingua": "fra",
   "tipo": "notazione",
   "era": "seisettecento",
-  "documenta": [],
-  "rilevanza": "",
+  "documenta": [
+   "minuetto",
+   "gavotta",
+   "bourrée",
+   "rigaudon",
+   "notazione coreografica",
+   "danza di sala"
+  ],
+  "rilevanza": "Uno degli ultimi volumi che Feuillet manda in stampa prima della morte, avvenuta nel 1710. Le coreografie sono in larga parte di Guillaume-Louis Pécour, maestro dell'Académie Royale de Musique, e appartengono al repertorio da sala su misure di minuetto, gavotta, bourrée e rigaudon. La notazione è qui matura, con i segni dei passi stabilizzati e la musica allineata al tracciato. Dopo il 1710 la serie prosegue sotto la responsabilità di Jacques Dezais.",
   "scansione": {
    "istituzione": "Library of Congress",
    "url": "https://archive.org/details/danceman073",
@@ -504,8 +712,15 @@
   "lingua": "eng",
   "tipo": "notazione",
   "era": "seisettecento",
-  "documenta": [],
-  "rilevanza": "",
+  "documenta": [
+   "contredanse",
+   "country dance",
+   "rond",
+   "moulinet",
+   "figure di gruppo",
+   "notazione coreografica"
+  ],
+  "rilevanza": "Traduzione inglese del Recueil de contredances di Feuillet, alla quale Essex aggiunge alcuni country dances inglesi messi per la prima volta in notazione. L'operazione chiude un cerchio: la forma inglese era passata in Francia, era stata scritta con i segni della chorégraphie e torna ora a Londra in veste francese. Il volume rende disponibile ai maestri inglesi il lessico delle figure di gruppo e la sua rappresentazione grafica. È inoltre una delle poche fonti che permetta di confrontare la stessa danza nelle due tradizioni.",
   "scansione": {
    "istituzione": "Library of Congress",
    "url": "https://archive.org/details/danceman069",
@@ -532,8 +747,14 @@
   "lingua": "eng",
   "tipo": "notazione",
   "era": "seisettecento",
-  "documenta": [],
-  "rilevanza": "",
+  "documenta": [
+   "country dance",
+   "contredanse",
+   "longways",
+   "figure di gruppo",
+   "notazione coreografica"
+  ],
+  "rilevanza": "Raccolta londinese di danze scritte con i segni della chorégraphie, opera del maestro e incisore Edmund Pemberton. Il volume mostra maestri inglesi che impiegano il sistema francese per fissare un repertorio nativo, adattandone la grafica alle formazioni per più coppie del country dance. Pemberton incideva egli stesso le proprie tavole, e la qualità della stampa londinese in questi anni regge il confronto con quella parigina. La sua produzione documenta il momento in cui a Londra la notazione diventa strumento di lavoro corrente.",
   "scansione": {
    "istituzione": "Library of Congress",
    "url": "https://archive.org/details/danceman134",
@@ -560,8 +781,16 @@
   "lingua": "fra",
   "tipo": "notazione",
   "era": "seisettecento",
-  "documenta": [],
-  "rilevanza": "",
+  "documenta": [
+   "notazione coreografica",
+   "cinque posizioni",
+   "pas de bourrée",
+   "coupé",
+   "contretemps",
+   "minuetto",
+   "entrechat"
+  ],
+  "rilevanza": "Terza edizione della Chorégraphie, curata da Jacques Dezais dopo la morte di Feuillet e arricchita di un supplemento sui passi. Dezais eredita il privilegio di stampa e prosegue la serie dei recueils annuali, garantendo al sistema un'altra dozzina d'anni di vita editoriale. Il testo base resta quello del 1700, il che ne conferma la stabilità come standard di scrittura. Su questa edizione si formano molti maestri europei della generazione successiva.",
   "scansione": {
    "istituzione": "Library of Congress",
    "url": "https://archive.org/details/danceman072",
@@ -588,8 +817,16 @@
   "lingua": "eng",
   "tipo": "notazione",
   "era": "seisettecento",
-  "documenta": [],
-  "rilevanza": "",
+  "documenta": [
+   "notazione coreografica",
+   "cinque posizioni",
+   "pas de bourrée",
+   "coupé",
+   "contretemps",
+   "entrechat",
+   "minuetto"
+  ],
+  "rilevanza": "Traduzione inglese della Chorégraphie di Feuillet, apparsa per la prima volta nel 1706 e poi ristampata, con cui John Weaver introduce in Inghilterra la notazione francese e il suo lessico. Weaver conia gli equivalenti inglesi dei termini tecnici e conserva le tavole dei segni, rendendo leggibili a Londra le raccolte stampate a Parigi. Il libro è la base su cui si formano i maestri inglesi del primo Settecento, da Essex a Pemberton a Tomlinson. Weaver stesso fu coreografo di pantomime al Drury Lane e portò sulla scena il vocabolario che qui traduce.",
   "scansione": {
    "istituzione": "Library of Congress",
    "url": "https://archive.org/details/danceman074",
@@ -616,8 +853,15 @@
   "lingua": "ita/ted",
   "tipo": "manuale",
   "era": "seisettecento",
-  "documenta": [],
-  "rilevanza": "",
+  "documenta": [
+   "danza teatrale",
+   "danza grottesca",
+   "commedia dell'arte",
+   "pantomima",
+   "danza di carattere",
+   "balli di mestiere"
+  ],
+  "rilevanza": "Manuale di danza teatrale in due parti, con centouno tavole incise da Johann Georg Puschner: ogni pagina porta in alto la melodia, al centro l'immagine del danzatore in costume e in basso poche righe che descrivono l'azione. Il repertorio è quello comico e grottesco, con maschere della commedia dell'arte, mestieri, contadini e scene di pantomima, materia che i trattati di ballo nobile ignorano. Il testo italiano è affiancato dalla traduzione tedesca, segno della circolazione dei maestri italiani nell'Europa centrale. È la fonte principale sulla danza di carattere del primo Settecento.",
   "scansione": {
    "istituzione": "Bibliothèque nationale de France",
    "url": "https://gallica.bnf.fr/ark:/12148/btv1b100719191",
@@ -641,8 +885,15 @@
   "lingua": "ted",
   "tipo": "trattato",
   "era": "seisettecento",
-  "documenta": [],
-  "rilevanza": "",
+  "documenta": [
+   "minuetto",
+   "notazione coreografica",
+   "cinque posizioni",
+   "pas de bourrée",
+   "riverenza",
+   "etichetta del ballo"
+  ],
+  "rilevanza": "Trattato tedesco in tre libri e oltre mille pagine, il più esteso che il Settecento abbia prodotto sulla danza. Il primo libro difende il ballo dalle accuse dei moralisti, il secondo espone la tecnica francese e comprende una traduzione commentata della Chorégraphie di Feuillet, il terzo tratta la condotta in sala. La sezione sul minuetto è la più minuziosa che si conosca, dalla figura a Z al modo di prendere e lasciare la mano della dama. Taubert lavorava a Lipsia e il libro documenta l'assimilazione tedesca del modello di Versailles.",
   "scansione": {
    "istituzione": "Internet Archive (Google Books)",
    "url": "https://archive.org/details/bub_gb_XgQ5AAAAIAAJ",
@@ -669,8 +920,14 @@
   "lingua": "eng",
   "tipo": "trattato",
   "era": "seisettecento",
-  "documenta": [],
-  "rilevanza": "",
+  "documenta": [
+   "anatomia del danzatore",
+   "en dehors",
+   "equilibrio",
+   "meccanica del movimento",
+   "cinque posizioni"
+  ],
+  "rilevanza": "Sei lezioni in cui Weaver applica l'anatomia e la meccanica newtoniana al movimento del danzatore, descrivendo ossa, muscoli, articolazioni, equilibrio e centro di gravità. È il primo tentativo di fondare la tecnica della danza su basi fisiologiche. Il libro discute la rotazione esterna delle gambe, le condizioni della stabilità in appoggio su un piede e i limiti dell'articolazione dell'anca. Le sue argomentazioni ricompaiono un secolo dopo nella trattatistica ottocentesca sulla ginnastica della danza.",
   "scansione": {
    "istituzione": "Internet Archive (Wellcome Collection)",
    "url": "https://archive.org/details/b30504363",
@@ -697,8 +954,14 @@
   "lingua": "fra",
   "tipo": "notazione",
   "era": "seisettecento",
-  "documenta": [],
-  "rilevanza": "",
+  "documenta": [
+   "notazione coreografica",
+   "minuetto",
+   "cinque posizioni",
+   "danza di sala",
+   "contredanse"
+  ],
+  "rilevanza": "Revisione del sistema di Feuillet proposta da Pierre Rameau, che semplifica alcuni segni e riorganizza le tavole per rendere la scrittura più rapida al maestro. Il volume contiene danze da sala notate con il metodo riformato. Rameau lo pubblica nello stesso anno del Maître à danser, di cui costituisce il complemento tecnico: uno insegna il passo, l'altro insegna a scriverlo. La riforma ebbe seguito limitato, e il libro documenta le tensioni interne al sistema di notazione nel momento della sua massima diffusione.",
   "scansione": {
    "istituzione": "Library of Congress",
    "url": "https://archive.org/details/danceman141",
@@ -725,8 +988,16 @@
   "lingua": "ita",
   "tipo": "trattato",
   "era": "seisettecento",
-  "documenta": [],
-  "rilevanza": "",
+  "documenta": [
+   "minuetto",
+   "contradanza",
+   "cinque posizioni",
+   "pas de bourrée",
+   "riverenza",
+   "ballo nobile",
+   "etichetta del ballo"
+  ],
+  "rilevanza": "Primo trattato italiano dedicato al ballo nobile di scuola francese, stampato a Napoli e rivolto alla nobiltà del Regno. Dufort traduce nel lessico italiano le posizioni, i passi e le regole della belle danse, e riserva la parte più ampia al minuetto, con le figure, i giri e il modo di condurre la dama. Il libro tratta anche la contradanza e la creanza da tenere in sala. Per lo studio della danza settecentesca in Italia è il testo di riferimento, e la sua terminologia ricompare nella trattatistica napoletana successiva.",
   "scansione": {
    "istituzione": "Library of Congress",
    "url": "https://archive.org/details/danceman060",
@@ -753,8 +1024,15 @@
   "lingua": "eng",
   "tipo": "trattato",
   "era": "seisettecento",
-  "documenta": [],
-  "rilevanza": "",
+  "documenta": [
+   "minuetto",
+   "cinque posizioni",
+   "pas de bourrée",
+   "riverenza",
+   "etichetta del ballo",
+   "danza di sala"
+  ],
+  "rilevanza": "Traduzione inglese del Maître à danser di Pierre Rameau, con le incisioni rifatte per il mercato londinese. Essex conserva l'impianto del modello francese, le posizioni, i passi, il minuetto e le regole di condotta in sala, e vi aggiunge osservazioni proprie sull'uso inglese. Il volume porta a Londra il metodo di insegnamento parigino nella forma in cui era appena stato codificato. Insieme alla sua traduzione di Feuillet fa di Essex il principale tramite tra le due scuole.",
   "scansione": {
    "istituzione": "Library of Congress",
    "url": "https://archive.org/details/danceman143",
@@ -781,8 +1059,16 @@
   "lingua": "eng",
   "tipo": "trattato",
   "era": "seisettecento",
-  "documenta": [],
-  "rilevanza": "",
+  "documenta": [
+   "minuetto",
+   "cinque posizioni",
+   "pas de bourrée",
+   "passepied",
+   "notazione coreografica",
+   "riverenza",
+   "danza di sala"
+  ],
+  "rilevanza": "Trattato londinese noto per le sue tavole incise, dove i danzatori sono ritratti in un interno e sul pavimento della stessa immagine corre il tracciato del passo in notazione Feuillet. L'accostamento tra figura e segno rende visibile il rapporto tra il corpo e la scrittura come nessun'altra fonte del periodo. Il testo espone le posizioni, i passi, i cambiamenti di direzione e dedica ampio spazio al minuetto e all'esecuzione della sua figura. Tomlinson allega inoltre alcune sue danze da sala scritte per intero.",
   "scansione": {
    "istituzione": "Library of Congress",
    "url": "https://archive.org/details/danceman158",
@@ -809,8 +1095,15 @@
   "lingua": "spa",
   "tipo": "trattato",
   "era": "seisettecento",
-  "documenta": [],
-  "rilevanza": "",
+  "documenta": [
+   "minuetto",
+   "cinque posizioni",
+   "castañuelas",
+   "danza spagnola",
+   "contradanza",
+   "riverenza"
+  ],
+  "rilevanza": "Trattato spagnolo stampato a Capua, allora sotto la corona di Spagna, che espone il metodo francese del ballo nobile per un pubblico iberico. Ferriol segue da vicino l'impianto di Rameau nelle posizioni, nei passi e nel minuetto, e vi affianca materia che i modelli parigini non contengono, le danze spagnole e le istruzioni per suonare le castañuelas accompagnando il passo. Questa parte ne fa una delle poche fonti settecentesche sulla tecnica del ballo spagnolo. Il libro documenta inoltre la circolazione dei maestri tra la Spagna e il Regno di Napoli.",
   "scansione": {
    "istituzione": "Library of Congress",
    "url": "https://archive.org/details/danceman118",
@@ -837,8 +1130,16 @@
   "lingua": "fra",
   "tipo": "trattato",
   "era": "seisettecento",
-  "documenta": [],
-  "rilevanza": "",
+  "documenta": [
+   "minuetto",
+   "cinque posizioni",
+   "riverenza",
+   "movimento delle braccia",
+   "pas de bourrée",
+   "contretemps",
+   "etichetta del ballo"
+  ],
+  "rilevanza": "Il manuale di riferimento della danza nobile francese, uscito nel 1725 e più volte ristampato. La prima parte tratta il portamento, le posizioni, le riverenze e per esteso il minuetto, con la figura a Z, i giri e la presa delle mani; la seconda è dedicata al movimento delle braccia, materia che la notazione di Feuillet non sapeva registrare. Le incisioni mostrano il danzatore in sala e nei salotti, con l'abito e la spada che condizionano il portamento. Da queste pagine è stato ricostruito il minuetto per due secoli.",
   "scansione": {
    "istituzione": "Library of Congress",
    "url": "https://archive.org/details/danceman142",
@@ -851,7 +1152,10 @@
    "f33",
    "f30"
   ],
-  "termini": [],
+  "termini": [
+   "assemblé",
+   "pas grave"
+  ],
   "immagine": null,
   "alt_immagine": null
  },
@@ -865,8 +1169,14 @@
   "lingua": "eng",
   "tipo": "trattato",
   "era": "seisettecento",
-  "documenta": [],
-  "rilevanza": "",
+  "documenta": [
+   "minuetto",
+   "country dance",
+   "linea serpentinata",
+   "portamento",
+   "sala da ballo"
+  ],
+  "rilevanza": "Trattato di estetica in cui Hogarth espone la teoria della linea serpentinata come principio della bellezza visiva e la applica al movimento e al ballo. Il capitolo sull'azione descrive il minuetto come una composizione di linee serpeggianti nello spazio e nel gesto delle braccia, mentre la seconda tavola incisa mostra una sala da ballo con coppie di ogni grado di goffaggine. La fonte interessa la storia della danza perché guarda al ballo dall'esterno, con l'occhio di un pittore attento alla forma del movimento. La tavola resta una delle rappresentazioni più dettagliate di una country dance inglese di metà Settecento.",
   "scansione": {
    "istituzione": "Internet Archive",
    "url": "https://archive.org/details/analysisofbeauty00hoga",
@@ -893,8 +1203,15 @@
   "lingua": "fra",
   "tipo": "trattato",
   "era": "seisettecento",
-  "documenta": [],
-  "rilevanza": "",
+  "documenta": [
+   "balletto",
+   "danza antica",
+   "ballet d'action",
+   "ballet de cour",
+   "danza teatrale",
+   "storia della danza"
+  ],
+  "rilevanza": "Prima storia generale della danza in tre volumi, opera del librettista Louis de Cahusac, collaboratore di Jean-Philippe Rameau all'Opéra. La trattazione parte dalla danza degli antichi, egizi, greci e romani, e arriva al balletto francese contemporaneo, di cui ricostruisce le tappe a partire dal ballet de cour. Cahusac sostiene che la danza debba esprimere un'azione e comporre un racconto, tesi che Noverre riprenderà sei anni più tardi. Il libro fornisce inoltre notizie sui ballerini e sugli spettacoli dell'Opéra difficilmente reperibili altrove.",
   "scansione": {
    "istituzione": "Library of Congress",
    "url": "https://archive.org/details/danceman034",
@@ -921,8 +1238,15 @@
   "lingua": "fra",
   "tipo": "trattato",
   "era": "seisettecento",
-  "documenta": [],
-  "rilevanza": "",
+  "documenta": [
+   "balletto",
+   "ballet d'action",
+   "pantomima",
+   "danza teatrale",
+   "costume di scena",
+   "corpo di ballo"
+  ],
+  "rilevanza": "Quindici lettere che costituiscono il manifesto del ballet d'action, il balletto costruito come dramma con un'azione continua. Noverre chiede l'abolizione delle maschere, la riforma del costume di scena, la subordinazione del virtuosismo all'espressione e l'unità dell'azione, e attacca la simmetria meccanica delle figure di corpo di ballo. Il testo circolò in tutta Europa in traduzione e orientò la pratica coreografica per un secolo. Molte delle riforme drammaturgiche e scenografiche del balletto ottocentesco discendono da queste pagine.",
   "scansione": {
    "istituzione": "Internet Archive (University of Toronto)",
    "url": "https://archive.org/details/lettressurladans00noveuoft",
@@ -935,7 +1259,10 @@
    "f36",
    "f31"
   ],
-  "termini": [],
+  "termini": [
+   "ballet d'action",
+   "pas de deux"
+  ],
   "immagine": null,
   "alt_immagine": null
  },
@@ -949,8 +1276,14 @@
   "lingua": "fra",
   "tipo": "notazione",
   "era": "seisettecento",
-  "documenta": [],
-  "rilevanza": "",
+  "documenta": [
+   "contredanse",
+   "cotillon",
+   "figure di gruppo",
+   "arie da ballo",
+   "notazione coreografica"
+  ],
+  "rilevanza": "Raccolta di contredanses pubblicata a Parigi in fascicoli, con la musica incisa e le figure rappresentate da piccoli diagrammi che mostrano la posizione dei danzatori. De La Cuisse abbandona la complessità del sistema Feuillet e adotta una grafica sommaria, leggibile anche da chi balla. Il volume documenta il cotillon a quattro coppie, con le figure fisse alternate ai couplets, forma che dominerà le sale europee fino all'Ottocento. La serie raccoglie centinaia di contredanses con i loro nomi e le loro arie.",
   "scansione": {
    "istituzione": "Library of Congress",
    "url": "https://archive.org/details/danceman213",
@@ -963,7 +1296,9 @@
    "f26",
    "f22"
   ],
-  "termini": [],
+  "termini": [
+   "cotillon"
+  ],
   "immagine": null,
   "alt_immagine": null
  },
@@ -977,8 +1312,15 @@
   "lingua": "por",
   "tipo": "trattato",
   "era": "seisettecento",
-  "documenta": [],
-  "rilevanza": "",
+  "documenta": [
+   "minuetto",
+   "cinque posizioni",
+   "riverenza",
+   "ballo nobile",
+   "portamento",
+   "etichetta del ballo"
+  ],
+  "rilevanza": "Unico trattato di danza in portoghese del Settecento, stampato a Coimbra. Espone i fondamenti della scuola francese, le posizioni, le riverenze, i passi e il minuetto, adattando i modelli parigini al lettore portoghese e fissandone il lessico tecnico nella lingua. Il libro documenta l'estensione del ballo nobile francese fino all'estremo occidente della penisola iberica a metà secolo. Per la storia della danza in Portogallo è la sola fonte teorica del periodo.",
   "scansione": {
    "istituzione": "Library of Congress",
    "url": "https://archive.org/details/danceman024",
@@ -1005,8 +1347,16 @@
   "lingua": "fra",
   "tipo": "notazione",
   "era": "seisettecento",
-  "documenta": [],
-  "rilevanza": "",
+  "documenta": [
+   "notazione coreografica",
+   "cinque posizioni",
+   "pas de bourrée",
+   "coupé",
+   "contretemps",
+   "minuetto",
+   "entrechat"
+  ],
+  "rilevanza": "Uno degli ultimi trattati costruiti sul sistema di notazione Beauchamp-Feuillet, ormai in disuso quando Malpied lo dà alle stampe. Il libro ricapitola i segni, le posizioni e le tavole dei passi composti con un'ampiezza che nessuna fonte precedente raggiunge, e vi aggiunge esempi di danze scritte per intero. Serve da compendio conclusivo di settant'anni di scrittura coreografica francese. La sua stessa esistenza segnala che il metodo era ancora insegnato mentre il repertorio che descriveva usciva di moda.",
   "scansione": {
    "istituzione": "Library of Congress",
    "url": "https://archive.org/details/danceman220",
@@ -1033,8 +1383,15 @@
   "lingua": "ted",
   "tipo": "notazione",
   "era": "seisettecento",
-  "documenta": [],
-  "rilevanza": "",
+  "documenta": [
+   "allemanda",
+   "contredanse",
+   "minuetto",
+   "danza di coppia",
+   "notazione coreografica",
+   "etichetta del ballo"
+  ],
+  "rilevanza": "Trattato tedesco che estende il sistema della chorégraphie a un repertorio che le fonti francesi non registrano. Feldtenstein descrive l'allemanda tedesca, la danza di coppia in cui i partner restano uniti per le mani e ruotano intrecciando le braccia sopra il capo, e ne annota i giri uno per uno. Questa figura è l'antecedente diretto della presa del valzer, e il libro è tra le poche testimonianze scritte del passaggio. Vi si trovano inoltre le contredanse e le regole di sala in uso nelle corti tedesche.",
   "scansione": {
    "istituzione": "Library of Congress",
    "url": "https://archive.org/details/danceman066",
@@ -1047,7 +1404,9 @@
    "f26",
    "f22"
   ],
-  "termini": [],
+  "termini": [
+   "allemande"
+  ],
   "immagine": null,
   "alt_immagine": null
  },
@@ -1061,8 +1420,15 @@
   "lingua": "eng",
   "tipo": "trattato",
   "era": "seisettecento",
-  "documenta": [],
-  "rilevanza": "",
+  "documenta": [
+   "danze nazionali",
+   "minuetto",
+   "country dance",
+   "danza antica",
+   "portamento",
+   "etichetta del ballo"
+  ],
+  "rilevanza": "Trattato londinese di un maestro italiano attivo in Inghilterra, poi impresario del King's Theatre. La materia è insieme storica e pratica: l'origine della danza presso gli antichi, la sua utilità nell'educazione, il portamento e le regole di sala, e una rassegna delle danze delle diverse nazioni. La sezione descrittiva sui balli dei popoli è tra le prime del genere in lingua inglese. Gallini scrive per un pubblico di gentiluomini e il libro documenta la posizione sociale del ballo nella Londra georgiana.",
   "scansione": {
    "istituzione": "Library of Congress",
    "url": "https://archive.org/details/danceman080",
@@ -1089,8 +1455,17 @@
   "lingua": "ita",
   "tipo": "trattato",
   "era": "seisettecento",
-  "documenta": [],
-  "rilevanza": "",
+  "documenta": [
+   "capriola",
+   "entrechat",
+   "pirouette",
+   "battement",
+   "contradanza",
+   "ballo grottesco",
+   "cinque posizioni",
+   "pas de bourrée"
+  ],
+  "rilevanza": "Trattato napoletano in due volumi, la descrizione più minuziosa che il Settecento abbia lasciato della tecnica teatrale. Magri, ballerino grottesco, elenca e definisce decine di passi, dai battimenti alle pirouette, dalle capriole intrecciate ai brisé, e distingue con precisione i generi serio, di mezzo carattere e grottesco. Il secondo volume è dedicato alla contradanza, con le figure, le regole della sala e un repertorio di coreografie. La polemica con la scuola noverriana rende il testo anche un documento del dibattito estetico dell'epoca.",
   "scansione": {
    "istituzione": "Library of Congress",
    "url": "https://archive.org/details/danceman115",
@@ -1103,7 +1478,10 @@
    "f34",
    "f33"
   ],
-  "termini": [],
+  "termini": [
+   "entrechat",
+   "grottesco"
+  ],
   "immagine": null,
   "alt_immagine": null
  },
@@ -1117,8 +1495,15 @@
   "lingua": "fra",
   "tipo": "trattato",
   "era": "seisettecento",
-  "documenta": [],
-  "rilevanza": "",
+  "documenta": [
+   "ballet de cour",
+   "ballet à entrées",
+   "mascherata",
+   "pantomima",
+   "danza antica",
+   "danza teatrale"
+  ],
+  "rilevanza": "Storia e teoria del balletto scritta dal gesuita Claude-François Ménestrier, che ricostruisce la danza degli antichi e la confronta con il ballet de cour francese del suo tempo. Il libro fissa le regole di composizione di uno spettacolo di danza, dalla scelta del soggetto alla disposizione delle entrate, e conserva notizie su balletti e mascherate del Cinque e Seicento altrimenti perdute. Ménestrier discute anche i rapporti tra danza, musica, macchine sceniche e allegoria. È la principale fonte teorica sul ballet de cour prima dell'epoca di Lully.",
   "scansione": {
    "istituzione": "Internet Archive (Google Books)",
    "url": "https://archive.org/details/bub_gb_LJY7kwh1IDAC",
@@ -1131,7 +1516,11 @@
    "f27",
    "f28"
   ],
-  "termini": [],
+  "termini": [
+   "chaconne",
+   "passacaille",
+   "sarabande"
+  ],
   "immagine": null,
   "alt_immagine": null
  },
@@ -1145,8 +1534,15 @@
   "lingua": "eng",
   "tipo": "manuale",
   "era": "ottocento",
-  "documenta": [],
-  "rilevanza": "",
+  "documenta": [
+   "country dance",
+   "longways",
+   "hey",
+   "poussette",
+   "figure di gruppo",
+   "etichetta del ballo"
+  ],
+  "rilevanza": "Analisi sistematica della country dance inglese, in cui Wilson scompone il ballo nelle sue figure elementari e ne stila un catalogo di centinaia di voci, con la descrizione e i diagrammi che ne mostrano il percorso. Il metodo permette di comporre una danza nuova combinando figure note, e per questo il libro funziona insieme da repertorio e da grammatica. Wilson tratta inoltre la disciplina della sala, il compito di chi chiama le figure e i doveri della coppia in cima al set. È la fonte più completa sul country dance inglese all'inizio dell'Ottocento.",
   "scansione": {
    "istituzione": "Library of Congress",
    "url": "https://archive.org/details/danceman170",
@@ -1159,7 +1555,12 @@
    "f50",
    "f60"
   ],
-  "termini": [],
+  "termini": [
+   "figure of eight",
+   "poussette",
+   "promenade",
+   "set"
+  ],
   "immagine": null,
   "alt_immagine": null
  },
@@ -1173,8 +1574,16 @@
   "lingua": "eng",
   "tipo": "manuale",
   "era": "ottocento",
-  "documenta": [],
-  "rilevanza": "",
+  "documenta": [
+   "country dance",
+   "longways",
+   "chassé",
+   "jeté",
+   "glissade",
+   "figure di gruppo",
+   "etichetta del ballo"
+  ],
+  "rilevanza": "Opera maggiore di Thomas Wilson sulla country dance, che riunisce in un solo volume le figure, i passi, le arie e le regole di condotta. Wilson vi descrive i passi presi dalla scuola teatrale e adattati alla sala, chassé, jeté, assemblé, glissade, e mostra come applicarli alle figure. Il libro contiene inoltre un sistema di abbreviazioni per annotare una danza in poche righe e centinaia di melodie con la coreografia corrispondente. Documenta il momento di massima codificazione della country dance inglese, poco prima che la quadriglia e il valzer ne prendano il posto nelle sale.",
   "scansione": {
    "istituzione": "Library of Congress",
    "url": "https://archive.org/details/danceman168",
@@ -1201,8 +1610,17 @@
   "lingua": "fra",
   "tipo": "trattato",
   "era": "ottocento",
-  "documenta": [],
-  "rilevanza": "",
+  "documenta": [
+   "attitude",
+   "arabesque",
+   "pirouette",
+   "cinque posizioni",
+   "adagio",
+   "entrechat",
+   "plié",
+   "battement"
+  ],
+  "rilevanza": "Primo trattato di Carlo Blasis, pubblicato a Milano in francese quando l'autore aveva poco più di vent'anni. Vi si trova la codificazione della tecnica accademica moderna: le posizioni, l'ordine dell'esercizio quotidiano, gli adagi, i tempi di elevazione, le pirouette e la classificazione delle attitudini e degli arabesques. L'attitude vi è ricondotta al Mercurio del Giambologna, esempio della derivazione che Blasis stabilisce tra scultura antica e posa del danzatore. Il libro è il fondamento teorico della scuola italiana che culminerà nell'accademia di ballo della Scala.",
   "scansione": {
    "istituzione": "Bibliothèque nationale de France",
    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k6546277m",
@@ -1215,7 +1633,24 @@
    "f58",
    "f45"
   ],
-  "termini": [],
+  "termini": [
+   "aplomb",
+   "arabesque",
+   "attitude",
+   "ballon",
+   "batterie",
+   "croisé",
+   "développé",
+   "effacé",
+   "glissade",
+   "port de bras",
+   "relevé",
+   "rond de jambe",
+   "temps levé",
+   "tour en l'air",
+   "écarté",
+   "épaulement"
+  ],
   "immagine": null,
   "alt_immagine": null
  },
@@ -1229,8 +1664,15 @@
   "lingua": "eng",
   "tipo": "trattato",
   "era": "ottocento",
-  "documenta": [],
-  "rilevanza": "",
+  "documenta": [
+   "quadriglia",
+   "cinque posizioni",
+   "chassé",
+   "glissade",
+   "danza di sala",
+   "etichetta del ballo"
+  ],
+  "rilevanza": "Manuale edito a Edimburgo da un maestro di ballo scozzese, che espone gli elementi della tecnica, le posizioni, i passi e il portamento, e vi unisce la descrizione delle principali figure della quadriglia. Il volume coglie il momento in cui la quadriglia francese si insedia nelle sale britanniche accanto al repertorio locale. Strathy scrive per allievi di buona società e dedica spazio alle regole di comportamento e all'organizzazione della lezione. È una delle poche fonti scozzesi del periodo che tratti insieme tecnica e repertorio di sala.",
   "scansione": {
    "istituzione": "Library of Congress",
    "url": "https://archive.org/details/danceman154",
@@ -1257,8 +1699,17 @@
   "lingua": "eng",
   "tipo": "trattato",
   "era": "ottocento",
-  "documenta": [],
-  "rilevanza": "",
+  "documenta": [
+   "attitude",
+   "arabesque",
+   "pirouette",
+   "adagio",
+   "entrechat",
+   "pantomima",
+   "cinque posizioni",
+   "balletto"
+  ],
+  "rilevanza": "Versione inglese ampliata della dottrina di Blasis, uscita a Londra nella traduzione di R. Barton. Il volume riunisce la teoria e la pratica del ballo, la pantomima, le regole per comporre un balletto e una storia della danza, con tavole incise che fissano le pose divenute canoniche nell'iconografia accademica. La parte tecnica riprende il trattato milanese del 1820 e vi aggiunge l'ordine dell'esercizio, dagli esercizi alla sbarra agli adagi, ai tempi di elevazione, alle pirouette. È il libro attraverso cui la scuola italiana fu conosciuta nel mondo anglofono.",
   "scansione": {
    "istituzione": "Library of Congress",
    "url": "https://archive.org/details/danceman251",
@@ -1271,7 +1722,11 @@
    "f58",
    "f45"
   ],
-  "termini": [],
+  "termini": [
+   "adage",
+   "fouetté",
+   "pointe"
+  ],
   "immagine": null,
   "alt_immagine": null
  },
@@ -1285,8 +1740,15 @@
   "lingua": "eng",
   "tipo": "notazione",
   "era": "ottocento",
-  "documenta": [],
-  "rilevanza": "",
+  "documenta": [
+   "notazione coreografica",
+   "arabesque",
+   "attitude",
+   "cinque posizioni",
+   "pirouette",
+   "battement"
+  ],
+  "rilevanza": "Trattato londinese che propone un sistema di notazione originale, costruito su figurine schematiche e su simboli per le posizioni delle gambe e delle braccia, indipendente dalla tradizione di Feuillet ormai dimenticata. Théleur riorganizza le posizioni fondamentali e classifica le attitudini e gli arabesques con una terminologia propria. Le sue tavole documentano la tecnica accademica inglese negli anni immediatamente precedenti il balletto romantico. Il sistema ebbe scarsa diffusione, e resta la prova che il problema di scrivere la danza si era riaperto in Europa a inizio Ottocento.",
   "scansione": {
    "istituzione": "Library of Congress",
    "url": "https://archive.org/details/danceman156",
@@ -1311,8 +1773,16 @@
   "lingua": "fra",
   "tipo": "manuale",
   "era": "ottocento",
-  "documenta": [],
-  "rilevanza": "",
+  "documenta": [
+   "valzer",
+   "polka",
+   "mazurka",
+   "redowa",
+   "cotillon",
+   "quadriglia",
+   "etichetta del ballo"
+  ],
+  "rilevanza": "Il manuale che fissa il repertorio del ballo di società parigino a metà Ottocento, opera del maestro più in vista delle sale della capitale. Cellarius descrive il valzer a due tempi e a tre tempi, la polka, la mazurka, la redowa e il cotillon, spiegando per ciascuno il passo, la posizione della coppia e il modo di condurre. Il capitolo sul cotillon documenta i giochi di figure che chiudevano le serate con una precisione che nessuna fonte anteriore raggiunge. Le illustrazioni di Gavarni restituiscono l'abito e il contegno dei danzatori.",
   "scansione": {
    "istituzione": "Library of Congress",
    "url": "https://archive.org/details/danceman038",
@@ -1325,7 +1795,15 @@
    "f52",
    "f53"
   ],
-  "termini": [],
+  "termini": [
+   "galop",
+   "mazurka",
+   "polka",
+   "quadrille",
+   "redowa",
+   "valse à deux temps",
+   "waltz"
+  ],
   "immagine": null,
   "alt_immagine": null
  },
@@ -1339,8 +1817,15 @@
   "lingua": "fra",
   "tipo": "notazione",
   "era": "ottocento",
-  "documenta": [],
-  "rilevanza": "",
+  "documenta": [
+   "notazione coreografica",
+   "pas de six",
+   "arabesque",
+   "attitude",
+   "pirouette",
+   "balletto romantico"
+  ],
+  "rilevanza": "Sistema di notazione inventato dal coreografo Arthur Saint-Léon, che dispone i segni del corpo sopra il rigo musicale: figurine stilizzate indicano la posizione del busto, delle braccia e della testa, mentre segni separati registrano i piedi. Il volume contiene la trascrizione del Pas de Six dalla Vivandière, l'unica coreografia del balletto romantico conservata in notazione dal suo stesso autore. Il libro fissa anche la terminologia dei passi in uso all'Opéra a metà secolo. Su questa base sono state realizzate le ricostruzioni moderne del repertorio di Saint-Léon.",
   "scansione": {
    "istituzione": "Bibliothèque nationale de France",
    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k56841007",
@@ -1351,7 +1836,9 @@
    "f47",
    "f57"
   ],
-  "termini": [],
+  "termini": [
+   "sténochorégraphie"
+  ],
   "immagine": null,
   "alt_immagine": null
  },
@@ -1365,8 +1852,16 @@
   "lingua": "eng",
   "tipo": "manuale",
   "era": "ottocento",
-  "documenta": [],
-  "rilevanza": "",
+  "documenta": [
+   "quadriglia",
+   "valzer",
+   "polka",
+   "schottische",
+   "mazurka",
+   "cotillon",
+   "etichetta del ballo"
+  ],
+  "rilevanza": "Manuale americano di sala, opera di un maestro di Filadelfia, che raccoglie il repertorio in uso nelle città della costa atlantica. Vi si trovano le quadriglie con le loro figure, il valzer, la polka, la schottische, la mazurka e i cotillon, insieme a capitoli sull'etichetta, sul contegno e sull'abbigliamento. Durang traduce per il pubblico americano le mode parigine con pochi anni di ritardo, e il confronto con i manuali europei misura la velocità di quella trasmissione. Il libro registra inoltre l'ordine con cui le danze si succedevano nel corso della serata.",
   "scansione": {
    "istituzione": "Library of Congress",
    "url": "https://archive.org/details/danceman063",
@@ -1379,7 +1874,10 @@
    "f53",
    "f48"
   ],
-  "termini": [],
+  "termini": [
+   "lancers",
+   "schottische"
+  ],
   "immagine": null,
   "alt_immagine": null
  },
@@ -1393,8 +1891,15 @@
   "lingua": "fra",
   "tipo": "trattato",
   "era": "ottocento",
-  "documenta": [],
-  "rilevanza": "",
+  "documenta": [
+   "battement",
+   "rond de jambe",
+   "adagio",
+   "esercizio alla sbarra",
+   "lezione di danza",
+   "cinque posizioni"
+  ],
+  "rilevanza": "Trattato scritto da un maestro dell'Opéra di Parigi che descrive per esteso il regime di esercizio quotidiano del ballerino di teatro. Adice enumera le serie di battements, ronds de jambe, grands battements e tempi di elevazione con il numero esatto delle ripetizioni, restituendo la lezione di metà Ottocento con una precisione che nessuna fonte anteriore offre. Il libro polemizza con il decadimento della tecnica dopo la generazione romantica e difende la disciplina delle scuole italiana e francese. Per la storia dell'allenamento del danzatore è la fonte principale del secolo.",
   "scansione": {
    "istituzione": "Bibliothèque nationale de France",
    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k311742d",
@@ -1421,8 +1926,15 @@
   "lingua": "eng",
   "tipo": "manuale",
   "era": "ottocento",
-  "documenta": [],
-  "rilevanza": "",
+  "documenta": [
+   "quadriglia",
+   "valzer",
+   "polka",
+   "cotillon",
+   "danza di sala",
+   "etichetta del ballo"
+  ],
+  "rilevanza": "Manuale newyorkese che unisce una storia della danza dai popoli antichi al presente e una parte pratica sul repertorio di sala. Ferrero descrive le quadriglie con le loro figure, il valzer, la polka e il cotillon che chiudeva la serata, indicando per ciascuna danza il passo e la condotta della coppia. Ampio spazio è dato all'etichetta, agli inviti, ai doveri dei padroni di casa e all'ordine del programma. Il libro è tra le fonti più diffuse sul ballo di società statunitense negli anni immediatamente precedenti la guerra civile.",
   "scansione": {
    "istituzione": "Library of Congress",
    "url": "https://archive.org/details/danceman067",
@@ -1449,8 +1961,17 @@
   "lingua": "eng",
   "tipo": "manuale",
   "era": "ottocento",
-  "documenta": [],
-  "rilevanza": "",
+  "documenta": [
+   "contra dance",
+   "quadriglia",
+   "valzer",
+   "polka",
+   "schottische",
+   "cotillon",
+   "prompting",
+   "arie da ballo"
+  ],
+  "rilevanza": "Raccolta bostoniana di centinaia di danze con le chiamate destinate al prompter, la figura che dalla pedana annuncia le figure ai danzatori. Il volume comprende contra dances all'americana, quadriglie, valzer, polka e schottische, ciascuna con la sequenza delle chiamate e l'aria corrispondente. La pratica del prompting è documentata qui meglio che altrove ed è il tratto che distingue il ballo popolare americano da quello europeo. Howe era editore musicale e stampò per decenni repertorio da ballo a basso prezzo, il che spiega la diffusione capillare del libro.",
   "scansione": {
    "istituzione": "Library of Congress",
    "url": "https://archive.org/details/danceman102",
@@ -1477,8 +1998,16 @@
   "lingua": "fra",
   "tipo": "trattato",
   "era": "ottocento",
-  "documenta": [],
-  "rilevanza": "",
+  "documenta": [
+   "attitude",
+   "arabesque",
+   "pirouette",
+   "cinque posizioni",
+   "adagio",
+   "entrechat",
+   "balletto"
+  ],
+  "rilevanza": "Versione francese della dottrina di Blasis nella collana enciclopedica Roret, che diffondeva manuali tecnici a basso prezzo in tutta Europa. Il volume condensa la teoria e la pratica del ballo teatrale, l'ordine dell'esercizio, le posizioni, gli adagi e i tempi di elevazione, in un formato tascabile pensato per il maestro di provincia. Il confronto con il trattato milanese del 1820 mostra come Blasis abbia riorganizzato in quarant'anni la propria materia. Le ristampe continuarono a circolare a lungo dopo la morte dell'autore.",
   "scansione": {
    "istituzione": "Library of Congress",
    "url": "https://archive.org/details/danceman020",
@@ -1505,8 +2034,17 @@
   "lingua": "fra",
   "tipo": "manuale",
   "era": "ottocento",
-  "documenta": [],
-  "rilevanza": "",
+  "documenta": [
+   "valzer",
+   "boston",
+   "polka",
+   "mazurka",
+   "schottische",
+   "quadriglia",
+   "cotillon",
+   "etichetta del ballo"
+  ],
+  "rilevanza": "Compendio parigino di fine secolo che raccoglie il repertorio di sala nella sua fase di massima proliferazione. Giraudet descrive il valzer nelle sue varianti, il boston, la polka, la mazurka, la schottische e le quadriglie, e allinea centinaia di figure di cotillon con i loro accessori. Il testo tratta anche l'etichetta, il ruolo del maestro di ballo e l'organizzazione della serata. Documenta il ballo borghese europeo nel momento immediatamente precedente all'arrivo delle danze d'oltreoceano.",
   "scansione": {
    "istituzione": "Library of Congress",
    "url": "https://archive.org/details/danceman085",
@@ -1533,8 +2071,16 @@
   "lingua": "eng",
   "tipo": "manuale",
   "era": "ottocento",
-  "documenta": [],
-  "rilevanza": "",
+  "documenta": [
+   "valzer",
+   "polka",
+   "galop",
+   "quadriglia",
+   "cotillon",
+   "lezione di danza",
+   "etichetta del ballo"
+  ],
+  "rilevanza": "Manuale newyorkese in cui un maestro di lunga carriera espone il repertorio di sala insieme a una difesa della danza come strumento educativo. Dodworth descrive il valzer, la polka, il galop e le quadriglie, e dedica una sezione ampia al german, il cotillon americano, di cui elenca centinaia di figure con i loro accessori. Il libro contiene inoltre indicazioni sul metodo di insegnamento, sull'organizzazione delle classi e sul comportamento in società. È tra le fonti più informate sul ballo borghese americano di fine Ottocento.",
   "scansione": {
    "istituzione": "Internet Archive",
    "url": "https://archive.org/details/dancingitsrelati00dodw_0",
@@ -1561,8 +2107,16 @@
   "lingua": "ted",
   "tipo": "notazione",
   "era": "ottocento",
-  "documenta": [],
-  "rilevanza": "",
+  "documenta": [
+   "notazione coreografica",
+   "cachucha",
+   "cinque posizioni",
+   "battement",
+   "pirouette",
+   "valzer",
+   "mazurka"
+  ],
+  "rilevanza": "Sistema di notazione pubblicato a Lipsia dal maestro Friedrich Albert Zorn, attivo a Odessa, costruito su figurine schematiche e segni abbreviati disposti sopra il rigo musicale. La Grammatik espone la tecnica accademica, le posizioni, i passi e la terminologia in tedesco e in francese, e applica poi la notazione a coreografie intere. Fra queste la Cachucha, il solo reso celebre da Fanny Elssler, che sopravvive grazie a queste pagine e da qui è stato rimesso in scena nel Novecento. Il metodo di Zorn fu adottato da diverse scuole tedesche e russe prima dell'affermazione del sistema Stepanov.",
   "scansione": {
    "istituzione": "Internet Archive (University of Toronto)",
    "url": "https://archive.org/details/grammarofartofda00zornuoft",
@@ -1587,8 +2141,15 @@
   "lingua": "eng",
   "tipo": "trattato",
   "era": "ottocento",
-  "documenta": [],
-  "rilevanza": "",
+  "documenta": [
+   "balletto",
+   "attitude",
+   "arabesque",
+   "pantomima",
+   "lezione di danza",
+   "scuola di ballo"
+  ],
+  "rilevanza": "Volume londinese che unisce osservazioni storiche e pratiche sul ballo alla cronaca dell'accademia di ballo di Milano, diretta dall'autore. Blasis vi ricostruisce l'ordinamento della scuola, il corso degli studi e i risultati ottenuti, e vi inserisce notizie sulle allieve formate alla Scala che stavano allora occupando i teatri europei. La parte pratica ribadisce i principi della sua tecnica e il rapporto tra posa scultorea e movimento. È la fonte principale sull'organizzazione dell'insegnamento accademico milanese a metà Ottocento.",
   "scansione": {
    "istituzione": "Internet Archive (Google Books)",
    "url": "https://archive.org/details/bub_gb_C780ChKFfZ8C",
@@ -1615,8 +2176,14 @@
   "lingua": "ted",
   "tipo": "trattato",
   "era": "ottocento",
-  "documenta": [],
-  "rilevanza": "",
+  "documenta": [
+   "storia della danza",
+   "danza antica",
+   "danze nazionali",
+   "danza popolare",
+   "balletto"
+  ],
+  "rilevanza": "Storia della danza presso i popoli antichi e moderni, uno dei primi tentativi tedeschi di trattare la materia con metodo storico e apparato di fonti. Czerwinski segue la danza dagli egizi, dai greci e dai romani fino alle nazioni europee del suo tempo, raccogliendo testimonianze letterarie e iconografiche. L'opera appartiene alla stagione in cui la storiografia della danza si costituisce come disciplina accanto alla storia della musica e del teatro. Lo stesso autore dedicò poi uno studio specifico alle danze del Cinquecento.",
   "scansione": {
    "istituzione": "Library of Congress",
    "url": "https://archive.org/details/danceman052",
@@ -1643,8 +2210,17 @@
   "lingua": "fra",
   "tipo": "manuale",
   "era": "ottocento",
-  "documenta": [],
-  "rilevanza": "",
+  "documenta": [
+   "quadriglia",
+   "valzer",
+   "polka",
+   "mazurka",
+   "redowa",
+   "schottische",
+   "cotillon",
+   "etichetta del ballo"
+  ],
+  "rilevanza": "Manuale parigino di ballo di società, opera di un maestro di origine polacca attivo nella capitale francese. Il volume descrive la quadriglia e le sue figure, il valzer, la polka, la redowa, la schottische e il cotillon, con il conteggio dei passi e la posizione delle braccia. La trattazione della mazurka è tra le più estese del periodo e riflette la conoscenza diretta che l'autore aveva del repertorio polacco. Il libro documenta la sala del Secondo Impero nel momento di maggiore varietà del repertorio.",
   "scansione": {
    "istituzione": "Library of Congress",
    "url": "https://archive.org/details/danceman084",
@@ -1657,7 +2233,9 @@
    "f53",
    "f48"
   ],
-  "termini": [],
+  "termini": [
+   "polonaise"
+  ],
   "immagine": null,
   "alt_immagine": null
  }

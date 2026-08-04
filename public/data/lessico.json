@@ -1,1 +1,2305 @@
-[]
+[
+ {
+  "id": "t001",
+  "slug": "bassa-danza",
+  "termine": "bassa danza",
+  "varianti": [
+   "bassadanza",
+   "basse danse",
+   "baxa danza"
+  ],
+  "tradizione": "italiana",
+  "epoca": "quattrocento",
+  "definizione": "Danza di coppia o di piccolo gruppo eseguita con i piedi radenti al suolo e il corpo sostenuto in portamento eretto. Si costruisce su una successione di passi misurati, doppi, sempi, riprese e continenze, ordinati secondo una coreografia fissa che il maestro insegna a memoria. La sua misura è la più lenta delle quattro codificate nel Quattrocento italiano e serve da apertura solenne prima degli andamenti più rapidi.",
+  "prima_attestazione": {
+   "fonte_id": "f01",
+   "riferimento": "descritta come prima delle quattro misure nel trattato ferrarese di metà Quattrocento"
+  },
+  "termini_correlati": [
+   "saltarello",
+   "piva",
+   "quadernaria",
+   "misura",
+   "riverenza"
+  ]
+ },
+ {
+  "id": "t002",
+  "slug": "saltarello",
+  "termine": "saltarello",
+  "varianti": [
+   "saltarelo",
+   "salterello"
+  ],
+  "tradizione": "italiana",
+  "epoca": "quattrocento",
+  "definizione": "Misura di danza in tempo vivace, caratterizzata da un movimento di gamba che si stacca dal suolo alla fine di ogni passo doppio. Nel sistema quattrocentesco italiano corre un sesto più veloce della bassa danza e conserva la stessa struttura di passi eseguita con maggiore elevazione. Compare tanto come misura interna ai balli composti quanto come danza autonoma di carattere brillante.",
+  "prima_attestazione": {
+   "fonte_id": "f01",
+   "riferimento": "seconda delle quattro misure esposte nel trattato ferrarese"
+  },
+  "termini_correlati": [
+   "bassa danza",
+   "piva",
+   "quadernaria",
+   "misura"
+  ]
+ },
+ {
+  "id": "t003",
+  "slug": "piva",
+  "termine": "piva",
+  "varianti": [
+   "pive"
+  ],
+  "tradizione": "italiana",
+  "epoca": "quattrocento",
+  "definizione": "La più rapida delle quattro misure del ballo quattrocentesco italiano, di andamento rustico e legata al suono della cornamusa da cui prende nome. I passi doppi si succedono stretti e incalzanti, spesso in cerchio o in inseguimento fra i due ballerini. Nei balli composti chiude di frequente la catena delle misure e porta la danza al culmine di velocità.",
+  "prima_attestazione": {
+   "fonte_id": "f01",
+   "riferimento": "ultima e più veloce delle misure elencate nel trattato ferrarese"
+  },
+  "termini_correlati": [
+   "saltarello",
+   "bassa danza",
+   "quadernaria",
+   "misura"
+  ]
+ },
+ {
+  "id": "t004",
+  "slug": "quadernaria",
+  "termine": "quadernaria",
+  "varianti": [
+   "saltarello todesco",
+   "saltarello tedesco"
+  ],
+  "tradizione": "italiana",
+  "epoca": "quattrocento",
+  "definizione": "Misura intermedia del sistema quattrocentesco, collocata fra la bassa danza e il saltarello quanto a velocità e indicata anche come saltarello todesco. Il passo doppio vi occupa quattro tempi e si esegue con un lieve sollevamento sul finire, più contenuto di quello del saltarello. Serve nei balli come grado di transizione fra l'andamento grave e quello concitato.",
+  "prima_attestazione": {
+   "fonte_id": "f01",
+   "riferimento": "fra le quattro misure definite nel trattato ferrarese"
+  },
+  "termini_correlati": [
+   "misura",
+   "saltarello",
+   "piva",
+   "bassa danza"
+  ]
+ },
+ {
+  "id": "t005",
+  "slug": "misura",
+  "termine": "misura",
+  "varianti": [
+   "mesura",
+   "misure"
+  ],
+  "tradizione": "italiana",
+  "epoca": "quattrocento",
+  "definizione": "Termine tecnico che indica il rapporto fra il movimento del corpo e il tempo musicale, e per estensione ciascuno dei quattro andamenti in cui si articola il repertorio quattrocentesco italiano: bassa danza, quadernaria, saltarello e piva. Le quattro misure stanno fra loro in proporzioni fisse di velocità, e un medesimo passo cambia ampiezza ed elevazione passando dall'una all'altra. Il ballo composto alterna più misure entro la stessa coreografia.",
+  "prima_attestazione": {
+   "fonte_id": "f01",
+   "riferimento": "primo dei requisiti dell'arte esposti nel trattato ferrarese"
+  },
+  "termini_correlati": [
+   "bassa danza",
+   "quadernaria",
+   "saltarello",
+   "piva",
+   "fantasmata"
+  ]
+ },
+ {
+  "id": "t006",
+  "slug": "fantasmata",
+  "termine": "fantasmata",
+  "varianti": [],
+  "tradizione": "italiana",
+  "epoca": "quattrocento",
+  "definizione": "Qualità dell'esecuzione che consiste in una sospensione istantanea del movimento alla fine di ogni passo, seguita dalla ripresa immediata del successivo. Il ballerino si arresta per un attimo come una figura di pietra, poi riparte con prontezza, così che la frase risulti scandita in unità distinte. La nozione riassume il controllo del peso e del tempo richiesto dallo stile quattrocentesco.",
+  "prima_attestazione": {
+   "fonte_id": "f01",
+   "riferimento": "nozione centrale dell'insegnamento esposto nel trattato ferrarese"
+  },
+  "termini_correlati": [
+   "misura",
+   "bassa danza",
+   "riverenza"
+  ]
+ },
+ {
+  "id": "t007",
+  "slug": "riverenza",
+  "termine": "riverenza",
+  "varianti": [
+   "reverenza",
+   "riverentia",
+   "reverence"
+  ],
+  "tradizione": "italiana",
+  "epoca": "cinquecento",
+  "definizione": "Saluto formale con cui si aprono e si chiudono le danze di società, eseguito piegando il ginocchio e inclinando il busto verso la dama o verso chi guarda. Si distingue in grave, quando occupa un intero tempo di musica ed è ampia, e minima, quando è breve e serve da inciso interno alla coreografia. Il trattato la codifica come primo esercizio del ballerino, prima di ogni altro passo.",
+  "prima_attestazione": {
+   "fonte_id": "f04",
+   "riferimento": "prima regola del vocabolario di passi esposto nel trattato veneziano"
+  },
+  "termini_correlati": [
+   "continenza",
+   "bassa danza",
+   "gagliarda",
+   "pavana"
+  ]
+ },
+ {
+  "id": "t008",
+  "slug": "continenza",
+  "termine": "continenza",
+  "varianti": [
+   "continentia",
+   "continenze"
+  ],
+  "tradizione": "italiana",
+  "epoca": "cinquecento",
+  "definizione": "Movimento laterale in cui il piede si sposta di poco verso il fianco e il corpo lo segue con un lieve alzarsi e abbassarsi sui talloni. Si esegue quasi sempre a coppie, una a destra e una a sinistra, e occupa la stessa durata di una riverenza grave. Nel repertorio di corte accompagna l'apertura dei balli e i momenti di sosta fra le figure.",
+  "prima_attestazione": {
+   "fonte_id": "f04",
+   "riferimento": "fra le regole dei movimenti gravi del trattato veneziano"
+  },
+  "termini_correlati": [
+   "riverenza",
+   "ripresa",
+   "seguito",
+   "passo puntato"
+  ]
+ },
+ {
+  "id": "t009",
+  "slug": "seguito",
+  "termine": "seguito",
+  "varianti": [
+   "sequito",
+   "seguito ordinario",
+   "seguiti"
+  ],
+  "tradizione": "italiana",
+  "epoca": "cinquecento",
+  "definizione": "Passo composto di quattro movimenti, tre dei quali sono passi e l'ultimo un accostamento con lieve elevazione, che copre spazio in avanti o in giro. Costituisce l'unità di percorso più frequente nei balletti di corte e si declina in numerose specie: ordinario, finto, scorso, battuto. La sua durata corrisponde a una battuta intera della musica.",
+  "prima_attestazione": {
+   "fonte_id": "f04",
+   "riferimento": "fra le regole dei passi di percorso del trattato veneziano"
+  },
+  "termini_correlati": [
+   "seguito spezzato",
+   "passo puntato",
+   "ripresa",
+   "continenza",
+   "fioretto"
+  ]
+ },
+ {
+  "id": "t010",
+  "slug": "seguito-spezzato",
+  "termine": "seguito spezzato",
+  "varianti": [
+   "spezzato",
+   "spezzati",
+   "seguito spezzato puntato"
+  ],
+  "tradizione": "italiana",
+  "epoca": "cinquecento",
+  "definizione": "Variante del seguito in cui il primo movimento è breve e accentato e i due successivi si stringono, producendo un andamento zoppicante di tre tempi ineguali. Il piede che avanza si posa in punta, l'altro raggiunge il tallone e il primo torna a portarsi avanti. È il passo caratteristico delle cascarde e dei balli di misura vivace.",
+  "prima_attestazione": {
+   "fonte_id": "f04",
+   "riferimento": "fra le regole dei passi vivaci del trattato veneziano"
+  },
+  "termini_correlati": [
+   "seguito",
+   "fioretto",
+   "trabuchetto",
+   "sottopiede"
+  ]
+ },
+ {
+  "id": "t011",
+  "slug": "ripresa",
+  "termine": "ripresa",
+  "varianti": [
+   "represa",
+   "riprese"
+  ],
+  "tradizione": "italiana",
+  "epoca": "cinquecento",
+  "definizione": "Movimento di traslazione laterale eseguito con i piedi che si aprono e si chiudono, generalmente in due o quattro tempi, portando il corpo verso un fianco. Si compie sotto il piede, con il tallone che si stacca appena dal suolo, e conclude spesso una serie di continenze. Nelle coreografie serve a riportare la coppia sull'asse dopo una figura di percorso.",
+  "prima_attestazione": {
+   "fonte_id": "f04",
+   "riferimento": "fra le regole dei movimenti laterali del trattato veneziano"
+  },
+  "termini_correlati": [
+   "continenza",
+   "seguito",
+   "trabuchetto",
+   "sottopiede"
+  ]
+ },
+ {
+  "id": "t012",
+  "slug": "trabuchetto",
+  "termine": "trabuchetto",
+  "varianti": [
+   "trabucchetto",
+   "trabuchetti",
+   "trabuchetto grave"
+  ],
+  "tradizione": "italiana",
+  "epoca": "cinquecento",
+  "definizione": "Piccolo salto laterale in cui il peso passa da un piede all'altro con il corpo che oscilla come una bilancia. Il piede libero resta sollevato accanto alla caviglia dell'altro e si posa al movimento successivo, dando una figura alternata a destra e a sinistra. Compare a coppie o in serie di quattro dentro le variazioni di gagliarda e nei balletti di corte.",
+  "prima_attestazione": {
+   "fonte_id": "f04",
+   "riferimento": "fra le regole dei passi saltati del trattato veneziano"
+  },
+  "termini_correlati": [
+   "seguito spezzato",
+   "fioretto",
+   "gagliarda",
+   "zoppetto",
+   "ripresa"
+  ]
+ },
+ {
+  "id": "t013",
+  "slug": "passo-puntato",
+  "termine": "passo puntato",
+  "varianti": [
+   "puntato",
+   "passo puntato grave",
+   "doppio puntato"
+  ],
+  "tradizione": "italiana",
+  "epoca": "cinquecento",
+  "definizione": "Passo in cui il piede avanza e si ferma in punta senza ricevere il peso, mentre il corpo si alza sul piede d'appoggio e poi si abbassa. Il movimento occupa due tempi e prepara di norma il passo successivo, che raccoglie lo spostamento sospeso. Si esegue in avanti, indietro o di fianco, e nelle forme gravi occupa una battuta intera.",
+  "prima_attestazione": {
+   "fonte_id": "f04",
+   "riferimento": "fra le regole dei passi gravi del trattato veneziano"
+  },
+  "termini_correlati": [
+   "seguito",
+   "continenza",
+   "riverenza",
+   "contrapasso"
+  ]
+ },
+ {
+  "id": "t014",
+  "slug": "contrapasso",
+  "termine": "contrapasso",
+  "varianti": [
+   "contrapasso nuovo",
+   "contrapassi"
+  ],
+  "tradizione": "italiana",
+  "epoca": "cinquecento",
+  "definizione": "Passo di scambio in cui i due ballerini procedono in direzioni opposte incrociando il percorso, e per estensione il ballo costruito su questa figura. La sequenza alterna passi in avanti e in ritorno così che ciascuno occupi il posto lasciato dall'altro. Nel repertorio di corte dà il titolo a un ballo di gruppo con mutamenti continui di posto.",
+  "prima_attestazione": {
+   "fonte_id": "f04",
+   "riferimento": "fra i balli di gruppo raccolti nel trattato veneziano"
+  },
+  "termini_correlati": [
+   "passo puntato",
+   "seguito",
+   "bassa danza",
+   "riverenza"
+  ]
+ },
+ {
+  "id": "t015",
+  "slug": "fioretto",
+  "termine": "fioretto",
+  "varianti": [
+   "fioretti",
+   "fioretto ordinario",
+   "fleuret"
+  ],
+  "tradizione": "italiana",
+  "epoca": "cinquecento",
+  "definizione": "Passo di tre movimenti rapidi in cui il piede batte accanto alla caviglia dell'altro, avanza e riceve il peso, con lieve elevazione sul primo tempo. Occupa mezza battuta e si presta a lunghe successioni nelle variazioni virtuosistiche. Dalla stessa struttura discende il fleuret della scuola francese successiva.",
+  "prima_attestazione": {
+   "fonte_id": "f04",
+   "riferimento": "fra le regole dei passi rapidi del trattato veneziano"
+  },
+  "termini_correlati": [
+   "seguito spezzato",
+   "sottopiede",
+   "gagliarda",
+   "campanella",
+   "pas de bourrée"
+  ]
+ },
+ {
+  "id": "t016",
+  "slug": "sottopiede",
+  "termine": "sottopiede",
+  "varianti": [
+   "sottopiedi",
+   "sotto piede"
+  ],
+  "tradizione": "italiana",
+  "epoca": "cinquecento",
+  "definizione": "Movimento in cui un piede si porta sotto il tallone dell'altro e ne prende il posto, spingendolo in avanti o di lato. Il cambio di appoggio avviene in un solo tempo e produce uno spostamento minimo con effetto di scivolamento. Entra come elemento di collegamento nelle variazioni di gagliarda e nelle serie di fioretti.",
+  "prima_attestazione": {
+   "fonte_id": "f04",
+   "riferimento": "fra le regole dei passi di collegamento del trattato veneziano"
+  },
+  "termini_correlati": [
+   "fioretto",
+   "ripresa",
+   "seguito spezzato",
+   "gagliarda"
+  ]
+ },
+ {
+  "id": "t017",
+  "slug": "capriola",
+  "termine": "capriola",
+  "varianti": [
+   "capriole",
+   "capriola intrecciata"
+  ],
+  "tradizione": "italiana",
+  "epoca": "cinquecento",
+  "definizione": "Salto in cui le gambe si incrociano o si battono ripetutamente in aria prima della ricaduta. Il numero degli intrecci ne stabilisce il grado di difficoltà e i trattati arrivano a descriverne di cinque e di sei. Appartiene al repertorio virtuosistico maschile e trova nella gagliarda il suo terreno di esibizione.",
+  "prima_attestazione": {
+   "fonte_id": "f04",
+   "riferimento": "fra i passi virtuosistici della gagliarda descritti nel trattato veneziano"
+  },
+  "termini_correlati": [
+   "gagliarda",
+   "campanella",
+   "groppo",
+   "cabriole",
+   "entrechat"
+  ]
+ },
+ {
+  "id": "t018",
+  "slug": "gagliarda",
+  "termine": "gagliarda",
+  "varianti": [
+   "galliard",
+   "gaillarde",
+   "gallarda"
+  ],
+  "tradizione": "italiana",
+  "epoca": "cinquecento",
+  "definizione": "Danza vivace in tempo ternario costruita su una frase di cinque movimenti distribuiti su sei tempi, con quattro calci alternati e un salto conclusivo che chiude in posizione ferma. Il ballerino sviluppa la frase base in variazioni sempre più ornate, introducendo capriole, campanelle e groppi. Segue di norma una danza grave come la pavana, con la quale forma una coppia di andamenti contrapposti.",
+  "prima_attestazione": {
+   "fonte_id": "f04",
+   "riferimento": "fra i balli e le variazioni raccolti nel trattato veneziano"
+  },
+  "termini_correlati": [
+   "pavana",
+   "capriola",
+   "campanella",
+   "groppo",
+   "tordiglione"
+  ]
+ },
+ {
+  "id": "t019",
+  "slug": "tordiglione",
+  "termine": "tordiglione",
+  "varianti": [
+   "tourdion",
+   "tordion",
+   "tordiglioni"
+  ],
+  "tradizione": "italiana",
+  "epoca": "cinquecento",
+  "definizione": "Danza di misura ternaria affine alla gagliarda, eseguita radente al suolo e con andamento raccolto. I passi girano intorno alla dama con torsioni del busto e piccoli intrecci di piedi, da cui deriva il nome. Nei trattati compare come ballo autonomo e come sezione conclusiva di composizioni più ampie.",
+  "prima_attestazione": {
+   "fonte_id": "f04",
+   "riferimento": "fra i balli del repertorio di corte raccolti nel trattato veneziano"
+  },
+  "termini_correlati": [
+   "gagliarda",
+   "canario",
+   "pavana",
+   "capriola"
+  ]
+ },
+ {
+  "id": "t020",
+  "slug": "canario",
+  "termine": "canario",
+  "varianti": [
+   "canarie",
+   "canary",
+   "canarios"
+  ],
+  "tradizione": "italiana",
+  "epoca": "cinquecento",
+  "definizione": "Danza di carattere percussivo in cui i due ballerini si avvicinano e si allontanano alternandosi, battendo il tacco e la punta contro il suolo. La ritmica è puntata e i passi restano bassi, con il peso che rimbalza rapidamente da un piede all'altro. Il repertorio italiano ne conserva sequenze di variazioni sempre più fitte, spesso in coda a un balletto.",
+  "prima_attestazione": {
+   "fonte_id": "f04",
+   "riferimento": "fra i balli con variazioni raccolti nel trattato veneziano"
+  },
+  "termini_correlati": [
+   "gagliarda",
+   "tordiglione",
+   "zoppetto",
+   "campanella"
+  ]
+ },
+ {
+  "id": "t021",
+  "slug": "pavana",
+  "termine": "pavana",
+  "varianti": [
+   "pavane",
+   "paduana",
+   "pavan"
+  ],
+  "tradizione": "italiana",
+  "epoca": "cinquecento",
+  "definizione": "Danza di processione in tempo binario e andamento grave, eseguita in coppia lungo la sala con passi semplici e doppi radenti al suolo. Serviva ad aprire le feste e a mostrare il rango dei danzatori, che procedevano in fila secondo precedenza. Si accoppia di regola con una danza rapida in tempo ternario che la segue immediatamente.",
+  "prima_attestazione": {
+   "fonte_id": "f05",
+   "riferimento": "descritta con la sua musica fra le danze gravi del trattato francese di fine Cinquecento"
+  },
+  "termini_correlati": [
+   "gagliarda",
+   "bassa danza",
+   "riverenza",
+   "branle"
+  ]
+ },
+ {
+  "id": "t022",
+  "slug": "campanella",
+  "termine": "campanella",
+  "varianti": [
+   "campanelle",
+   "campanella in aria"
+  ],
+  "tradizione": "italiana",
+  "epoca": "cinquecento",
+  "definizione": "Movimento in cui la gamba libera descrive un arco in aria oscillando avanti e indietro come il battaglio di una campana, mentre il corpo resta sostenuto sul piede d'appoggio. Si esegue con o senza salto e può essere ripetuto in serie sullo stesso piede. Appartiene alla scuola virtuosistica lombarda e ricorre nelle variazioni di gagliarda e di canario.",
+  "prima_attestazione": {
+   "fonte_id": "f07",
+   "riferimento": "fra le variazioni virtuosistiche raccolte nel trattato milanese"
+  },
+  "termini_correlati": [
+   "gagliarda",
+   "capriola",
+   "groppo",
+   "rond de jambe",
+   "canario"
+  ]
+ },
+ {
+  "id": "t023",
+  "slug": "groppo",
+  "termine": "groppo",
+  "varianti": [
+   "gruppo",
+   "groppetto",
+   "groppi"
+  ],
+  "tradizione": "italiana",
+  "epoca": "cinquecento",
+  "definizione": "Figura in cui le gambe si avvolgono rapidamente l'una intorno all'altra in aria, formando un intreccio prima della ricaduta. Compare come ornamento delle frasi di gagliarda e si presenta in gradi diversi secondo il numero degli avvolgimenti. Richiede elevazione sostenuta e appartiene alle variazioni destinate al solista.",
+  "prima_attestazione": {
+   "fonte_id": "f07",
+   "riferimento": "fra i passi ornati delle variazioni del trattato milanese"
+  },
+  "termini_correlati": [
+   "capriola",
+   "campanella",
+   "gagliarda",
+   "entrechat"
+  ]
+ },
+ {
+  "id": "t024",
+  "slug": "zoppetto",
+  "termine": "zoppetto",
+  "varianti": [
+   "zoppetti",
+   "saltino zoppetto"
+  ],
+  "tradizione": "italiana",
+  "epoca": "cinquecento",
+  "definizione": "Piccolo salto eseguito su un piede solo, mentre l'altro resta sollevato accanto alla caviglia o al polpaccio. L'andamento claudicante che ne deriva dà il nome al movimento e si presta a serie ripetute sullo stesso appoggio. Serve da sostegno ritmico dentro le variazioni rapide e da preparazione ai salti più ampi.",
+  "prima_attestazione": {
+   "fonte_id": "f07",
+   "riferimento": "fra i passi saltati delle variazioni del trattato milanese"
+  },
+  "termini_correlati": [
+   "trabuchetto",
+   "campanella",
+   "canario",
+   "temps levé"
+  ]
+ },
+ {
+  "id": "t025",
+  "slug": "branle",
+  "termine": "branle",
+  "varianti": [
+   "bransle",
+   "brando",
+   "brawl"
+  ],
+  "tradizione": "francese",
+  "epoca": "cinquecento",
+  "definizione": "Danza di gruppo eseguita in catena o in cerchio, con i danzatori che si tengono per mano e procedono con movimenti laterali ripetuti. Il repertorio comprende numerose specie distinte per andamento e per gesti mimici, dal branle double al branle gay. Entro la bassa danza il termine indica anche il dondolio laterale che precede la ripartenza.",
+  "prima_attestazione": {
+   "fonte_id": "f03",
+   "riferimento": "indicato fra i movimenti della bassa danza nel poema didascalico latino"
+  },
+  "termini_correlati": [
+   "bassa danza",
+   "pavana",
+   "country dance",
+   "contredanse"
+  ]
+ },
+ {
+  "id": "t026",
+  "slug": "courante",
+  "termine": "courante",
+  "varianti": [
+   "corrente",
+   "coranto",
+   "corant"
+  ],
+  "tradizione": "francese",
+  "epoca": "seisettecento",
+  "definizione": "Danza di coppia in tempo ternario, presente nel repertorio di fine Cinquecento con andamento corso e saltato e trasformata poi nella forma grave e solenne del ballo nobile francese. Nella versione tarda il passo caratteristico occupa due battute e alterna una piegata lenta a uno scivolamento sostenuto. Occupava il posto d'onore nei balli di corte, subito dopo l'apertura.",
+  "prima_attestazione": {
+   "fonte_id": "f05",
+   "riferimento": "già fra le danze descritte nel trattato francese di fine Cinquecento"
+  },
+  "termini_correlati": [
+   "tems de courante",
+   "menuet",
+   "sarabande",
+   "pas grave"
+  ]
+ },
+ {
+  "id": "t027",
+  "slug": "menuet",
+  "termine": "menuet",
+  "varianti": [
+   "minuetto",
+   "minuet",
+   "Menuett"
+  ],
+  "tradizione": "francese",
+  "epoca": "seisettecento",
+  "definizione": "Danza di coppia in tempo ternario e andamento moderato, costruita su un passo che distribuisce quattro movimenti su due battute. La coppia percorre figure fisse, fra cui la Z e la S, alternando presentazioni di mano destra, sinistra e di entrambe. Rimase la danza di società obbligatoria delle corti europee per oltre un secolo.",
+  "prima_attestazione": {
+   "fonte_id": "f12",
+   "riferimento": "passo e figure fissati nel trattato di notazione parigino"
+  },
+  "termini_correlati": [
+   "pas grave",
+   "courante",
+   "position",
+   "chorégraphie",
+   "contredanse"
+  ]
+ },
+ {
+  "id": "t028",
+  "slug": "sarabande",
+  "termine": "sarabande",
+  "varianti": [
+   "zarabanda",
+   "sarabanda",
+   "sarabanda grave"
+  ],
+  "tradizione": "spagnola",
+  "epoca": "seisettecento",
+  "definizione": "Danza in tempo ternario di origine ispanica, accolta nel repertorio teatrale francese in una forma lenta e solenne con appoggio sul secondo tempo della battuta. I passi si sviluppano ampi e sostenuti, con lunghe sospensioni del peso e braccia in posizione alta. Nel ballo di teatro serve alle entrate di carattere nobile e patetico.",
+  "prima_attestazione": {
+   "fonte_id": "f41",
+   "riferimento": "fra i generi di danza esaminati nel trattato sui balletti antichi e moderni"
+  },
+  "termini_correlati": [
+   "chaconne",
+   "passacaille",
+   "entrée grave",
+   "courante"
+  ]
+ },
+ {
+  "id": "t029",
+  "slug": "chaconne",
+  "termine": "chaconne",
+  "varianti": [
+   "ciaccona",
+   "chacona"
+  ],
+  "tradizione": "francese",
+  "epoca": "seisettecento",
+  "definizione": "Forma di danza teatrale costruita sulla ripetizione di un basso breve, sopra il quale si succedono variazioni sempre più elaborate. Nel ballo francese chiude gli atti e i divertissements, impegnando prima il solista e poi l'insieme del corpo di ballo. La struttura a couplets consente di alternare episodi di virtuosismo e ritorni del tema.",
+  "prima_attestazione": {
+   "fonte_id": "f41",
+   "riferimento": "fra le forme di chiusura discusse nel trattato sui balletti antichi e moderni"
+  },
+  "termini_correlati": [
+   "passacaille",
+   "sarabande",
+   "entrée grave",
+   "ballet d'action"
+  ]
+ },
+ {
+  "id": "t030",
+  "slug": "passacaille",
+  "termine": "passacaille",
+  "varianti": [
+   "passacaglia",
+   "pasacalle",
+   "passacaglio"
+  ],
+  "tradizione": "spagnola",
+  "epoca": "seisettecento",
+  "definizione": "Danza teatrale affine alla chaconne, fondata su una formula armonica ripetuta e su una serie di couplets di crescente elaborazione. L'andamento resta grave e la scrittura coreografica privilegia linee sostenute e gruppi ampi. Il nome rinvia all'origine ispanica di musica suonata lungo le strade.",
+  "prima_attestazione": {
+   "fonte_id": "f41",
+   "riferimento": "fra le forme di danza teatrale descritte nel trattato sui balletti antichi e moderni"
+  },
+  "termini_correlati": [
+   "chaconne",
+   "sarabande",
+   "entrée grave",
+   "chorégraphie"
+  ]
+ },
+ {
+  "id": "t031",
+  "slug": "bourree",
+  "termine": "bourrée",
+  "varianti": [
+   "borea",
+   "bore",
+   "bourée"
+  ],
+  "tradizione": "francese",
+  "epoca": "seisettecento",
+  "definizione": "Danza in tempo binario e andamento vivace, con levare di un quarto all'inizio della frase. Il passo che ne prende il nome distribuisce tre movimenti in una battuta e si presta a percorsi rapidi in ogni direzione. Compare tanto nei balli di società quanto nelle entrate di teatro di carattere allegro.",
+  "prima_attestazione": {
+   "fonte_id": "f12",
+   "riferimento": "passo e genere registrati nel trattato di notazione parigino"
+  },
+  "termini_correlati": [
+   "pas de bourrée",
+   "gavotte",
+   "rigaudon",
+   "contretemps"
+  ]
+ },
+ {
+  "id": "t032",
+  "slug": "gavotte",
+  "termine": "gavotte",
+  "varianti": [
+   "gavotta",
+   "gavot"
+  ],
+  "tradizione": "francese",
+  "epoca": "seisettecento",
+  "definizione": "Danza in tempo binario che attacca a metà battuta, di andamento moderato e carattere garbato. La coreografia si costruisce su passi di bourrée e contrattempi, con frequenti figure di avvicinamento e allontanamento della coppia. Nel corso del Settecento assunse anche la forma di danza di società con parti fisse e parti variabili.",
+  "prima_attestazione": {
+   "fonte_id": "f12",
+   "riferimento": "fra i generi notati nel trattato di notazione parigino"
+  },
+  "termini_correlati": [
+   "bourrée",
+   "rigaudon",
+   "contretemps",
+   "menuet"
+  ]
+ },
+ {
+  "id": "t033",
+  "slug": "rigaudon",
+  "termine": "rigaudon",
+  "varianti": [
+   "rigodone",
+   "rigadoon",
+   "rigaudon à deux"
+  ],
+  "tradizione": "francese",
+  "epoca": "seisettecento",
+  "definizione": "Danza in tempo binario di andamento vivace e accentato, costruita su salti brevi e battute di piede. Il passo caratteristico associa un contrattempo a un salto con ricaduta su entrambi i piedi. Compare nelle raccolte annuali destinate ai balli di società accanto a menuet e contredanses.",
+  "prima_attestazione": {
+   "fonte_id": "f14",
+   "riferimento": "fra le danze di sala della raccolta annuale notata"
+  },
+  "termini_correlati": [
+   "bourrée",
+   "gavotte",
+   "contretemps",
+   "chorégraphie"
+  ]
+ },
+ {
+  "id": "t034",
+  "slug": "loure",
+  "termine": "loure",
+  "varianti": [
+   "louré",
+   "gigue lente"
+  ],
+  "tradizione": "francese",
+  "epoca": "seisettecento",
+  "definizione": "Danza in tempo composto e andamento lento, di carattere pesante e appoggiato, con accento marcato sul primo movimento di ogni battuta. I passi si eseguono ampi e sostenuti, spesso con inflessione prolungata del ginocchio. Il nome rinvia alla cornamusa che ne accompagnava la forma popolare.",
+  "prima_attestazione": {
+   "fonte_id": "f12",
+   "riferimento": "fra i generi elencati nel trattato di notazione parigino"
+  },
+  "termini_correlati": [
+   "sarabande",
+   "entrée grave",
+   "chorégraphie",
+   "gavotte"
+  ]
+ },
+ {
+  "id": "t035",
+  "slug": "entree-grave",
+  "termine": "entrée grave",
+  "varianti": [
+   "entrée",
+   "entrata grave"
+  ],
+  "tradizione": "francese",
+  "epoca": "seisettecento",
+  "definizione": "Danza teatrale solistica di andamento lento e maestoso, destinata all'ingresso in scena di un personaggio di rango elevato. La scrittura coreografica alterna passi sostenuti, pieghe profonde e battute di gamba che mostrano il controllo del danzatore. Costituisce uno dei generi più impegnativi conservati dalle raccolte notate.",
+  "prima_attestazione": {
+   "fonte_id": "f15",
+   "riferimento": "fra le danze di teatro trascritte nella raccolta parigina"
+  },
+  "termini_correlati": [
+   "sarabande",
+   "chaconne",
+   "loure",
+   "chorégraphie",
+   "pas grave"
+  ]
+ },
+ {
+  "id": "t036",
+  "slug": "choregraphie",
+  "termine": "chorégraphie",
+  "varianti": [
+   "coreografia",
+   "corégraphie",
+   "orchesography"
+  ],
+  "tradizione": "francese",
+  "epoca": "seisettecento",
+  "definizione": "Sistema di notazione che rappresenta la danza su carta mediante una linea di percorso tracciata sulla pianta della sala, alla quale si applicano segni per i passi, i movimenti e le posizioni. La linea corre parallela alla musica stampata in cima alla pagina, così che ogni battuta corrisponda a un tratto determinato. Il termine passa poi a indicare la composizione della danza in generale.",
+  "prima_attestazione": {
+   "fonte_id": "f12",
+   "riferimento": "titolo e oggetto del trattato di notazione parigino"
+  },
+  "termini_correlati": [
+   "chemin",
+   "position",
+   "pas battu",
+   "sténochorégraphie",
+   "menuet"
+  ]
+ },
+ {
+  "id": "t037",
+  "slug": "position",
+  "termine": "position",
+  "varianti": [
+   "posizione",
+   "bonnes positions",
+   "fausses positions"
+  ],
+  "tradizione": "francese",
+  "epoca": "seisettecento",
+  "definizione": "Disposizione codificata dei piedi rispetto al suolo e fra loro, da cui ogni passo parte e in cui ogni passo si conclude. Il sistema settecentesco ne distingue cinque regolari, con i piedi ruotati verso l'esterno, e altrettante irregolari con i piedi rivolti in dentro o paralleli. La notazione le rappresenta con segni fissi collocati lungo la linea di percorso.",
+  "prima_attestazione": {
+   "fonte_id": "f12",
+   "riferimento": "voce fondamentale del vocabolario di notazione parigino"
+  },
+  "termini_correlati": [
+   "chorégraphie",
+   "chemin",
+   "plié",
+   "épaulement",
+   "pas de bourrée"
+  ]
+ },
+ {
+  "id": "t038",
+  "slug": "chemin",
+  "termine": "chemin",
+  "varianti": [
+   "tracé",
+   "tract",
+   "linea di percorso"
+  ],
+  "tradizione": "francese",
+  "epoca": "seisettecento",
+  "definizione": "Linea tracciata sulla pianta della sala che rappresenta il cammino percorso dal danzatore nel corso della danza. I segni dei passi si applicano ai due lati della linea secondo il piede impiegato, e i trattini trasversali segnano la divisione in battute. La sua lettura richiede di orientare la pagina rispetto alla presenza, il punto della sala occupato dagli spettatori di riguardo.",
+  "prima_attestazione": {
+   "fonte_id": "f12",
+   "riferimento": "elemento base del sistema grafico esposto nel trattato di notazione parigino"
+  },
+  "termini_correlati": [
+   "chorégraphie",
+   "position",
+   "pas battu",
+   "sténochorégraphie"
+  ]
+ },
+ {
+  "id": "t039",
+  "slug": "demi-coupe",
+  "termine": "demi-coupé",
+  "varianti": [
+   "mezzo coupé",
+   "demi coupé"
+  ],
+  "tradizione": "francese",
+  "epoca": "seisettecento",
+  "definizione": "Passo semplice formato da una piegata sul piede d'appoggio, da un'elevazione e da uno scivolamento del piede libero che riceve il peso. Occupa un tempo di musica e costituisce l'unità elementare da cui si formano numerosi passi composti. Nel menuet due demi-coupés aprono la frase caratteristica.",
+  "prima_attestazione": {
+   "fonte_id": "f12",
+   "riferimento": "voce del vocabolario di notazione parigino"
+  },
+  "termini_correlati": [
+   "coupé",
+   "plié",
+   "pas de bourrée",
+   "menuet",
+   "position"
+  ]
+ },
+ {
+  "id": "t040",
+  "slug": "coupe",
+  "termine": "coupé",
+  "varianti": [
+   "pas coupé",
+   "coupè"
+  ],
+  "tradizione": "francese",
+  "epoca": "seisettecento",
+  "definizione": "Passo composto da un demi-coupé seguito da un passo scivolato che porta il peso in avanti o di lato. La prima parte occupa la piegata e l'elevazione, la seconda distende il movimento fino alla posizione conclusiva. Ammette numerose specie secondo la direzione e secondo l'aggiunta di battute o di sollevamenti.",
+  "prima_attestazione": {
+   "fonte_id": "f12",
+   "riferimento": "voce del vocabolario di notazione parigino"
+  },
+  "termini_correlati": [
+   "demi-coupé",
+   "pas de bourrée",
+   "jeté",
+   "chassé",
+   "position"
+  ]
+ },
+ {
+  "id": "t041",
+  "slug": "pas-de-bourree",
+  "termine": "pas de bourrée",
+  "varianti": [
+   "fleuret",
+   "pas de fleuret",
+   "passo di borea"
+  ],
+  "tradizione": "francese",
+  "epoca": "seisettecento",
+  "definizione": "Passo composto di tre movimenti, un demi-coupé seguito da due passi diritti eseguiti sulla mezza punta. Copre spazio in ogni direzione e occupa una battuta nella maggior parte delle danze in tempo binario. Deriva dal fioretto della scuola italiana del Cinquecento e ne conserva la struttura ternaria.",
+  "prima_attestazione": {
+   "fonte_id": "f12",
+   "riferimento": "voce del vocabolario di notazione parigino"
+  },
+  "termini_correlati": [
+   "fioretto",
+   "demi-coupé",
+   "coupé",
+   "bourrée",
+   "position"
+  ]
+ },
+ {
+  "id": "t042",
+  "slug": "tems-de-courante",
+  "termine": "tems de courante",
+  "varianti": [
+   "temps de courante",
+   "pas de courante"
+  ],
+  "tradizione": "francese",
+  "epoca": "seisettecento",
+  "definizione": "Passo grave in cui il piede libero si porta di lato con il corpo che si alza lentamente, poi il peso si trasferisce mentre il ginocchio si distende. Occupa due battute di tempo ternario e richiede un controllo continuo della salita e della discesa. Prende nome dalla danza in cui compare con maggiore frequenza.",
+  "prima_attestazione": {
+   "fonte_id": "f12",
+   "riferimento": "voce del vocabolario di notazione parigino"
+  },
+  "termini_correlati": [
+   "courante",
+   "pas grave",
+   "demi-coupé",
+   "position"
+  ]
+ },
+ {
+  "id": "t043",
+  "slug": "contretemps",
+  "termine": "contretemps",
+  "varianti": [
+   "contrattempo",
+   "contretems",
+   "contrattempi"
+  ],
+  "tradizione": "francese",
+  "epoca": "seisettecento",
+  "definizione": "Passo che comincia con un salto sul piede d'appoggio nel tempo debole della battuta, seguito da uno o due passi che completano la frase. La partenza in levare gli dà il nome e produce uno spostamento rapido in avanti o di lato. Si presenta in numerose specie secondo il numero dei passi che seguono il salto.",
+  "prima_attestazione": {
+   "fonte_id": "f12",
+   "riferimento": "voce del vocabolario di notazione parigino"
+  },
+  "termini_correlati": [
+   "temps levé",
+   "jeté",
+   "chassé",
+   "bourrée",
+   "gavotte"
+  ]
+ },
+ {
+  "id": "t044",
+  "slug": "jete",
+  "termine": "jeté",
+  "varianti": [
+   "pas jeté",
+   "getté",
+   "gettato"
+  ],
+  "tradizione": "francese",
+  "epoca": "seisettecento",
+  "definizione": "Passo saltato in cui il peso viene lanciato da un piede all'altro, con partenza da una piegata e ricaduta su una sola gamba. La gamba che lascia il suolo resta distesa durante il volo e si raccoglie all'arrivo. Entra come elemento di collegamento in un gran numero di passi composti.",
+  "prima_attestazione": {
+   "fonte_id": "f12",
+   "riferimento": "voce del vocabolario di notazione parigino"
+  },
+  "termini_correlati": [
+   "assemblé",
+   "contretemps",
+   "coupé",
+   "temps levé",
+   "sissonne"
+  ]
+ },
+ {
+  "id": "t045",
+  "slug": "chasse",
+  "termine": "chassé",
+  "varianti": [
+   "pas chassé",
+   "sciassé"
+  ],
+  "tradizione": "francese",
+  "epoca": "seisettecento",
+  "definizione": "Passo in cui un piede scaccia l'altro dal suo posto con un piccolo salto e ne prende l'appoggio. La sequenza si ripete a catena e produce uno spostamento continuo lungo una direzione. Nelle danze di società ottocentesche diventa il passo di percorso più diffuso.",
+  "prima_attestazione": {
+   "fonte_id": "f12",
+   "riferimento": "voce del vocabolario di notazione parigino"
+  },
+  "termini_correlati": [
+   "coupé",
+   "jeté",
+   "glissade",
+   "galop",
+   "quadrille"
+  ]
+ },
+ {
+  "id": "t046",
+  "slug": "balance",
+  "termine": "balancé",
+  "varianti": [
+   "balancè",
+   "bilanciato",
+   "pas balancé"
+  ],
+  "tradizione": "francese",
+  "epoca": "seisettecento",
+  "definizione": "Passo di oscillazione in cui il peso passa da un piede all'altro con un movimento di dondolio del corpo e spostamento minimo. Si esegue di norma a coppie, una volta a destra e una a sinistra, con lieve elevazione su ciascun appoggio. Compare nel menuet e in numerose contredanses come figura di attesa.",
+  "prima_attestazione": {
+   "fonte_id": "f12",
+   "riferimento": "voce del vocabolario di notazione parigino"
+  },
+  "termini_correlati": [
+   "menuet",
+   "contredanse",
+   "trabuchetto",
+   "pas de bourrée"
+  ]
+ },
+ {
+  "id": "t047",
+  "slug": "sissonne",
+  "termine": "sissonne",
+  "varianti": [
+   "pas de sissonne",
+   "sissone"
+  ],
+  "tradizione": "francese",
+  "epoca": "seisettecento",
+  "definizione": "Salto che parte da due piedi e arriva su uno solo, con la gamba libera che resta sollevata all'arrivo. La direzione e l'altezza del volo determinano le numerose specie in cui si divide. Il nome deriva dal signore che la tradizione indica come suo inventore.",
+  "prima_attestazione": {
+   "fonte_id": "f12",
+   "riferimento": "voce del vocabolario di notazione parigino"
+  },
+  "termini_correlati": [
+   "jeté",
+   "assemblé",
+   "temps levé",
+   "entrechat",
+   "batterie"
+  ]
+ },
+ {
+  "id": "t048",
+  "slug": "pirouette",
+  "termine": "pirouette",
+  "varianti": [
+   "piroetta",
+   "pirueta"
+  ],
+  "tradizione": "francese",
+  "epoca": "seisettecento",
+  "definizione": "Giro completo del corpo eseguito su un piede solo, con la gamba libera raccolta alla caviglia o al ginocchio dell'altra. La spinta viene da una piegata preparatoria e l'equilibrio si mantiene fissando lo sguardo su un punto. La scuola ottocentesca ne moltiplica i giri e ne codifica le posizioni di partenza e di arrivo.",
+  "prima_attestazione": {
+   "fonte_id": "f12",
+   "riferimento": "voce del vocabolario di notazione parigino"
+  },
+  "termini_correlati": [
+   "aplomb",
+   "tour en l'air",
+   "position",
+   "relevé",
+   "plié"
+  ]
+ },
+ {
+  "id": "t049",
+  "slug": "cabriole",
+  "termine": "cabriole",
+  "varianti": [
+   "capriola",
+   "cabriola",
+   "cabrioler"
+  ],
+  "tradizione": "francese",
+  "epoca": "seisettecento",
+  "definizione": "Salto in cui le gambe si incontrano in aria e la gamba inferiore batte contro la superiore spingendola più in alto. L'incontro può avvenire in avanti, di lato o dietro, e nella forma doppia si ripete due volte durante lo stesso volo. Resta uno dei movimenti di prova del repertorio maschile di teatro.",
+  "prima_attestazione": {
+   "fonte_id": "f12",
+   "riferimento": "fra i movimenti fondamentali elencati nel trattato di notazione parigino"
+  },
+  "termini_correlati": [
+   "capriola",
+   "entrechat",
+   "batterie",
+   "ballon",
+   "temps levé"
+  ]
+ },
+ {
+  "id": "t050",
+  "slug": "pas-battu",
+  "termine": "pas battu",
+  "varianti": [
+   "passo battuto",
+   "battu"
+  ],
+  "tradizione": "francese",
+  "epoca": "seisettecento",
+  "definizione": "Passo al quale si aggiunge un colpo di una gamba contro l'altra, eseguito durante l'elevazione o al momento della ricaduta. La notazione lo segnala con un tratto supplementare applicato al segno del passo. Il procedimento si applica a coupés, jetés e contrattempi e sta all'origine della batterie di scuola.",
+  "prima_attestazione": {
+   "fonte_id": "f12",
+   "riferimento": "segno accessorio descritto nel trattato di notazione parigino"
+  },
+  "termini_correlati": [
+   "batterie",
+   "entrechat",
+   "chorégraphie",
+   "jeté",
+   "cabriole"
+  ]
+ },
+ {
+  "id": "t051",
+  "slug": "pas-tortille",
+  "termine": "pas tortillé",
+  "varianti": [
+   "passo torto",
+   "tortillé"
+  ],
+  "tradizione": "francese",
+  "epoca": "seisettecento",
+  "definizione": "Passo eseguito con il piede che ruota alternando la punta in dentro e in fuori mentre scivola sul suolo. Il movimento di torsione della gamba nell'anca produce un percorso a serpentina. Appartiene al repertorio dei passi di carattere e ricorre nelle danze comiche di teatro.",
+  "prima_attestazione": {
+   "fonte_id": "f12",
+   "riferimento": "voce del vocabolario di notazione parigino"
+  },
+  "termini_correlati": [
+   "chorégraphie",
+   "pas battu",
+   "chemin",
+   "grottesco"
+  ]
+ },
+ {
+  "id": "t052",
+  "slug": "pas-grave",
+  "termine": "pas grave",
+  "varianti": [
+   "passo grave",
+   "pas de menuet grave"
+  ],
+  "tradizione": "francese",
+  "epoca": "seisettecento",
+  "definizione": "Passo di andamento lento nel quale la piegata e la successiva elevazione occupano un intero tempo di musica, con il corpo che sale e scende in modo continuo. Costituisce l'apertura della frase del menuet e più in generale il fondamento dello stile nobile. Il maestro lo insegna per primo perché riunisce la piegata, l'elevazione e il trasferimento del peso.",
+  "prima_attestazione": {
+   "fonte_id": "f31",
+   "riferimento": "descritto fra i passi del minuetto nel trattato parigino per il maestro di ballo"
+  },
+  "termini_correlati": [
+   "menuet",
+   "demi-coupé",
+   "tems de courante",
+   "plié",
+   "courante"
+  ]
+ },
+ {
+  "id": "t053",
+  "slug": "assemble",
+  "termine": "assemblé",
+  "varianti": [
+   "pas assemblé",
+   "assemblato"
+  ],
+  "tradizione": "francese",
+  "epoca": "seisettecento",
+  "definizione": "Salto che parte da un piede e arriva su entrambi, con le gambe che si raccolgono in aria e toccano il suolo insieme. La gamba libera si stacca di lato o in avanti e rientra in quinta posizione alla ricaduta. Serve di norma a chiudere una frase saltata e a preparare il passo successivo.",
+  "prima_attestazione": {
+   "fonte_id": "f31",
+   "riferimento": "fra i passi del ballo nobile esposti nel trattato parigino per il maestro di ballo"
+  },
+  "termini_correlati": [
+   "jeté",
+   "sissonne",
+   "glissade",
+   "position",
+   "batterie"
+  ]
+ },
+ {
+  "id": "t054",
+  "slug": "entrechat",
+  "termine": "entrechat",
+  "varianti": [
+   "intrecciata",
+   "entrechat quatre",
+   "entrechat six"
+  ],
+  "tradizione": "francese",
+  "epoca": "seisettecento",
+  "definizione": "Salto verticale durante il quale le gambe si incrociano ripetutamente battendo l'una contro l'altra prima della ricaduta. Il numero che accompagna il nome indica i passaggi delle gambe contati insieme, dal quattro al dieci nelle esecuzioni più impegnative. La tradizione italiana lo collega alla capriola intrecciata del Cinquecento.",
+  "prima_attestazione": {
+   "fonte_id": "f40",
+   "riferimento": "classificato per gradi fra i salti battuti nel trattato napoletano"
+  },
+  "termini_correlati": [
+   "capriola",
+   "batterie",
+   "cabriole",
+   "pas battu",
+   "ballon"
+  ]
+ },
+ {
+  "id": "t055",
+  "slug": "contredanse",
+  "termine": "contredanse",
+  "varianti": [
+   "contraddanza",
+   "contradanza",
+   "contredanse française"
+  ],
+  "tradizione": "francese",
+  "epoca": "seisettecento",
+  "definizione": "Danza di gruppo derivata dal repertorio inglese e adattata in Francia, con i danzatori disposti in file contrapposte o in quadrato di quattro coppie. La coreografia si compone di figure ripetute che ogni coppia esegue a turno, sopra una musica divisa in riprese uguali. La forma in quadrato prese il nome di contredanse française e diede origine al cotillon.",
+  "prima_attestazione": {
+   "fonte_id": "f16",
+   "riferimento": "raccolta parigina interamente dedicata al genere e alla sua notazione"
+  },
+  "termini_correlati": [
+   "country dance",
+   "cotillon",
+   "quadrille",
+   "longways",
+   "chorégraphie"
+  ]
+ },
+ {
+  "id": "t056",
+  "slug": "allemande",
+  "termine": "allemande",
+  "varianti": [
+   "alemanna",
+   "almain",
+   "Allemande"
+  ],
+  "tradizione": "tedesca",
+  "epoca": "seisettecento",
+  "definizione": "Danza di coppia in cui i due danzatori restano uniti per le mani e fanno passare le braccia sopra la testa in una serie di giri e intrecci. La figura dà il nome anche al passaggio omonimo che entra nelle contredanses e più tardi nella quadriglia. Nel Settecento tedesco si sviluppa in un repertorio autonomo di percorsi e di prese di mano.",
+  "prima_attestazione": {
+   "fonte_id": "f38",
+   "riferimento": "descritta con le sue prese di mano nel trattato di notazione tedesco"
+  },
+  "termini_correlati": [
+   "contredanse",
+   "cotillon",
+   "quadrille",
+   "waltz",
+   "promenade"
+  ]
+ },
+ {
+  "id": "t057",
+  "slug": "country-dance",
+  "termine": "country dance",
+  "varianti": [
+   "contra dance",
+   "danza di campagna"
+  ],
+  "tradizione": "inglese",
+  "epoca": "seisettecento",
+  "definizione": "Danza di gruppo di tradizione inglese in cui più coppie eseguono a turno una serie di figure lungo una formazione fissa. Ogni ripresa musicale corrisponde a un giro completo delle figure, dopo il quale la coppia guida scende di un posto e la successiva prende il suo ruolo. Le raccolte a stampa ne fissarono centinaia con la musica e le istruzioni in prosa.",
+  "prima_attestazione": {
+   "fonte_id": "f11",
+   "riferimento": "genere che dà forma all'intera raccolta londinese"
+  },
+  "termini_correlati": [
+   "longways",
+   "hey",
+   "cast",
+   "contredanse",
+   "hands across"
+  ]
+ },
+ {
+  "id": "t058",
+  "slug": "longways",
+  "termine": "longways",
+  "varianti": [
+   "longways for as many as will",
+   "formazione in file"
+  ],
+  "tradizione": "inglese",
+  "epoca": "seisettecento",
+  "definizione": "Formazione in cui i danzatori si dispongono su due file contrapposte, uomini da un lato e donne dall'altro, per un numero indefinito di coppie. La progressione porta ciascuna coppia a risalire e a discendere lungo le file nel corso delle ripetizioni. Costituisce la disposizione più diffusa del repertorio inglese a stampa.",
+  "prima_attestazione": {
+   "fonte_id": "f11",
+   "riferimento": "indicazione di formazione premessa a gran parte delle danze della raccolta londinese"
+  },
+  "termini_correlati": [
+   "country dance",
+   "cast",
+   "hey",
+   "set",
+   "poussette"
+  ]
+ },
+ {
+  "id": "t059",
+  "slug": "hey",
+  "termine": "hey",
+  "varianti": [
+   "hay",
+   "haye",
+   "chaîne"
+  ],
+  "tradizione": "inglese",
+  "epoca": "seisettecento",
+  "definizione": "Figura di intreccio in cui i danzatori percorrono un cammino a serpentina passando alternativamente davanti e dietro l'uno all'altro. Si esegue per tre in linea o per quattro e più in cerchio, con le mani libere nella forma semplice. La versione francese con presa di mano diede origine alla chaîne delle contredanses.",
+  "prima_attestazione": {
+   "fonte_id": "f11",
+   "riferimento": "figura ricorrente nelle istruzioni della raccolta londinese"
+  },
+  "termini_correlati": [
+   "country dance",
+   "figure of eight",
+   "longways",
+   "contredanse",
+   "hands across"
+  ]
+ },
+ {
+  "id": "t060",
+  "slug": "cast",
+  "termine": "cast",
+  "varianti": [
+   "cast off",
+   "cast up",
+   "casting"
+  ],
+  "tradizione": "inglese",
+  "epoca": "seisettecento",
+  "definizione": "Movimento in cui uno o più danzatori escono dalla propria fila girando verso l'esterno e ridiscendono dietro le altre coppie. Serve alla progressione della coppia guida e al rientro nella formazione dopo una figura centrale. Può essere eseguito verso il basso o verso l'alto della fila secondo l'indicazione della danza.",
+  "prima_attestazione": {
+   "fonte_id": "f11",
+   "riferimento": "istruzione ricorrente nelle descrizioni della raccolta londinese"
+  },
+  "termini_correlati": [
+   "longways",
+   "country dance",
+   "set",
+   "poussette",
+   "promenade"
+  ]
+ },
+ {
+  "id": "t061",
+  "slug": "hands-across",
+  "termine": "hands across",
+  "varianti": [
+   "hands four across",
+   "star",
+   "moulinet"
+  ],
+  "tradizione": "inglese",
+  "epoca": "seisettecento",
+  "definizione": "Figura in cui quattro danzatori si prendono per mano al centro incrociando le braccia e girano insieme intorno a un asse comune. Il giro si compie di norma prima in un senso e poi nell'altro con le mani opposte. La forma francese corrispondente prese il nome di moulinet nelle contredanses e nelle quadriglie.",
+  "prima_attestazione": {
+   "fonte_id": "f11",
+   "riferimento": "figura ricorrente nelle istruzioni della raccolta londinese"
+  },
+  "termini_correlati": [
+   "country dance",
+   "hey",
+   "poussette",
+   "quadrille",
+   "cotillon"
+  ]
+ },
+ {
+  "id": "t062",
+  "slug": "set",
+  "termine": "set",
+  "varianti": [
+   "setting",
+   "set and turn single"
+  ],
+  "tradizione": "inglese",
+  "epoca": "ottocento",
+  "definizione": "Termine che indica il gruppo di coppie che eseguono insieme una danza e, nell'uso verbale, il movimento di bilanciamento sul posto rivolto verso il compagno. Nel secondo significato consiste in due movimenti laterali con lieve elevazione, uno a destra e uno a sinistra. Le raccolte ottocentesche lo trattano come figura autonoma da combinare con giri e cambi di posto.",
+  "prima_attestazione": {
+   "fonte_id": "f42",
+   "riferimento": "voce dell'analisi londinese delle figure del ballo di campagna"
+  },
+  "termini_correlati": [
+   "country dance",
+   "longways",
+   "cast",
+   "balancé",
+   "quadrille"
+  ]
+ },
+ {
+  "id": "t063",
+  "slug": "poussette",
+  "termine": "poussette",
+  "varianti": [
+   "pousset",
+   "poussetting"
+  ],
+  "tradizione": "inglese",
+  "epoca": "ottocento",
+  "definizione": "Figura in cui due coppie si prendono per entrambe le mani e si spingono a vicenda lungo la fila, scambiandosi di posto con un movimento circolare. Il percorso descrive una figura ovale che riporta ciascuna coppia sulla propria linea. Serve alla progressione nelle danze in file lunghe.",
+  "prima_attestazione": {
+   "fonte_id": "f42",
+   "riferimento": "figura descritta nell'analisi londinese del ballo di campagna"
+  },
+  "termini_correlati": [
+   "longways",
+   "country dance",
+   "cast",
+   "hands across",
+   "promenade"
+  ]
+ },
+ {
+  "id": "t064",
+  "slug": "figure-of-eight",
+  "termine": "figure of eight",
+  "varianti": [
+   "figure d'huit",
+   "otto"
+  ],
+  "tradizione": "inglese",
+  "epoca": "ottocento",
+  "definizione": "Percorso in cui un danzatore gira intorno a due punti fissi descrivendo due anelli contrapposti. Nella forma intera comprende entrambi gli anelli, nella forma dimezzata soltanto il primo. Le analisi ottocentesche del ballo inglese la elencano fra le figure fondamentali insieme alla hey e alla poussette.",
+  "prima_attestazione": {
+   "fonte_id": "f42",
+   "riferimento": "fra le figure classificate nell'analisi londinese del ballo di campagna"
+  },
+  "termini_correlati": [
+   "hey",
+   "poussette",
+   "country dance",
+   "set",
+   "chemin"
+  ]
+ },
+ {
+  "id": "t065",
+  "slug": "cotillon",
+  "termine": "cotillon",
+  "varianti": [
+   "cotillion",
+   "cotiglione"
+  ],
+  "tradizione": "francese",
+  "epoca": "seisettecento",
+  "definizione": "Danza per quattro coppie disposte in quadrato, formata da un ritornello fisso che si ripete e da una serie di figure variabili chiamate changements. Ogni esecuzione alterna il ritornello e una figura nuova fino a esaurire la serie prevista. Le raccolte a stampa ne pubblicarono centinaia con le figure descritte e la musica.",
+  "prima_attestazione": {
+   "fonte_id": "f35",
+   "riferimento": "genere raccolto e notato nel repertorio parigino dei balli"
+  },
+  "termini_correlati": [
+   "contredanse",
+   "quadrille",
+   "hands across",
+   "country dance",
+   "promenade"
+  ]
+ },
+ {
+  "id": "t066",
+  "slug": "quadrille",
+  "termine": "quadrille",
+  "varianti": [
+   "quadriglia",
+   "quadrille française"
+  ],
+  "tradizione": "francese",
+  "epoca": "ottocento",
+  "definizione": "Danza per quattro coppie in quadrato, formata da una successione fissa di cinque figure ciascuna con musica propria. Le figure classiche portano i nomi di Le Pantalon, L'Été, La Poule, La Trénitz e La Pastourelle, seguite da una finale. Dominò i programmi da ballo europei per gran parte dell'Ottocento.",
+  "prima_attestazione": {
+   "fonte_id": "f48",
+   "riferimento": "trattata come genere di base nel manuale parigino delle danze di società"
+  },
+  "termini_correlati": [
+   "cotillon",
+   "lancers",
+   "contredanse",
+   "promenade",
+   "chassé"
+  ]
+ },
+ {
+  "id": "t067",
+  "slug": "lancers",
+  "termine": "lancers",
+  "varianti": [
+   "Les Lanciers",
+   "lancieri",
+   "lancers quadrille"
+  ],
+  "tradizione": "inglese",
+  "epoca": "ottocento",
+  "definizione": "Quadriglia in cinque figure di struttura autonoma rispetto alla quadriglia francese, con passaggi in cui le coppie avanzano a turno verso il centro. La quinta figura dispone i danzatori in due colonne e prevede una gran catena conclusiva. Entrò nei programmi da ballo come alternativa stabile alla quadriglia.",
+  "prima_attestazione": {
+   "fonte_id": "f50",
+   "riferimento": "figure elencate fra le quadriglie del manuale da ballo americano"
+  },
+  "termini_correlati": [
+   "quadrille",
+   "cotillon",
+   "promenade",
+   "contredanse"
+  ]
+ },
+ {
+  "id": "t068",
+  "slug": "promenade",
+  "termine": "promenade",
+  "varianti": [
+   "promenata",
+   "promenade all"
+  ],
+  "tradizione": "inglese",
+  "epoca": "ottocento",
+  "definizione": "Figura in cui la coppia percorre lo spazio tenendosi per mano affiancata, di norma per riportare i danzatori al posto o per aprire una sezione della danza. Le mani si prendono incrociate davanti al corpo nella forma più diffusa. Compare tanto nelle danze in file quanto nelle quadriglie.",
+  "prima_attestazione": {
+   "fonte_id": "f42",
+   "riferimento": "fra le figure classificate nell'analisi londinese del ballo di campagna"
+  },
+  "termini_correlati": [
+   "quadrille",
+   "country dance",
+   "cotillon",
+   "poussette",
+   "waltz"
+  ]
+ },
+ {
+  "id": "t069",
+  "slug": "waltz",
+  "termine": "waltz",
+  "varianti": [
+   "valse",
+   "valzer",
+   "Walzer"
+  ],
+  "tradizione": "tedesca",
+  "epoca": "ottocento",
+  "definizione": "Danza di coppia in tempo ternario nella quale i due danzatori restano allacciati e girano su se stessi mentre percorrono la sala. Il passo distribuisce tre appoggi su una battuta e produce mezzo giro, così che due battute completino la rotazione. La presa chiusa e la rotazione continua ne fecero la danza di società dominante dell'Ottocento.",
+  "prima_attestazione": {
+   "fonte_id": "f48",
+   "riferimento": "prima fra le danze insegnate nel manuale parigino delle danze di società"
+  },
+  "termini_correlati": [
+   "valse à deux temps",
+   "polka",
+   "mazurka",
+   "redowa",
+   "galop"
+  ]
+ },
+ {
+  "id": "t070",
+  "slug": "valse-a-deux-temps",
+  "termine": "valse à deux temps",
+  "varianti": [
+   "valzer a due tempi",
+   "deux temps"
+  ],
+  "tradizione": "francese",
+  "epoca": "ottocento",
+  "definizione": "Variante del valzer in cui i tre tempi della battuta si distribuiscono su due movimenti soltanto, uno scivolato e uno saltato. Il risultato è un andamento rapido e radente, adatto alle sale affollate. I manuali di società la trattano come forma corrente accanto al valzer a tre tempi.",
+  "prima_attestazione": {
+   "fonte_id": "f48",
+   "riferimento": "variante esposta nel manuale parigino delle danze di società"
+  },
+  "termini_correlati": [
+   "waltz",
+   "galop",
+   "polka",
+   "redowa"
+  ]
+ },
+ {
+  "id": "t071",
+  "slug": "polka",
+  "termine": "polka",
+  "varianti": [
+   "polca",
+   "polka bohémienne"
+  ],
+  "tradizione": "internazionale",
+  "epoca": "ottocento",
+  "definizione": "Danza di coppia in tempo binario e andamento vivace, costruita su tre appoggi rapidi seguiti da una pausa che occupa il quarto movimento. La coppia gira in presa chiusa avanzando lungo la sala e il piede libero resta sollevato durante la sospensione. Si diffuse in tutta Europa a partire dagli anni quaranta dell'Ottocento con rapidità senza precedenti.",
+  "prima_attestazione": {
+   "fonte_id": "f48",
+   "riferimento": "fra le danze nuove esposte nel manuale parigino delle danze di società"
+  },
+  "termini_correlati": [
+   "waltz",
+   "mazurka",
+   "schottische",
+   "redowa",
+   "galop"
+  ]
+ },
+ {
+  "id": "t072",
+  "slug": "mazurka",
+  "termine": "mazurka",
+  "varianti": [
+   "mazurca",
+   "mazur",
+   "polka-mazurka"
+  ],
+  "tradizione": "internazionale",
+  "epoca": "ottocento",
+  "definizione": "Danza di coppia in tempo ternario di origine polacca, con accento sul secondo o sul terzo movimento della battuta e battute di tacco. Il passo alterna scivolamenti e piccoli salti, con figure che comprendono giri singoli e percorsi lungo la sala. Nelle sale europee si praticò anche nella forma mista detta polka-mazurka.",
+  "prima_attestazione": {
+   "fonte_id": "f48",
+   "riferimento": "fra le danze nuove esposte nel manuale parigino delle danze di società"
+  },
+  "termini_correlati": [
+   "polka",
+   "waltz",
+   "redowa",
+   "polonaise"
+  ]
+ },
+ {
+  "id": "t073",
+  "slug": "redowa",
+  "termine": "redowa",
+  "varianti": [
+   "rejdovák",
+   "redova"
+  ],
+  "tradizione": "internazionale",
+  "epoca": "ottocento",
+  "definizione": "Danza di coppia in tempo ternario di origine boema, costruita su un passo scivolato seguito da due appoggi che completano il giro. L'andamento resta più raccolto di quello del valzer e l'accento cade sul primo movimento. I manuali di società la insegnano insieme alla polka e alla mazurka come parte del repertorio nuovo.",
+  "prima_attestazione": {
+   "fonte_id": "f48",
+   "riferimento": "fra le danze nuove esposte nel manuale parigino delle danze di società"
+  },
+  "termini_correlati": [
+   "polka",
+   "waltz",
+   "mazurka",
+   "schottische"
+  ]
+ },
+ {
+  "id": "t074",
+  "slug": "galop",
+  "termine": "galop",
+  "varianti": [
+   "galoppo",
+   "galopade",
+   "Galopp"
+  ],
+  "tradizione": "tedesca",
+  "epoca": "ottocento",
+  "definizione": "Danza di coppia in tempo binario e andamento rapidissimo, formata da una successione continua di passi scacciati lungo la sala. La coppia procede in presa chiusa con giri occasionali che invertono la direzione. Chiudeva di norma la serata da ballo o serviva da finale alle contredanses.",
+  "prima_attestazione": {
+   "fonte_id": "f48",
+   "riferimento": "fra le danze di giro esposte nel manuale parigino delle danze di società"
+  },
+  "termini_correlati": [
+   "polka",
+   "chassé",
+   "waltz",
+   "valse à deux temps"
+  ]
+ },
+ {
+  "id": "t075",
+  "slug": "schottische",
+  "termine": "schottische",
+  "varianti": [
+   "scottish",
+   "schottisch",
+   "polka tedesca"
+  ],
+  "tradizione": "tedesca",
+  "epoca": "ottocento",
+  "definizione": "Danza di coppia in tempo binario e andamento moderato, formata da due misure di passi scivolati seguite da due misure di giro saltato. La prima parte avanza lungo la sala, la seconda ruota sul posto. I manuali di società la collocano fra la polka e il valzer per andamento e per difficoltà.",
+  "prima_attestazione": {
+   "fonte_id": "f50",
+   "riferimento": "fra le danze di giro insegnate nel manuale da ballo americano"
+  },
+  "termini_correlati": [
+   "polka",
+   "waltz",
+   "redowa",
+   "galop"
+  ]
+ },
+ {
+  "id": "t076",
+  "slug": "polonaise",
+  "termine": "polonaise",
+  "varianti": [
+   "polacca",
+   "polonese",
+   "Polonäse"
+  ],
+  "tradizione": "internazionale",
+  "epoca": "ottocento",
+  "definizione": "Danza di corteo in tempo ternario e andamento moderato, nella quale le coppie procedono in fila attraverso la sala eseguendo figure di passaggio e di incontro. Il passo consiste in tre appoggi per battuta con lieve flessione sul terzo. Apriva le feste di corte e conservava un carattere di presentazione.",
+  "prima_attestazione": {
+   "fonte_id": "f60",
+   "riferimento": "fra le danze di apertura descritte nella guida parigina al ballo"
+  },
+  "termini_correlati": [
+   "mazurka",
+   "promenade",
+   "quadrille",
+   "waltz"
+  ]
+ },
+ {
+  "id": "t077",
+  "slug": "plie",
+  "termine": "plié",
+  "varianti": [
+   "pliér",
+   "piegamento",
+   "piegata"
+  ],
+  "tradizione": "francese",
+  "epoca": "seisettecento",
+  "definizione": "Flessione delle ginocchia con i talloni che restano al suolo nella forma dolce e sollevati nella forma profonda. Costituisce uno dei movimenti elementari da cui si formano tutti i passi, poiché prepara ogni elevazione e ne assorbe la ricaduta. I trattati lo pongono al principio dell'esercizio quotidiano.",
+  "prima_attestazione": {
+   "fonte_id": "f12",
+   "riferimento": "primo dei movimenti fondamentali elencati nel trattato di notazione parigino"
+  },
+  "termini_correlati": [
+   "relevé",
+   "position",
+   "demi-coupé",
+   "jeté",
+   "aplomb"
+  ]
+ },
+ {
+  "id": "t078",
+  "slug": "releve",
+  "termine": "relevé",
+  "varianti": [
+   "élevé",
+   "elevazione",
+   "rilevato"
+  ],
+  "tradizione": "francese",
+  "epoca": "ottocento",
+  "definizione": "Sollevamento del corpo sulla mezza punta o sulla punta a partire da una piegata o da una posizione distesa. Il movimento impegna la caviglia e il collo del piede e richiede che il peso resti raccolto sull'asse verticale. Entra in ogni passo di elevazione e serve da prova della stabilità del danzatore.",
+  "prima_attestazione": {
+   "fonte_id": "f44",
+   "riferimento": "fra gli elementi dell'esercizio esposti nel trattato elementare milanese"
+  },
+  "termini_correlati": [
+   "plié",
+   "pointe",
+   "aplomb",
+   "pirouette",
+   "position"
+  ]
+ },
+ {
+  "id": "t079",
+  "slug": "pointe",
+  "termine": "pointe",
+  "varianti": [
+   "punta",
+   "sur les pointes",
+   "punte"
+  ],
+  "tradizione": "francese",
+  "epoca": "ottocento",
+  "definizione": "Appoggio sull'estremità delle dita del piede, con la gamba distesa e il peso raccolto sull'asse del corpo. La tecnica si sviluppa nella prima metà dell'Ottocento e resta dapprima limitata a soste brevi e a passaggi di equilibrio. La sua diffusione trasformò il repertorio femminile e la forma della calzatura.",
+  "prima_attestazione": {
+   "fonte_id": "f46",
+   "riferimento": "fra le indicazioni sull'equilibrio del trattato londinese di scuola italiana"
+  },
+  "termini_correlati": [
+   "relevé",
+   "aplomb",
+   "attitude",
+   "arabesque",
+   "batterie"
+  ]
+ },
+ {
+  "id": "t080",
+  "slug": "attitude",
+  "termine": "attitude",
+  "varianti": [
+   "attitudine",
+   "attitude croisée"
+  ],
+  "tradizione": "francese",
+  "epoca": "ottocento",
+  "definizione": "Posizione nella quale il danzatore sta su una gamba mentre l'altra si solleva dietro con il ginocchio piegato ad angolo e la coscia aperta verso l'esterno. Le braccia si dispongono in opposizione, una alzata sopra la testa e l'altra aperta di lato. Il modello dichiarato dal trattato che la codifica è la figura del Mercurio di Giambologna.",
+  "prima_attestazione": {
+   "fonte_id": "f44",
+   "riferimento": "posizione codificata e illustrata nel trattato elementare milanese"
+  },
+  "termini_correlati": [
+   "arabesque",
+   "aplomb",
+   "port de bras",
+   "épaulement",
+   "croisé"
+  ]
+ },
+ {
+  "id": "t081",
+  "slug": "arabesque",
+  "termine": "arabesque",
+  "varianti": [
+   "arabesco",
+   "arabesque allongée"
+  ],
+  "tradizione": "francese",
+  "epoca": "ottocento",
+  "definizione": "Posizione nella quale il danzatore sta su una gamba e distende l'altra dietro di sé alla massima estensione possibile, con il busto inclinato in avanti a compensare. Le braccia prolungano la linea della gamba portata dietro, formando una diagonale continua. I trattati ne classificano numerose varianti secondo l'altezza della gamba e l'orientamento del corpo.",
+  "prima_attestazione": {
+   "fonte_id": "f44",
+   "riferimento": "posizione classificata per varianti nel trattato elementare milanese"
+  },
+  "termini_correlati": [
+   "attitude",
+   "aplomb",
+   "port de bras",
+   "épaulement",
+   "développé"
+  ]
+ },
+ {
+  "id": "t082",
+  "slug": "adage",
+  "termine": "adage",
+  "varianti": [
+   "adagio",
+   "temps d'adage"
+  ],
+  "tradizione": "francese",
+  "epoca": "ottocento",
+  "definizione": "Parte dell'esercizio e della composizione dedicata ai movimenti lenti e sostenuti, nella quale le posizioni si raggiungono per gradi e si mantengono a lungo. Serve a formare l'equilibrio, la distensione della gamba e la continuità del passaggio da una linea all'altra. Nel pas de deux occupa la sezione iniziale, con il sostegno del compagno.",
+  "prima_attestazione": {
+   "fonte_id": "f46",
+   "riferimento": "sezione dell'esercizio esposta nel trattato londinese di scuola italiana"
+  },
+  "termini_correlati": [
+   "aplomb",
+   "développé",
+   "port de bras",
+   "pas de deux",
+   "arabesque"
+  ]
+ },
+ {
+  "id": "t083",
+  "slug": "aplomb",
+  "termine": "aplomb",
+  "varianti": [
+   "appiombo",
+   "aplombe"
+  ],
+  "tradizione": "francese",
+  "epoca": "ottocento",
+  "definizione": "Qualità dell'equilibrio che consiste nel mantenere il peso perpendicolare sopra il piede d'appoggio in ogni posizione. Si ottiene con l'allineamento del bacino, del busto e della testa e con il controllo continuo della caviglia. I trattati lo indicano come condizione di ogni giro e di ogni posa sostenuta.",
+  "prima_attestazione": {
+   "fonte_id": "f44",
+   "riferimento": "requisito fondamentale enunciato nel trattato elementare milanese"
+  },
+  "termini_correlati": [
+   "pirouette",
+   "relevé",
+   "attitude",
+   "arabesque",
+   "adage"
+  ]
+ },
+ {
+  "id": "t084",
+  "slug": "ballon",
+  "termine": "ballon",
+  "varianti": [
+   "ballone",
+   "elasticità"
+  ],
+  "tradizione": "francese",
+  "epoca": "ottocento",
+  "definizione": "Qualità del salto che consiste nel raggiungere l'aria con leggerezza, restarvi sospesi un istante e ricadere con morbidezza sulla piegata. Dipende dalla forza del collo del piede e dalla distensione completa delle gambe durante il volo. Distingue il salto di scuola dalla semplice spinta verso l'alto.",
+  "prima_attestazione": {
+   "fonte_id": "f44",
+   "riferimento": "qualità richiesta ai salti nel trattato elementare milanese"
+  },
+  "termini_correlati": [
+   "temps levé",
+   "batterie",
+   "entrechat",
+   "cabriole",
+   "glissade"
+  ]
+ },
+ {
+  "id": "t085",
+  "slug": "batterie",
+  "termine": "batterie",
+  "varianti": [
+   "batteria",
+   "pas battus",
+   "batterie serrée"
+  ],
+  "tradizione": "francese",
+  "epoca": "ottocento",
+  "definizione": "Insieme dei movimenti nei quali le gambe si battono l'una contro l'altra durante il salto. Si divide in grande, quando le gambe si aprono ampiamente prima di incontrarsi, e piccola, quando l'incontro avviene stretto alla caviglia. Comprende entrechats, cabrioles e ogni passo al quale si aggiunga una battuta.",
+  "prima_attestazione": {
+   "fonte_id": "f44",
+   "riferimento": "categoria di salti classificata nel trattato elementare milanese"
+  },
+  "termini_correlati": [
+   "entrechat",
+   "cabriole",
+   "pas battu",
+   "ballon",
+   "sissonne"
+  ]
+ },
+ {
+  "id": "t086",
+  "slug": "fouette",
+  "termine": "fouetté",
+  "varianti": [
+   "fouetté en tournant",
+   "frustato"
+  ],
+  "tradizione": "francese",
+  "epoca": "ottocento",
+  "definizione": "Movimento nel quale la gamba libera compie uno slancio circolare che imprime al corpo una rotazione o ne cambia l'orientamento. Il termine copre tanto i passaggi in cui il corpo gira sul piede d'appoggio quanto quelli in cui il busto si volge mentre la gamba resta alta. La forma con giri ripetuti si sviluppa nella seconda metà dell'Ottocento.",
+  "prima_attestazione": {
+   "fonte_id": "f46",
+   "riferimento": "fra i movimenti di rotazione descritti nel trattato londinese di scuola italiana"
+  },
+  "termini_correlati": [
+   "pirouette",
+   "rond de jambe",
+   "aplomb",
+   "attitude",
+   "développé"
+  ]
+ },
+ {
+  "id": "t087",
+  "slug": "glissade",
+  "termine": "glissade",
+  "varianti": [
+   "glissata",
+   "pas glissé",
+   "scivolata"
+  ],
+  "tradizione": "francese",
+  "epoca": "ottocento",
+  "definizione": "Passo scivolato nel quale un piede parte dalla piegata, si distende radente al suolo e riceve il peso mentre l'altro lo raggiunge. Copre poco spazio e serve quasi sempre a preparare un salto più ampio. Si esegue in tutte le direzioni e può concludersi in quinta posizione o con cambio di piede.",
+  "prima_attestazione": {
+   "fonte_id": "f44",
+   "riferimento": "fra i passi di collegamento esposti nel trattato elementare milanese"
+  },
+  "termini_correlati": [
+   "chassé",
+   "assemblé",
+   "jeté",
+   "position",
+   "ballon"
+  ]
+ },
+ {
+  "id": "t088",
+  "slug": "rond-de-jambe",
+  "termine": "rond de jambe",
+  "varianti": [
+   "rotondo di gamba",
+   "rond de jambe à terre",
+   "rond de jambe en l'air"
+  ],
+  "tradizione": "francese",
+  "epoca": "ottocento",
+  "definizione": "Movimento nel quale la gamba libera descrive un arco di cerchio, con la punta che sfiora il suolo oppure con la gamba sollevata all'altezza del ginocchio. Il percorso va dal davanti al dietro o in senso inverso, e l'anca resta ferma per tutta l'escursione. Costituisce uno degli esercizi fondamentali per la rotazione esterna della gamba.",
+  "prima_attestazione": {
+   "fonte_id": "f44",
+   "riferimento": "esercizio fondamentale descritto nel trattato elementare milanese"
+  },
+  "termini_correlati": [
+   "développé",
+   "fouetté",
+   "campanella",
+   "plié",
+   "position"
+  ]
+ },
+ {
+  "id": "t089",
+  "slug": "developpe",
+  "termine": "développé",
+  "varianti": [
+   "sviluppato",
+   "temps développé"
+  ],
+  "tradizione": "francese",
+  "epoca": "ottocento",
+  "definizione": "Movimento nel quale la gamba libera sale raccolta lungo la gamba d'appoggio e poi si distende lentamente nella direzione voluta, restando sospesa alla massima altezza. Richiede che il bacino resti fermo mentre il ginocchio si apre verso l'esterno. Appartiene alla sezione lenta dell'esercizio e prepara le pose sostenute.",
+  "prima_attestazione": {
+   "fonte_id": "f44",
+   "riferimento": "fra i movimenti lenti dell'esercizio nel trattato elementare milanese"
+  },
+  "termini_correlati": [
+   "adage",
+   "arabesque",
+   "attitude",
+   "rond de jambe",
+   "aplomb"
+  ]
+ },
+ {
+  "id": "t090",
+  "slug": "temps-leve",
+  "termine": "temps levé",
+  "varianti": [
+   "tempo levato",
+   "temps de levé",
+   "sobresaut"
+  ],
+  "tradizione": "francese",
+  "epoca": "ottocento",
+  "definizione": "Salto eseguito su un piede solo con partenza e arrivo sullo stesso appoggio, mentre l'altra gamba conserva la posizione che aveva. Serve a guadagnare l'aria dentro una frase saltata e a marcare il tempo forte della musica. Si combina con contrattempi e con passi battuti per formare le sequenze di allegro.",
+  "prima_attestazione": {
+   "fonte_id": "f44",
+   "riferimento": "fra i salti elementari classificati nel trattato elementare milanese"
+  },
+  "termini_correlati": [
+   "contretemps",
+   "jeté",
+   "ballon",
+   "zoppetto",
+   "sissonne"
+  ]
+ },
+ {
+  "id": "t091",
+  "slug": "tour-en-l-air",
+  "termine": "tour en l'air",
+  "varianti": [
+   "giro in aria",
+   "tour en l'air double"
+  ],
+  "tradizione": "francese",
+  "epoca": "ottocento",
+  "definizione": "Salto verticale durante il quale il corpo compie uno o più giri completi su se stesso prima di ricadere. La partenza avviene da una piegata in quinta posizione e l'arrivo riporta i piedi nella stessa posizione o su una gamba sola. Appartiene al repertorio maschile e misura insieme l'elevazione e il controllo della rotazione.",
+  "prima_attestazione": {
+   "fonte_id": "f44",
+   "riferimento": "fra i giri classificati nel trattato elementare milanese"
+  },
+  "termini_correlati": [
+   "pirouette",
+   "aplomb",
+   "ballon",
+   "batterie",
+   "temps levé"
+  ]
+ },
+ {
+  "id": "t092",
+  "slug": "port-de-bras",
+  "termine": "port de bras",
+  "varianti": [
+   "porto di braccia",
+   "porta di braccia"
+  ],
+  "tradizione": "francese",
+  "epoca": "ottocento",
+  "definizione": "Insieme delle regole che governano il movimento e la disposizione delle braccia, e per estensione l'esercizio destinato a formarle. Le braccia si muovono per linee curve passando per posizioni codificate, in opposizione rispetto alla gamba d'appoggio. La qualità del port de bras determina l'espressione della posa più della gamba stessa.",
+  "prima_attestazione": {
+   "fonte_id": "f44",
+   "riferimento": "regole delle braccia esposte nel trattato elementare milanese"
+  },
+  "termini_correlati": [
+   "épaulement",
+   "attitude",
+   "arabesque",
+   "adage",
+   "croisé"
+  ]
+ },
+ {
+  "id": "t093",
+  "slug": "epaulement",
+  "termine": "épaulement",
+  "varianti": [
+   "spallamento",
+   "épaulé"
+  ],
+  "tradizione": "francese",
+  "epoca": "ottocento",
+  "definizione": "Orientamento delle spalle e della testa rispetto alla direzione dei piedi, che dà rilievo alla figura sottraendola alla frontalità. Una spalla avanza mentre la testa si volge verso di essa o in direzione opposta secondo la posa. Dall'épaulement discendono le posizioni del corpo denominate croisé ed effacé.",
+  "prima_attestazione": {
+   "fonte_id": "f44",
+   "riferimento": "principio di orientamento del corpo esposto nel trattato elementare milanese"
+  },
+  "termini_correlati": [
+   "croisé",
+   "effacé",
+   "écarté",
+   "port de bras",
+   "attitude"
+  ]
+ },
+ {
+  "id": "t094",
+  "slug": "croise",
+  "termine": "croisé",
+  "varianti": [
+   "incrociato",
+   "position croisée"
+  ],
+  "tradizione": "francese",
+  "epoca": "ottocento",
+  "definizione": "Posizione del corpo nella quale il danzatore si presenta in diagonale rispetto allo spettatore e la gamba lavorante attraversa la linea del corpo. Le gambe appaiono incrociate dal punto di vista di chi guarda e la figura risulta chiusa. Si oppone all'effacé per orientamento e per effetto visivo.",
+  "prima_attestazione": {
+   "fonte_id": "f44",
+   "riferimento": "fra le posizioni del corpo codificate nel trattato elementare milanese"
+  },
+  "termini_correlati": [
+   "effacé",
+   "écarté",
+   "épaulement",
+   "attitude",
+   "position"
+  ]
+ },
+ {
+  "id": "t095",
+  "slug": "efface",
+  "termine": "effacé",
+  "varianti": [
+   "ouvert",
+   "aperto",
+   "effacée"
+  ],
+  "tradizione": "francese",
+  "epoca": "ottocento",
+  "definizione": "Posizione del corpo nella quale il danzatore si presenta in diagonale con il fianco leggermente arretrato, così che le gambe appaiano aperte a chi guarda. La linea risulta distesa e la figura si allarga verso lo spettatore. Costituisce con il croisé la coppia fondamentale degli orientamenti di scuola.",
+  "prima_attestazione": {
+   "fonte_id": "f44",
+   "riferimento": "fra le posizioni del corpo codificate nel trattato elementare milanese"
+  },
+  "termini_correlati": [
+   "croisé",
+   "écarté",
+   "épaulement",
+   "arabesque",
+   "port de bras"
+  ]
+ },
+ {
+  "id": "t096",
+  "slug": "ecarte",
+  "termine": "écarté",
+  "varianti": [
+   "scartato",
+   "position écartée"
+  ],
+  "tradizione": "francese",
+  "epoca": "ottocento",
+  "definizione": "Posizione del corpo nella quale la gamba lavorante si apre di lato lungo una diagonale della sala, con il busto inclinato in senso contrario. Il braccio corrispondente si alza sopra la testa e lo sguardo lo segue. Completa il sistema degli orientamenti insieme al croisé e all'effacé.",
+  "prima_attestazione": {
+   "fonte_id": "f44",
+   "riferimento": "fra le posizioni del corpo codificate nel trattato elementare milanese"
+  },
+  "termini_correlati": [
+   "croisé",
+   "effacé",
+   "épaulement",
+   "port de bras",
+   "attitude"
+  ]
+ },
+ {
+  "id": "t097",
+  "slug": "pas-de-deux",
+  "termine": "pas de deux",
+  "varianti": [
+   "passo a due",
+   "pas de deux d'action"
+  ],
+  "tradizione": "francese",
+  "epoca": "seisettecento",
+  "definizione": "Composizione per due danzatori nella quale i movimenti dell'uno rispondono a quelli dell'altro, alternando sezioni insieme e variazioni separate. Nella forma ottocentesca si articola in adagio, due variazioni e coda. La riforma settecentesca del ballo gli assegnò il compito di portare avanti l'azione drammatica.",
+  "prima_attestazione": {
+   "fonte_id": "f34",
+   "riferimento": "discusso fra le forme del ballo nelle lettere sulla danza e sui balletti"
+  },
+  "termini_correlati": [
+   "adage",
+   "ballet d'action",
+   "port de bras",
+   "attitude"
+  ]
+ },
+ {
+  "id": "t098",
+  "slug": "ballet-d-action",
+  "termine": "ballet d'action",
+  "varianti": [
+   "balletto d'azione",
+   "ballo pantomimo"
+  ],
+  "tradizione": "francese",
+  "epoca": "seisettecento",
+  "definizione": "Forma di spettacolo nella quale la danza racconta un'azione compiuta attraverso il gesto e la mimica, con l'uso del solo linguaggio del corpo. La riforma che la propone chiede al danzatore di studiare la pittura, l'anatomia e la scena e di subordinare il virtuosismo all'espressione. Da questa impostazione discende il ballo narrativo dell'Ottocento.",
+  "prima_attestazione": {
+   "fonte_id": "f34",
+   "riferimento": "programma esposto nelle lettere sulla danza e sui balletti"
+  },
+  "termini_correlati": [
+   "pas de deux",
+   "chaconne",
+   "grottesco",
+   "adage"
+  ]
+ },
+ {
+  "id": "t099",
+  "slug": "grottesco",
+  "termine": "grottesco",
+  "varianti": [
+   "ballerino grottesco",
+   "grottesca"
+  ],
+  "tradizione": "italiana",
+  "epoca": "seisettecento",
+  "definizione": "Categoria del danzatore di teatro dedicata ai ruoli di carattere e alla danza di forza, distinta dal serio e dal mezzo carattere. Il repertorio comprende salti alti, capriole battute e passi di torsione che il ballo nobile lascia fuori dal proprio ambito. La trattatistica napoletana ne fissa il vocabolario tecnico con precisione insolita per il secolo.",
+  "prima_attestazione": {
+   "fonte_id": "f40",
+   "riferimento": "categoria e vocabolario esposti nel trattato teorico prattico napoletano"
+  },
+  "termini_correlati": [
+   "capriola",
+   "entrechat",
+   "pas tortillé",
+   "ballet d'action",
+   "cabriole"
+  ]
+ },
+ {
+  "id": "t100",
+  "slug": "stenochoregraphie",
+  "termine": "sténochorégraphie",
+  "varianti": [
+   "stenocoreografia",
+   "sténochorégraphie"
+  ],
+  "tradizione": "francese",
+  "epoca": "ottocento",
+  "definizione": "Sistema di notazione ottocentesco che rappresenta il danzatore mediante figure schematiche disposte sopra un rigo musicale, con segni distinti per gambe, braccia e testa. La lettura procede in parallelo alla musica e rende conto anche del percorso sulla scena mediante una pianta a margine. Riprende il compito della notazione settecentesca adattandolo al vocabolario del ballo teatrale.",
+  "prima_attestazione": {
+   "fonte_id": "f49",
+   "riferimento": "sistema esposto e denominato nel trattato di notazione parigino di metà Ottocento"
+  },
+  "termini_correlati": [
+   "chorégraphie",
+   "chemin",
+   "port de bras",
+   "position"
+  ]
+ }
+]

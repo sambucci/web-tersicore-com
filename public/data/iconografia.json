@@ -1,1 +1,907 @@
-[]
+[
+ {
+  "id": "i001",
+  "slug": "tomba-delle-leonesse-danzatrice-anonimo",
+  "titolo": "Tomba delle Leonesse, danzatrice",
+  "autore": "Anonimo",
+  "anno": "520 a.C. circa",
+  "anno_ord": -520,
+  "tecnica": "affresco",
+  "istituzione": "Necropoli dei Monterozzi, Tarquinia",
+  "url_opera": "https://commons.wikimedia.org/wiki/File:Tomba_delle_leonesse,_520_ac_ca.,_02_danzatrice.jpg",
+  "file_commons": "File:Tomba delle leonesse, 520 ac ca., 02 danzatrice.jpg",
+  "licenza": "CC BY 3.0",
+  "autore_credito": "Sailko",
+  "danza_raffigurata": "Una danzatrice avanza con le braccia sollevate e le dita divaricate, il mantello aperto dal movimento, accanto ai suonatori dipinti sulla stessa parete. Il gesto appartiene alla danza funebre etrusca eseguita durante il banchetto per il defunto.",
+  "fonti_correlate": [
+   "f41",
+   "f59"
+  ],
+  "termini_correlati": [
+   "danza funebre",
+   "coreia"
+  ],
+  "immagine": "tomba-delle-leonesse-danzatrice-anonimo.webp",
+  "alt": "Una danzatrice avanza con le braccia sollevate e le dita divaricate, il mantello aperto dal movimento, accanto ai suonatori dipinti sulla stessa paret"
+ },
+ {
+  "id": "i002",
+  "slug": "tomba-del-triclinio-danzatori-anonimo-pittore-forse-attico",
+  "titolo": "Tomba del Triclinio, danzatori",
+  "autore": "Anonimo, pittore forse attico",
+  "anno": "500-475 a.C. circa",
+  "anno_ord": -500,
+  "tecnica": "affresco staccato",
+  "istituzione": "Museo Archeologico Nazionale, Tarquinia",
+  "url_opera": "https://commons.wikimedia.org/wiki/File:Pittore_forse_attico,_affreschi_della_tomba_del_triclinio,_500-475_ac_ca,_05_danzatori.jpg",
+  "file_commons": "File:Pittore forse attico, affreschi della tomba del triclinio, 500-475 ac ca, 05 danzatori.jpg",
+  "licenza": "CC BY 3.0",
+  "autore_credito": "Sailko",
+  "danza_raffigurata": "Una fila di danzatori e danzatrici procede fra alberelli, ciascuno con il busto in torsione e le braccia levate in gesti alternati. La scena accompagna il banchetto funebre e mostra una danza in catena aperta.",
+  "fonti_correlate": [
+   "f41",
+   "f59"
+  ],
+  "termini_correlati": [
+   "danza in catena",
+   "danza funebre"
+  ],
+  "immagine": "tomba-del-triclinio-danzatori-anonimo-pittore-forse-attico.webp",
+  "alt": "Una fila di danzatori e danzatrici procede fra alberelli, ciascuno con il busto in torsione e le braccia levate in gesti alternati. La scena accompagn"
+ },
+ {
+  "id": "i004",
+  "slug": "coppa-attica-a-figure-rosse-con-menadi-danzanti",
+  "titolo": "Coppa attica a figure rosse con menadi danzanti",
+  "autore": "Makron",
+  "anno": "490-480 a.C. circa",
+  "anno_ord": -490,
+  "tecnica": "ceramica attica a figure rosse",
+  "istituzione": "Antikenmuseum Basel und Sammlung Ludwig, Basilea",
+  "url_opera": "https://commons.wikimedia.org/wiki/File:Makron_ARV_463_53_dancing_maenads.jpg",
+  "file_commons": "File:Makron ARV 463 53 dancing maenads.jpg",
+  "licenza": "CC BY-SA 4.0",
+  "autore_credito": "ArchaiOptix",
+  "danza_raffigurata": "Sulle due facce esterne otto menadi danzano con il tirso e una di esse suona l'aulos; all'interno una menade con pelle di leopardo volge il capo all'indietro. Il panneggio in torsione rende il movimento estatico del tiaso dionisiaco.",
+  "fonti_correlate": [
+   "f41",
+   "f59",
+   "f33"
+  ],
+  "termini_correlati": [
+   "tiaso",
+   "danza estatica",
+   "coreia"
+  ],
+  "immagine": "coppa-attica-a-figure-rosse-con-menadi-danzanti.webp",
+  "alt": "Sulle due facce esterne otto menadi danzano con il tirso e una di esse suona l'aulos; all'interno una menade con pelle di leopardo volge il capo all'i"
+ },
+ {
+  "id": "i003",
+  "slug": "tomba-dei-leopardi-danzatori-e-musici-anonimo",
+  "titolo": "Tomba dei Leopardi, danzatori e musici",
+  "autore": "Anonimo",
+  "anno": "475 a.C. circa",
+  "anno_ord": -475,
+  "tecnica": "affresco a secco",
+  "istituzione": "Necropoli dei Monterozzi, Tarquinia",
+  "url_opera": "https://commons.wikimedia.org/wiki/File:Danseurs_et_musiciens,_tombe_des_l%C3%A9opards.jpg",
+  "file_commons": "File:Danseurs et musiciens, tombe des léopards.jpg",
+  "licenza": "Public domain",
+  "autore_credito": "Unknown author Unknown author",
+  "danza_raffigurata": "Un danzatore e una danzatrice avanzano fra un suonatore di aulos e un citaredo, con passo laterale e braccia in posizioni asimmetriche. È la danza che accompagna il banchetto funebre etrusco.",
+  "fonti_correlate": [
+   "f41",
+   "f59"
+  ],
+  "termini_correlati": [
+   "danza funebre",
+   "coreia"
+  ],
+  "immagine": "tomba-dei-leopardi-danzatori-e-musici-anonimo.webp",
+  "alt": "Un danzatore e una danzatrice avanzano fra un suonatore di aulos e un citaredo, con passo laterale e braccia in posizioni asimmetriche. È la danza che"
+ },
+ {
+  "id": "i005",
+  "slug": "villa-dei-misteri-menade-danzante-anonimo",
+  "titolo": "Villa dei Misteri, menade danzante",
+  "autore": "Anonimo",
+  "anno": "60-50 a.C. circa",
+  "anno_ord": -60,
+  "tecnica": "affresco",
+  "istituzione": "Villa dei Misteri, Pompei",
+  "url_opera": "https://commons.wikimedia.org/wiki/File:Roman_fresco_Villa_dei_Misteri_Pompeii_-_detail_with_dancing_menad_02.jpg",
+  "file_commons": "File:Roman fresco Villa dei Misteri Pompeii - detail with dancing menad 02.jpg",
+  "licenza": "Public domain",
+  "autore_credito": "WolfgangRieger",
+  "danza_raffigurata": "Nell'ottava scena del grande fregio una figura femminile quasi nuda, avvolta da un mantello che ruota su se stesso, danza battendo i cimbali sopra il capo. Il movimento appartiene al rito dionisiaco messo in scena dal ciclo pittorico.",
+  "fonti_correlate": [
+   "f41",
+   "f59"
+  ],
+  "termini_correlati": [
+   "danza estatica",
+   "tiaso"
+  ],
+  "immagine": "villa-dei-misteri-menade-danzante-anonimo.webp",
+  "alt": "Nell'ottava scena del grande fregio una figura femminile quasi nuda, avvolta da un mantello che ruota su se stesso, danza battendo i cimbali sopra il "
+ },
+ {
+  "id": "i006",
+  "slug": "vaso-sosibios-menade-danzante-sosibios",
+  "titolo": "Vaso Sosibios, menade danzante",
+  "autore": "Sosibios",
+  "anno": "50 a.C. circa",
+  "anno_ord": -50,
+  "tecnica": "rilievo su marmo pentelico",
+  "istituzione": "Musée du Louvre, Parigi",
+  "url_opera": "https://commons.wikimedia.org/wiki/File:Maenad_Sosibios_vase_Louvre_Ma442.jpg",
+  "file_commons": "File:Maenad Sosibios vase Louvre Ma442.jpg",
+  "licenza": "Public domain",
+  "autore_credito": "Sosibios; detail: copy after Callimachus?",
+  "danza_raffigurata": "Sul cratere neoattico firmato da Sosibios una menade danza con la testa rovesciata all'indietro e il chitone sollevato dal movimento. La figura riprende modelli greci classici, con ogni probabilità le menadi attribuite a Callimaco.",
+  "fonti_correlate": [
+   "f41",
+   "f59"
+  ],
+  "termini_correlati": [
+   "tiaso",
+   "danza estatica"
+  ],
+  "immagine": "vaso-sosibios-menade-danzante-sosibios.webp",
+  "alt": "Sul cratere neoattico firmato da Sosibios una menade danza con la testa rovesciata all'indietro e il chitone sollevato dal movimento. La figura ripren"
+ },
+ {
+  "id": "i012",
+  "slug": "il-banchetto-di-erode-la-danza-di-salome",
+  "titolo": "Il banchetto di Erode, la danza di Salomè",
+  "autore": "Filippo Lippi",
+  "anno": "1452-1464",
+  "anno_ord": 1452,
+  "tecnica": "affresco",
+  "istituzione": "Cattedrale di Santo Stefano, Prato",
+  "url_opera": "https://commons.wikimedia.org/wiki/File:Filippo_Lippi_-_Le_Banquet_d%27H%C3%A9rode.jpg",
+  "file_commons": "File:Filippo Lippi - Le Banquet d'Hérode.jpg",
+  "licenza": "Public domain",
+  "autore_credito": "Filippo Lippi",
+  "danza_raffigurata": "Salomè danza davanti alla mensa di Erode con il busto eretto, i veli sollevati dal movimento e i piedi in appoggio leggero. Il pittore fissa il tipo quattrocentesco della danzatrice solista di corte.",
+  "fonti_correlate": [
+   "f01",
+   "f02"
+  ],
+  "termini_correlati": [
+   "ballo",
+   "bassa danza"
+  ],
+  "immagine": "il-banchetto-di-erode-la-danza-di-salome.webp",
+  "alt": "Salomè danza davanti alla mensa di Erode con il busto eretto, i veli sollevati dal movimento e i piedi in appoggio leggero. Il pittore fissa il tipo q"
+ },
+ {
+  "id": "i009",
+  "slug": "danza-macabra-di-lubecca-bernt-notke",
+  "titolo": "Danza macabra di Lubecca",
+  "autore": "Bernt Notke",
+  "anno": "1463, nella copia del 1701 di Anton Wortmann",
+  "anno_ord": 1463,
+  "tecnica": "pittura su tela, ripresa fotografica anteriore al 1942",
+  "istituzione": "Marienkirche, Lubecca, opera distrutta nel 1942",
+  "url_opera": "https://commons.wikimedia.org/wiki/File:Totentanz_Luebeck.jpg",
+  "file_commons": "File:Totentanz Luebeck.jpg",
+  "licenza": "Public domain",
+  "autore_credito": "Bernt Notke (copy, 1701, by Anton Wortmann)",
+  "danza_raffigurata": "La Morte conduce per mano una fila continua di figure di ogni condizione, dal papa al contadino, alternandosi a ciascuna nel passo. La fotografia anteriore alla distruzione conserva l'intero fregio della copia settecentesca.",
+  "fonti_correlate": [
+   "f10",
+   "f59"
+  ],
+  "termini_correlati": [
+   "danza macabra",
+   "danza in catena"
+  ],
+  "immagine": "danza-macabra-di-lubecca-bernt-notke.webp",
+  "alt": "La Morte conduce per mano una fila continua di figure di ogni condizione, dal papa al contadino, alternandosi a ciascuna nel passo. La fotografia ante"
+ },
+ {
+  "id": "i010",
+  "slug": "danza-macabra-dell-abbazia-di-la-chaise-dieu-primo-pannello",
+  "titolo": "Danza macabra dell'abbazia di La Chaise-Dieu, primo pannello",
+  "autore": "Anonimo",
+  "anno": "1470 circa",
+  "anno_ord": 1470,
+  "tecnica": "affresco",
+  "istituzione": "Abbazia di Saint-Robert, La Chaise-Dieu",
+  "url_opera": "https://commons.wikimedia.org/wiki/File:La_Chaise-Dieu_-_La_danse_macabre_Panneau_1.jpg",
+  "file_commons": "File:La Chaise-Dieu - La danse macabre Panneau 1.jpg",
+  "licenza": "CC0",
+  "autore_credito": "Rvalette",
+  "danza_raffigurata": "A ciascun vivente, ordinato per grado, si affianca un morto che ne imita il passo e lo trascina nel giro lungo la parete. Il primo pannello apre la serie con papa, imperatore, cardinale e re.",
+  "fonti_correlate": [
+   "f10",
+   "f59"
+  ],
+  "termini_correlati": [
+   "danza macabra",
+   "danza in catena"
+  ],
+  "immagine": "danza-macabra-dell-abbazia-di-la-chaise-dieu-primo-pannello.webp",
+  "alt": "A ciascun vivente, ordinato per grado, si affianca un morto che ne imita il passo e lo trascina nel giro lungo la parete. Il primo pannello apre la se"
+ },
+ {
+  "id": "i008",
+  "slug": "il-ballo-degli-ardenti-anonimo-miniatore-delle-chroniques-di-froissart",
+  "titolo": "Il ballo degli ardenti",
+  "autore": "Anonimo, miniatore delle Chroniques di Froissart",
+  "anno": "1475 circa",
+  "anno_ord": 1475,
+  "tecnica": "miniatura su pergamena",
+  "istituzione": "Bibliothèque nationale de France, Parigi, ms. Français 2646, f. 245v",
+  "url_opera": "https://commons.wikimedia.org/wiki/File:Le_Bal_des_Ardents_(1393).jpg",
+  "file_commons": "File:Le Bal des Ardents (1393).jpg",
+  "licenza": "Public domain",
+  "autore_credito": "Unknown author Unknown author",
+  "danza_raffigurata": "La miniatura ritrae il ballo mascherato del 1393 alla corte di Carlo VI, quando i costumi di lino e pece dei danzatori presero fuoco. La scena documenta la mascherata di corte tardomedievale e i suoi travestimenti da uomini selvatici.",
+  "fonti_correlate": [
+   "f59",
+   "f41"
+  ],
+  "termini_correlati": [
+   "mascherata",
+   "momerie"
+  ],
+  "immagine": "il-ballo-degli-ardenti-anonimo-miniatore-delle-chroniques-di-froissart.webp",
+  "alt": "La miniatura ritrae il ballo mascherato del 1393 alla corte di Carlo VI, quando i costumi di lino e pece dei danzatori presero fuoco. La scena documen"
+ },
+ {
+  "id": "i011",
+  "slug": "trionfo-della-morte-e-danza-macabra-giacomo-borlone-de-buschis-attribu",
+  "titolo": "Trionfo della Morte e Danza macabra",
+  "autore": "Giacomo Borlone de Buschis (attribuito)",
+  "anno": "1485 circa",
+  "anno_ord": 1485,
+  "tecnica": "affresco",
+  "istituzione": "Oratorio dei Disciplini, Clusone",
+  "url_opera": "https://commons.wikimedia.org/wiki/File:Oratorio_dei_Disciplini-_Il_trionfo_della_morte_e_la_danza_macabra.jpg",
+  "file_commons": "File:Oratorio dei Disciplini- Il trionfo della morte e la danza macabra.jpg",
+  "licenza": "CC BY-SA 4.0",
+  "autore_credito": "Nazasca",
+  "danza_raffigurata": "Nella fascia inferiore della facciata i morti prendono per mano vivi di ogni condizione e li conducono in fila verso destra. La composizione unisce il Trionfo della Morte nel registro superiore alla danza macabra in quello inferiore.",
+  "fonti_correlate": [
+   "f10",
+   "f59"
+  ],
+  "termini_correlati": [
+   "danza macabra",
+   "danza in catena"
+  ],
+  "immagine": "trionfo-della-morte-e-danza-macabra-giacomo-borlone-de-buschis-attribu.webp",
+  "alt": "Nella fascia inferiore della facciata i morti prendono per mano vivi di ogni condizione e li conducono in fila verso destra. La composizione unisce il"
+ },
+ {
+  "id": "i013",
+  "slug": "le-tre-grazie-particolare-della-primavera",
+  "titolo": "Le tre Grazie, particolare della Primavera",
+  "autore": "Sandro Botticelli",
+  "anno": "1485-1487 circa",
+  "anno_ord": 1485,
+  "tecnica": "tempera su tavola",
+  "istituzione": "Galleria degli Uffizi, Firenze",
+  "url_opera": "https://commons.wikimedia.org/wiki/File:Sandro_Botticelli_-_Three_Graces_in_Primavera.jpg",
+  "file_commons": "File:Sandro Botticelli - Three Graces in Primavera.jpg",
+  "licenza": "Public domain",
+  "autore_credito": "Sandro Botticelli",
+  "danza_raffigurata": "Le tre Grazie si tengono per mano in un giro chiuso, con le braccia intrecciate sopra il capo e il peso portato su un piede solo. Il gruppo traduce in pittura il passo misurato e sospeso della danza di corte toscana.",
+  "fonti_correlate": [
+   "f01",
+   "f02"
+  ],
+  "termini_correlati": [
+   "ballo tondo",
+   "bassa danza"
+  ],
+  "immagine": "le-tre-grazie-particolare-della-primavera.webp",
+  "alt": "Le tre Grazie si tengono per mano in un giro chiuso, con le braccia intrecciate sopra il capo e il peso portato su un piede solo. Il gruppo traduce in"
+ },
+ {
+  "id": "i007",
+  "slug": "la-carola-nel-giardino-roman-de-la-rose",
+  "titolo": "La carola nel giardino, Roman de la Rose",
+  "autore": "Maestro dei Libri di preghiere del 1500 circa",
+  "anno": "1490-1500 circa",
+  "anno_ord": 1490,
+  "tecnica": "miniatura su pergamena",
+  "istituzione": "British Library, Londra, Harley MS 4425, f. 14v",
+  "url_opera": "https://commons.wikimedia.org/wiki/File:The_Carolle_in_the_Garden_-_Roman_de_la_Rose_(c.1490-1500),_f.14v_-_BL_Harley_MS_4425.jpg",
+  "file_commons": "File:The Carolle in the Garden - Roman de la Rose (c.1490-1500), f.14v - BL Harley MS 4425.jpg",
+  "licenza": "CC0",
+  "autore_credito": "Master of the Prayer Books of around 1500",
+  "danza_raffigurata": "L'Amante viene invitato a entrare nella carola condotta da Deduit e Leesse, mentre le coppie si tengono per mano in un giro aperto e una musicista accompagna il movimento. È la rappresentazione più diffusa della carola medievale.",
+  "fonti_correlate": [
+   "f59",
+   "f33"
+  ],
+  "termini_correlati": [
+   "carola",
+   "danza in cerchio"
+  ],
+  "immagine": "la-carola-nel-giardino-roman-de-la-rose.webp",
+  "alt": "L'Amante viene invitato a entrare nella carola condotta da Deduit e Leesse, mentre le coppie si tengono per mano in un giro aperto e una musicista acc"
+ },
+ {
+  "id": "i014",
+  "slug": "il-parnaso-andrea-mantegna",
+  "titolo": "Il Parnaso",
+  "autore": "Andrea Mantegna",
+  "anno": "1496-1497",
+  "anno_ord": 1496,
+  "tecnica": "tempera su tela",
+  "istituzione": "Musée du Louvre, Parigi",
+  "url_opera": "https://commons.wikimedia.org/wiki/File:La_Parnasse,_by_Andrea_Mantegna,_from_C2RMF_retouched.jpg",
+  "file_commons": "File:La Parnasse, by Andrea Mantegna, from C2RMF retouched.jpg",
+  "licenza": "Public domain",
+  "autore_credito": "Andrea Mantegna",
+  "danza_raffigurata": "Nove Muse danzano in fila serpeggiante ai piedi del monte, ciascuna colta in una posizione diversa del passo, mentre Apollo accompagna con la lira. Il dipinto fu eseguito per lo studiolo di Isabella d'Este a Mantova.",
+  "fonti_correlate": [
+   "f01",
+   "f02",
+   "f41"
+  ],
+  "termini_correlati": [
+   "ballo tondo",
+   "bassa danza"
+  ],
+  "immagine": "il-parnaso-andrea-mantegna.webp",
+  "alt": "Nove Muse danzano in fila serpeggiante ai piedi del monte, ciascuna colta in una posizione diversa del passo, mentre Apollo accompagna con la lira. Il"
+ },
+ {
+  "id": "i016",
+  "slug": "la-danza-nuziale-all-aperto-pieter-bruegel-il-vecchio",
+  "titolo": "La danza nuziale all'aperto",
+  "autore": "Pieter Bruegel il Vecchio",
+  "anno": "1566",
+  "anno_ord": 1566,
+  "tecnica": "olio su tavola",
+  "istituzione": "Detroit Institute of Arts, Detroit",
+  "url_opera": "https://commons.wikimedia.org/wiki/File:Pieter_Bruegel_the_Elder_-_The_Wedding_Dance_-_30.374_-_Detroit_Institute_of_Arts.jpg",
+  "file_commons": "File:Pieter Bruegel the Elder - The Wedding Dance - 30.374 - Detroit Institute of Arts.jpg",
+  "licenza": "Public domain",
+  "autore_credito": "Pieter Brueghel the Elder",
+  "danza_raffigurata": "Decine di coppie danzano su un prato, alcune in fila e altre isolate, al suono di due cornamuse, mentre la sposa siede sotto il drappo appeso. Il quadro documenta la danza di nozze contadina fiamminga del Cinquecento.",
+  "fonti_correlate": [
+   "f05",
+   "f03"
+  ],
+  "termini_correlati": [
+   "branle",
+   "danza villereccia"
+  ],
+  "immagine": "la-danza-nuziale-all-aperto-pieter-bruegel-il-vecchio.webp",
+  "alt": "Decine di coppie danzano su un prato, alcune in fila e altre isolate, al suono di due cornamuse, mentre la sposa siede sotto il drappo appeso. Il quad"
+ },
+ {
+  "id": "i015",
+  "slug": "la-danza-dei-contadini-pieter-bruegel-il-vecchio",
+  "titolo": "La danza dei contadini",
+  "autore": "Pieter Bruegel il Vecchio",
+  "anno": "1568 circa",
+  "anno_ord": 1568,
+  "tecnica": "olio su tavola",
+  "istituzione": "Kunsthistorisches Museum, Vienna",
+  "url_opera": "https://commons.wikimedia.org/wiki/File:Pieter_Bruegel_The_Peasant_Dance.jpg",
+  "file_commons": "File:Pieter Bruegel The Peasant Dance.jpg",
+  "licenza": "Public domain",
+  "autore_credito": "Pieter_Bruegel_d._Ä._014.jpg : File Upload Bot (Eloquence) derivative work: Wikielwikingo ( talk )",
+  "danza_raffigurata": "Una coppia entra di corsa nella piazza del villaggio mentre altre danzano al suono della cornamusa davanti all'osteria. Bruegel registra il passo saltato e la presa a due mani della danza popolare fiamminga.",
+  "fonti_correlate": [
+   "f05",
+   "f03"
+  ],
+  "termini_correlati": [
+   "branle",
+   "danza villereccia"
+  ],
+  "immagine": "la-danza-dei-contadini-pieter-bruegel-il-vecchio.webp",
+  "alt": "Una coppia entra di corsa nella piazza del villaggio mentre altre danzano al suono della cornamusa davanti all'osteria. Bruegel registra il passo salt"
+ },
+ {
+  "id": "i017",
+  "slug": "figure-de-la-salle-dal-balet-comique-de-la-royne",
+  "titolo": "Figure de la Salle, dal Balet comique de la Royne",
+  "autore": "Jacques Patin",
+  "anno": "1582",
+  "anno_ord": 1582,
+  "tecnica": "incisione",
+  "istituzione": "British Library, Londra",
+  "url_opera": "https://commons.wikimedia.org/wiki/File:Balet_Comique_de_la_Royne_1582_%22Figure_de_la_Salle%22_from_a_copy_at_the_British_Library_-_McGowan_1982.jpg",
+  "file_commons": "File:Balet Comique de la Royne 1582 \"Figure de la Salle\" from a copy at the British Library - McGowan 1982.jpg",
+  "licenza": "Public domain",
+  "autore_credito": "Jacques Patin",
+  "danza_raffigurata": "L'incisione mostra la sala del Petit-Bourbon durante la rappresentazione del 1581, con i danzatori disposti in figure geometriche al centro e la corte sui palchi laterali. È la più antica testimonianza figurata del ballet de cour francese.",
+  "fonti_correlate": [
+   "f04",
+   "f05",
+   "f41"
+  ],
+  "termini_correlati": [
+   "ballet de cour",
+   "ballo figurato"
+  ],
+  "immagine": "figure-de-la-salle-dal-balet-comique-de-la-royne.webp",
+  "alt": "L'incisione mostra la sala del Petit-Bourbon durante la rappresentazione del 1581, con i danzatori disposti in figure geometriche al centro e la corte"
+ },
+ {
+  "id": "i018",
+  "slug": "cucorongna-e-pernoualla-dai-balli-di-sfessania",
+  "titolo": "Cucorongna e Pernoualla, dai Balli di Sfessania",
+  "autore": "Jacques Callot",
+  "anno": "1622 circa",
+  "anno_ord": 1622,
+  "tecnica": "acquaforte",
+  "istituzione": "Metropolitan Museum of Art, New York",
+  "url_opera": "https://commons.wikimedia.org/wiki/File:Cucorongna_-_Pernoualla,_from_the_Balli_di_Sfessania_MET_DP846870.jpg",
+  "file_commons": "File:Cucorongna - Pernoualla, from the Balli di Sfessania MET DP846870.jpg",
+  "licenza": "CC0",
+  "autore_credito": "Jacques Callot",
+  "danza_raffigurata": "Due maschere danzano in primo piano con le gambe divaricate e le braccia tese, mentre sullo sfondo si svolge una festa all'aperto. La serie fissa i passi acrobatici dei balli buffoneschi legati alla commedia dell'arte.",
+  "fonti_correlate": [
+   "f07",
+   "f09",
+   "f06"
+  ],
+  "termini_correlati": [
+   "moresca",
+   "ballo buffonesco"
+  ],
+  "immagine": "cucorongna-e-pernoualla-dai-balli-di-sfessania.webp",
+  "alt": "Due maschere danzano in primo piano con le gambe divaricate e le braccia tese, mentre sullo sfondo si svolge una festa all'aperto. La serie fissa i pa"
+ },
+ {
+  "id": "i019",
+  "slug": "danza-della-vita-umana-nicolas-poussin",
+  "titolo": "Danza della vita umana",
+  "autore": "Nicolas Poussin",
+  "anno": "1634-1636",
+  "anno_ord": 1634,
+  "tecnica": "olio su tela",
+  "istituzione": "The Wallace Collection, Londra",
+  "url_opera": "https://commons.wikimedia.org/wiki/File:The_dance_to_the_music_of_time_c._1640.jpg",
+  "file_commons": "File:The dance to the music of time c. 1640.jpg",
+  "licenza": "Public domain",
+  "autore_credito": "Nicolas Poussin",
+  "danza_raffigurata": "Quattro figure allegoriche, Povertà, Fatica, Ricchezza e Piacere, si tengono per mano in un giro chiuso mentre il Tempo suona la lira. Il ballo tondo diventa immagine del ciclo delle condizioni umane.",
+  "fonti_correlate": [
+   "f41"
+  ],
+  "termini_correlati": [
+   "ballo tondo",
+   "ballo figurato"
+  ],
+  "immagine": "danza-della-vita-umana-nicolas-poussin.webp",
+  "alt": "Quattro figure allegoriche, Povertà, Fatica, Ricchezza e Piacere, si tengono per mano in un giro chiuso mentre il Tempo suona la lira. Il ballo tondo "
+ },
+ {
+  "id": "i020",
+  "slug": "i-piaceri-del-ballo-antoine-watteau",
+  "titolo": "I piaceri del ballo",
+  "autore": "Antoine Watteau",
+  "anno": "1715-1717 circa",
+  "anno_ord": 1715,
+  "tecnica": "olio su tela",
+  "istituzione": "Dulwich Picture Gallery, Londra",
+  "url_opera": "https://commons.wikimedia.org/wiki/File:Watteau,_Jean-Antoine_-_Les_Plaisirs_du_Bal_-_Google_Art_Project.jpg",
+  "file_commons": "File:Watteau, Jean-Antoine - Les Plaisirs du Bal - Google Art Project.jpg",
+  "licenza": "Public domain",
+  "autore_credito": "Watteau, Jean-Antoine (1684 - 1721) , Artist Details on Google Art Project",
+  "danza_raffigurata": "Sotto un portico una coppia danza isolata al centro davanti agli invitati seduti, il cavaliere in atto di riverenza e la dama in passo di menuet. La scena mostra il ballo di società francese nel momento della danza a due.",
+  "fonti_correlate": [
+   "f12",
+   "f26",
+   "f24"
+  ],
+  "termini_correlati": [
+   "menuet",
+   "ballo nobile",
+   "riverenza"
+  ],
+  "immagine": "i-piaceri-del-ballo-antoine-watteau.webp",
+  "alt": "Sotto un portico una coppia danza isolata al centro davanti agli invitati seduti, il cavaliere in atto di riverenza e la dama in passo di menuet. La s"
+ },
+ {
+  "id": "i021",
+  "slug": "la-camargo-che-danza-nicolas-lancret",
+  "titolo": "La Camargo che danza",
+  "autore": "Nicolas Lancret",
+  "anno": "1730 circa",
+  "anno_ord": 1730,
+  "tecnica": "olio su tela",
+  "istituzione": "National Gallery of Art, Washington",
+  "url_opera": "https://commons.wikimedia.org/wiki/File:Nicolas_Lancret,_La_Camargo_Dancing,_c._1730,_NGA_96.jpg",
+  "file_commons": "File:Nicolas Lancret, La Camargo Dancing, c. 1730, NGA 96.jpg",
+  "licenza": "CC0",
+  "autore_credito": "Nicolas Lancret",
+  "danza_raffigurata": "Marie-Anne de Cupis de Camargo danza all'aperto davanti a due musicisti, con la gonna accorciata che lascia vedere i piedi e la caviglia. Il ritratto documenta la riforma del costume che rese visibili i passi battuti della danzatrice.",
+  "fonti_correlate": [
+   "f23",
+   "f26",
+   "f29"
+  ],
+  "termini_correlati": [
+   "entrechat",
+   "jeté",
+   "danza teatrale"
+  ],
+  "immagine": "la-camargo-che-danza-nicolas-lancret.webp",
+  "alt": "Marie-Anne de Cupis de Camargo danza all'aperto davanti a due musicisti, con la gonna accorciata che lascia vedere i piedi e la caviglia. Il ritratto "
+ },
+ {
+  "id": "i022",
+  "slug": "la-lezione-di-ballo-pietro-longhi",
+  "titolo": "La lezione di ballo",
+  "autore": "Pietro Longhi",
+  "anno": "1741 circa",
+  "anno_ord": 1741,
+  "tecnica": "olio su tela",
+  "istituzione": "Gallerie dell'Accademia, Venezia",
+  "url_opera": "https://commons.wikimedia.org/wiki/File:Ballando_lesson_by_Pietro_Longhi.jpg",
+  "file_commons": "File:Ballando lesson by Pietro Longhi.jpg",
+  "licenza": "Public domain",
+  "autore_credito": "Pietro Longhi",
+  "danza_raffigurata": "Un maestro di ballo accompagna con il violino la posizione di una giovane dama, che gli porge la mano mentre esegue un passo su indicazione. Il dipinto registra la lezione privata di danza nelle case patrizie veneziane.",
+  "fonti_correlate": [
+   "f27",
+   "f31",
+   "f30"
+  ],
+  "termini_correlati": [
+   "menuet",
+   "ballo nobile",
+   "maestro di ballo"
+  ],
+  "immagine": "la-lezione-di-ballo-pietro-longhi.webp",
+  "alt": "Un maestro di ballo accompagna con il violino la posizione di una giovane dama, che gli porge la mano mentre esegue un passo su indicazione. Il dipint"
+ },
+ {
+  "id": "i023",
+  "slug": "the-analysis-of-beauty-tavola-ii-una-country-dance",
+  "titolo": "The Analysis of Beauty, tavola II, una country dance",
+  "autore": "William Hogarth",
+  "anno": "1753",
+  "anno_ord": 1753,
+  "tecnica": "incisione",
+  "istituzione": "Yale Center for British Art, New Haven",
+  "url_opera": "https://commons.wikimedia.org/wiki/File:William_Hogarth_-_Analysis_of_Beauty,_Plate_II,_A_Country_Dance_-_B1981.25.1445_-_Yale_Center_for_British_Art.jpg",
+  "file_commons": "File:William Hogarth - Analysis of Beauty, Plate II, A Country Dance - B1981.25.1445 - Yale Center for British Art.jpg",
+  "licenza": "CC0",
+  "autore_credito": "William Hogarth",
+  "danza_raffigurata": "Nel riquadro centrale una fila di coppie esegue una country dance in una sala da ballo, ordinate dalla figura più aggraziata alla più goffa. Hogarth impiega la scena per dimostrare la linea serpentinata della grazia.",
+  "fonti_correlate": [
+   "f32",
+   "f11",
+   "f28"
+  ],
+  "termini_correlati": [
+   "country dance",
+   "contredanse",
+   "linea serpentinata"
+  ],
+  "immagine": "the-analysis-of-beauty-tavola-ii-una-country-dance.webp",
+  "alt": "Nel riquadro centrale una fila di coppie esegue una country dance in una sala da ballo, ordinate dalla figura più aggraziata alla più goffa. Hogarth i"
+ },
+ {
+  "id": "i025",
+  "slug": "il-ballo-di-gala-antoine-jean-duclos-da-augustin-de-saint-aubin",
+  "titolo": "Il ballo di gala",
+  "autore": "Antoine-Jean Duclos, da Augustin de Saint-Aubin",
+  "anno": "1774",
+  "anno_ord": 1774,
+  "tecnica": "incisione",
+  "istituzione": "Metropolitan Museum of Art, New York",
+  "url_opera": "https://commons.wikimedia.org/wiki/File:Le_Bal_Par%C3%A9_MET_DP119361.jpg",
+  "file_commons": "File:Le Bal Paré MET DP119361.jpg",
+  "licenza": "CC0",
+  "autore_credito": "Augustin de Saint-Aubin / Antoine-Jean Duclos",
+  "danza_raffigurata": "In una sala illuminata a candele due coppie danzano al centro davanti all'orchestra collocata su un palco, mentre gli invitati fanno cerchio lungo le pareti. La stampa documenta la disposizione del ballo di società parigino alla vigilia della Rivoluzione.",
+  "fonti_correlate": [
+   "f35",
+   "f31",
+   "f37"
+  ],
+  "termini_correlati": [
+   "contredanse",
+   "menuet",
+   "ballo di società"
+  ],
+  "immagine": "il-ballo-di-gala-antoine-jean-duclos-da-augustin-de-saint-aubin.webp",
+  "alt": "In una sala illuminata a candele due coppie danzano al centro davanti all'orchestra collocata su un palco, mentre gli invitati fanno cerchio lungo le "
+ },
+ {
+  "id": "i026",
+  "slug": "il-ballo-sulle-rive-del-manzanarre-francisco-goya",
+  "titolo": "Il ballo sulle rive del Manzanarre",
+  "autore": "Francisco Goya",
+  "anno": "1777",
+  "anno_ord": 1777,
+  "tecnica": "olio su tela",
+  "istituzione": "Museo Nacional del Prado, Madrid",
+  "url_opera": "https://commons.wikimedia.org/wiki/File:El_baile_a_orillas_del_Manzanares.jpg",
+  "file_commons": "File:El baile a orillas del Manzanares.jpg",
+  "licenza": "Public domain",
+  "autore_credito": "Francisco Goya",
+  "danza_raffigurata": "Majos e majas danzano una seguidilla all'aperto sulla riva del fiume, con le braccia alzate e le nacchere, accompagnati dalla chitarra. Il cartone per arazzo registra la danza popolare madrilena entrata nella moda cittadina.",
+  "fonti_correlate": [
+   "f30",
+   "f08"
+  ],
+  "termini_correlati": [
+   "seguidilla",
+   "fandango",
+   "nacchere"
+  ],
+  "immagine": "il-ballo-sulle-rive-del-manzanarre-francisco-goya.webp",
+  "alt": "Majos e majas danzano una seguidilla all'aperto sulla riva del fiume, con le braccia alzate e le nacchere, accompagnati dalla chitarra. Il cartone per"
+ },
+ {
+  "id": "i024",
+  "slug": "il-minuetto-in-villa-giandomenico-tiepolo",
+  "titolo": "Il minuetto in villa",
+  "autore": "Giandomenico Tiepolo",
+  "anno": "1791 circa",
+  "anno_ord": 1791,
+  "tecnica": "affresco staccato",
+  "istituzione": "Ca' Rezzonico, Venezia",
+  "url_opera": "https://commons.wikimedia.org/wiki/File:Giandomenico_tiepolo,_affreschi_da_villa_di_zianigo,_1759-1797,_portego_del_mondo_nuovo,_minuetto_in_villa_02.jpg",
+  "file_commons": "File:Giandomenico tiepolo, affreschi da villa di zianigo, 1759-1797, portego del mondo nuovo, minuetto in villa 02.jpg",
+  "licenza": "CC BY 3.0",
+  "autore_credito": "Sailko",
+  "danza_raffigurata": "Due maschere danzano un minuetto all'aperto davanti a un gruppo di spettatori in bautta, con il gesto delle braccia sostenuto e i piedi in posizione aperta. L'affresco proviene dal portego della villa di famiglia a Zianigo.",
+  "fonti_correlate": [
+   "f27",
+   "f40",
+   "f31"
+  ],
+  "termini_correlati": [
+   "menuet",
+   "ballo in maschera",
+   "ballo nobile"
+  ],
+  "immagine": "il-minuetto-in-villa-giandomenico-tiepolo.webp",
+  "alt": "Due maschere danzano un minuetto all'aperto davanti a un gruppo di spettatori in bautta, con il gesto delle braccia sostenuto e i piedi in posizione a"
+ },
+ {
+  "id": "i027",
+  "slug": "marie-taglioni-nel-ruolo-della-sylphide-achille-deveria-e-henri-greved",
+  "titolo": "Marie Taglioni nel ruolo della Sylphide",
+  "autore": "Achille Devéria e Henri Grévedon, da Jean-Auguste Barre",
+  "anno": "1832 circa",
+  "anno_ord": 1832,
+  "tecnica": "litografia",
+  "istituzione": "Musée Carnavalet, Parigi",
+  "url_opera": "https://commons.wikimedia.org/wiki/File:Marie_Taglioni_(1804-1884),_danseuse,_dans_le_r%C3%B4le-titre_La_Sylphide,_G.12260.jpg",
+  "file_commons": "File:Marie Taglioni (1804-1884), danseuse, dans le rôle-titre La Sylphide, G.12260.jpg",
+  "licenza": "CC0",
+  "autore_credito": "Devéria, Achille (Paris, 06,02,1800 - Paris, 23,12,1857), dessinateur",
+  "danza_raffigurata": "La ballerina è raffigurata di fronte, a figura intera, sospesa sulla punta con le ali di silfide e le braccia in linea morbida. La stampa fissa l'immagine del ballet blanc romantico creato all'Opéra di Parigi nel 1832.",
+  "fonti_correlate": [
+   "f44",
+   "f46",
+   "f47"
+  ],
+  "termini_correlati": [
+   "pointe",
+   "ballet blanc",
+   "arabesque"
+  ],
+  "immagine": "marie-taglioni-nel-ruolo-della-sylphide-achille-deveria-e-henri-greved.webp",
+  "alt": "La ballerina è raffigurata di fronte, a figura intera, sospesa sulla punta con le ali di silfide e le braccia in linea morbida. La stampa fissa l'imma"
+ },
+ {
+  "id": "i028",
+  "slug": "fanny-elssler-nella-cachucha-anonimo",
+  "titolo": "Fanny Elssler nella cachucha",
+  "autore": "Anonimo",
+  "anno": "1840",
+  "anno_ord": 1840,
+  "tecnica": "litografia",
+  "istituzione": "New York Public Library, New York",
+  "url_opera": "https://commons.wikimedia.org/wiki/File:Fanny_Elssler_in_the_character_of_La_cachucha_(NYPL_b12149239-5185745).jpg",
+  "file_commons": "File:Fanny Elssler in the character of La cachucha (NYPL b12149239-5185745).jpg",
+  "licenza": "Public domain",
+  "autore_credito": "Scan by NYPL",
+  "danza_raffigurata": "La ballerina è colta a figura intera con la gamba destra tesa di lato, le braccia sollevate e le nacchere nelle mani. La cachucha, danza spagnola inserita nel Diable boiteux del 1836, fu il pezzo di repertorio di Fanny Elssler.",
+  "fonti_correlate": [
+   "f46",
+   "f47",
+   "f58"
+  ],
+  "termini_correlati": [
+   "cachucha",
+   "nacchere",
+   "danza di carattere"
+  ],
+  "immagine": "fanny-elssler-nella-cachucha-anonimo.webp",
+  "alt": "La ballerina è colta a figura intera con la gamba destra tesa di lato, le braccia sollevate e le nacchere nelle mani. La cachucha, danza spagnola inse"
+ },
+ {
+  "id": "i029",
+  "slug": "il-celebre-pas-de-quatre-di-jules-perrot",
+  "titolo": "Il celebre Pas de Quatre di Jules Perrot",
+  "autore": "Thomas Herbert Maguire, da Alfred Edward Chalon",
+  "anno": "1845",
+  "anno_ord": 1845,
+  "tecnica": "litografia",
+  "istituzione": "Bibliothèque nationale de France, Parigi",
+  "url_opera": "https://commons.wikimedia.org/wiki/File:The_celebrated_pas_de_quatre_composed_by_Jules_Perrot,_as_danced_at_Her_Majesty%27s_Theatre_July_12th_1845,_by_the_four_eminent_danseuses_Carlotta_Grisi,_Marie_Taglioni,_Lucile_Grahn_%26_Fanny_Cerrito_-_drawn_from_the..._-_btv1b8426470h.jpg",
+  "file_commons": "File:The celebrated pas de quatre composed by Jules Perrot, as danced at Her Majesty's Theatre July 12th 1845, by the four eminent danseuses Carlotta Grisi, Marie Taglioni, Lucile Grahn & Fanny Cerrito - drawn from the... - btv1b8426470h.jpg",
+  "licenza": "Public domain",
+  "autore_credito": "Maquire, T. (18..-18.. ; lithographe). Lithographe Chalon, Alfred Edward (1780-1860). Peintre du modèle",
+  "danza_raffigurata": "Carlotta Grisi, Marie Taglioni, Lucile Grahn e Fanny Cerrito sono disposte in gruppo simmetrico, tre sulla punta e una al centro in attitude. La stampa documenta il pas de quatre creato da Jules Perrot al Her Majesty's Theatre il 12 luglio 1845.",
+  "fonti_correlate": [
+   "f46",
+   "f58",
+   "f49"
+  ],
+  "termini_correlati": [
+   "pas de quatre",
+   "attitude",
+   "pointe"
+  ],
+  "immagine": "il-celebre-pas-de-quatre-di-jules-perrot.webp",
+  "alt": "Carlotta Grisi, Marie Taglioni, Lucile Grahn e Fanny Cerrito sono disposte in gruppo simmetrico, tre sulla punta e una al centro in attitude. La stamp"
+ },
+ {
+  "id": "i030",
+  "slug": "la-classe-di-danza-edgar-degas",
+  "titolo": "La classe di danza",
+  "autore": "Edgar Degas",
+  "anno": "1875",
+  "anno_ord": 1875,
+  "tecnica": "olio su tela",
+  "istituzione": "Musée d'Orsay, Parigi",
+  "url_opera": "https://commons.wikimedia.org/wiki/File:Edgar_Degas_-_La_Classe_de_danse.jpg",
+  "file_commons": "File:Edgar Degas - La Classe de danse.jpg",
+  "licenza": "Public domain",
+  "autore_credito": "Edgar Degas",
+  "danza_raffigurata": "Nella sala di prova dell'Opéra le allieve attendono il proprio turno mentre il maestro regge il bastone al centro della stanza. Degas registra la lezione quotidiana e le posizioni di riposo più dei passi eseguiti.",
+  "fonti_correlate": [
+   "f51",
+   "f49",
+   "f54"
+  ],
+  "termini_correlati": [
+   "classe",
+   "barre",
+   "posizioni"
+  ],
+  "immagine": "la-classe-di-danza-edgar-degas.webp",
+  "alt": "Nella sala di prova dell'Opéra le allieve attendono il proprio turno mentre il maestro regge il bastone al centro della stanza. Degas registra la lezi"
+ },
+ {
+  "id": "i031",
+  "slug": "l-etoile-danzatrice-sulla-scena-edgar-degas",
+  "titolo": "L'étoile, danzatrice sulla scena",
+  "autore": "Edgar Degas",
+  "anno": "1876-1877 circa",
+  "anno_ord": 1876,
+  "tecnica": "pastello su monotipo",
+  "istituzione": "Musée d'Orsay, Parigi",
+  "url_opera": "https://commons.wikimedia.org/wiki/File:Edgar_Degas_-_Ballet_(L%27%C3%89toile).jpg",
+  "file_commons": "File:Edgar Degas - Ballet (L'Étoile).jpg",
+  "licenza": "Public domain",
+  "autore_credito": "Edgar Degas",
+  "danza_raffigurata": "La ballerina è vista dall'alto mentre chiude una diagonale in arabesque, il braccio sinistro aperto e la testa reclinata all'indietro. Dietro di lei restano le gambe delle colleghe e una figura maschile in nero dietro la quinta.",
+  "fonti_correlate": [
+   "f51",
+   "f54",
+   "f49"
+  ],
+  "termini_correlati": [
+   "arabesque",
+   "pointe",
+   "assolo"
+  ],
+  "immagine": "l-etoile-danzatrice-sulla-scena-edgar-degas.webp",
+  "alt": "La ballerina è vista dall'alto mentre chiude una diagonale in arabesque, il braccio sinistro aperto e la testa reclinata all'indietro. Dietro di lei r"
+ },
+ {
+  "id": "i032",
+  "slug": "ballo-al-moulin-de-la-galette-pierre-auguste-renoir",
+  "titolo": "Ballo al Moulin de la Galette",
+  "autore": "Pierre-Auguste Renoir",
+  "anno": "1876",
+  "anno_ord": 1876,
+  "tecnica": "olio su tela",
+  "istituzione": "Musée d'Orsay, Parigi",
+  "url_opera": "https://commons.wikimedia.org/wiki/File:Pierre-Auguste_Renoir_-_Bal_du_moulin_de_la_Galette.jpeg",
+  "file_commons": "File:Pierre-Auguste Renoir - Bal du moulin de la Galette.jpeg",
+  "licenza": "Public domain",
+  "autore_credito": "Pierre-Auguste Renoir",
+  "danza_raffigurata": "Sotto gli alberi di Montmartre alcune coppie danzano al centro del giardino mentre gli altri avventori restano ai tavoli. Renoir ritrae il ballo pubblico domenicale, con la presa chiusa della danza a coppie ottocentesca.",
+  "fonti_correlate": [
+   "f48",
+   "f60",
+   "f55"
+  ],
+  "termini_correlati": [
+   "valzer",
+   "polka",
+   "ballo pubblico"
+  ],
+  "immagine": "ballo-al-moulin-de-la-galette-pierre-auguste-renoir.webp",
+  "alt": "Sotto gli alberi di Montmartre alcune coppie danzano al centro del giardino mentre gli altri avventori restano ai tavoli. Renoir ritrae il ballo pubbl"
+ },
+ {
+  "id": "i033",
+  "slug": "danza-a-bougival-pierre-auguste-renoir",
+  "titolo": "Danza a Bougival",
+  "autore": "Pierre-Auguste Renoir",
+  "anno": "1883",
+  "anno_ord": 1883,
+  "tecnica": "olio su tela",
+  "istituzione": "Museum of Fine Arts, Boston",
+  "url_opera": "https://commons.wikimedia.org/wiki/File:Pierre-Auguste_Renoir_-_Suzanne_Valadon_-_Dance_at_Bougival.jpg",
+  "file_commons": "File:Pierre-Auguste Renoir - Suzanne Valadon - Dance at Bougival.jpg",
+  "licenza": "Public domain",
+  "autore_credito": "Pierre-Auguste Renoir",
+  "danza_raffigurata": "Una coppia danza in presa chiusa su una terrazza all'aperto, il cavaliere che guida con il busto in avanti e la dama che volge il viso di lato. Il quadro mostra il valzer nei locali da ballo lungo la Senna.",
+  "fonti_correlate": [
+   "f48",
+   "f55",
+   "f56"
+  ],
+  "termini_correlati": [
+   "valzer",
+   "ballo pubblico"
+  ],
+  "immagine": "danza-a-bougival-pierre-auguste-renoir.webp",
+  "alt": "Una coppia danza in presa chiusa su una terrazza all'aperto, il cavaliere che guida con il busto in avanti e la dama che volge il viso di lato. Il qua"
+ },
+ {
+  "id": "i034",
+  "slug": "al-moulin-rouge-la-danza-henri-de-toulouse-lautrec",
+  "titolo": "Al Moulin Rouge, la danza",
+  "autore": "Henri de Toulouse-Lautrec",
+  "anno": "1890",
+  "anno_ord": 1890,
+  "tecnica": "olio su tela",
+  "istituzione": "Philadelphia Museum of Art, Filadelfia",
+  "url_opera": "https://commons.wikimedia.org/wiki/File:Henri_de_Toulouse-Lautrec,_French_-_At_the_Moulin_Rouge-_The_Dance_-_Google_Art_Project.jpg",
+  "file_commons": "File:Henri de Toulouse-Lautrec, French - At the Moulin Rouge- The Dance - Google Art Project.jpg",
+  "licenza": "Public domain",
+  "autore_credito": "Henri de Toulouse-Lautrec",
+  "danza_raffigurata": "Al centro della sala Valentin le Désossé guida una ballerina in un passo di chahut, con la gamba sollevata e la gonna raccolta nella mano. Il quadro documenta il quadrille naturaliste dei locali di Montmartre.",
+  "fonti_correlate": [
+   "f55",
+   "f56"
+  ],
+  "termini_correlati": [
+   "chahut",
+   "quadrille naturaliste",
+   "cancan"
+  ],
+  "immagine": "al-moulin-rouge-la-danza-henri-de-toulouse-lautrec.webp",
+  "alt": "Al centro della sala Valentin le Désossé guida una ballerina in un passo di chahut, con la gamba sollevata e la gonna raccolta nella mano. Il quadro d"
+ },
+ {
+  "id": "i035",
+  "slug": "danza-di-mezza-estate-anders-zorn",
+  "titolo": "Danza di mezza estate",
+  "autore": "Anders Zorn",
+  "anno": "1897",
+  "anno_ord": 1897,
+  "tecnica": "olio su tela",
+  "istituzione": "Nationalmuseum, Stoccolma",
+  "url_opera": "https://commons.wikimedia.org/wiki/File:Anders_Zorn_-_Midsummer_Dance_-_Google_Art_Project.jpg",
+  "file_commons": "File:Anders Zorn - Midsummer Dance - Google Art Project.jpg",
+  "licenza": "Public domain",
+  "autore_credito": "Anders Zorn",
+  "danza_raffigurata": "Nella notte chiara della Dalarna le coppie danzano davanti alle case di legno, una in primo piano stretta in presa chiusa e le altre in giro sullo sfondo. Zorn fissa la festa di mezza estate svedese e le sue danze di coppia.",
+  "fonti_correlate": [
+   "f59"
+  ],
+  "termini_correlati": [
+   "polska",
+   "danza popolare svedese"
+  ],
+  "immagine": "danza-di-mezza-estate-anders-zorn.webp",
+  "alt": "Nella notte chiara della Dalarna le coppie danzano davanti alle case di legno, una in primo piano stretta in presa chiusa e le altre in giro sullo sfo"
+ }
+]

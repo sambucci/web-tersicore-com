@@ -1,0 +1,80 @@
+name: Monthly link check
+
+# The mechanical track of this site's audit pipeline. The whole inventory is
+# institutional deep links, which is the most rot-prone category there is, so
+# this runs every month and reports. It never edits or deletes anything: every
+# finding is a proposal for a human, and the report says so in its own header.
+
+on:
+  schedule:
+    - cron: '17 4 3 * *'      # 04:17 UTC on the 3rd of each month
+  workflow_dispatch:
+    inputs:
+      controls_only:
+        description: 'Dry run: exercise the control set only, do not walk the inventory'
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: link-check
+  cancel-in-progress: false
+
+jobs:
+  check:
+    name: Check every external URL
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Control set (gate)
+        run: python tools/link_check.py --controls-only
+
+      - name: Run link check
+        if: ${{ inputs.controls_only != true }}
+        id: check
+        run: python tools/link_check.py --out audit/link-check-report.md --json audit/link-check.audit.json
+
+      - name: Upload report
+        if: ${{ inputs.controls_only != true }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: link-check-report
+          path: audit/
+          retention-days: 90
+
+      - name: Open an issue when there are actionable findings
+        if: ${{ inputs.controls_only != true && steps.check.outputs.actionable != '0' }}
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            let body = fs.readFileSync('audit/link-check-report.md', 'utf8');
+            const LIMIT = 60000;
+            if (body.length > LIMIT) {
+              body = body.slice(0, LIMIT) +
+                '\n\n---\n\n*Report truncated for the issue body. The complete report is the ' +
+                '`link-check-report` artifact on this workflow run.*\n';
+            }
+            const today = new Date().toISOString().slice(0, 10);
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `Link check ${today}: ${{ steps.check.outputs.actionable }} actionable findings`,
+              body,
+              labels: ['link-rot'],
+            });
+
+      - name: Fail the run if the control set was unreliable
+        if: ${{ inputs.controls_only != true && steps.check.outputs.controls_ok == 'false' }}
+        run: |
+          echo "::error::Control set failed, so this run's findings are not trustworthy."
+          exit 1

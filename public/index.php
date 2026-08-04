@@ -49,6 +49,11 @@ switch (true) {
     case $route === 'metodo'       && $n === 1:    require __DIR__ . '/pages/metodo.php'; break;
     case $route === 'crediti'      && $n === 1:    require __DIR__ . '/pages/crediti.php'; break;
 
+    // Style-gate variants. Temporary: removed once the direction is picked.
+    case in_array($route, ['test1', 'test2', 'test3'], true) && $n === 1:
+        require __DIR__ . '/pages/' . $route . '.php';
+        exit;
+
     default:
         $status = 404;
         require __DIR__ . '/pages/404.php';
