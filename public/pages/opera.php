@@ -7,7 +7,7 @@ $meta['title']       = $o['titolo'];
 $meta['description'] = excerpt((string)($o['danza_raffigurata'] ?? ''), 155);
 $meta['og_type']     = 'article';
 if (!empty($o['immagine']) && is_file(__DIR__ . '/../assets/img/' . basename($o['immagine']))) {
-    $meta['og_image'] = asset('assets/img/' . basename($o['immagine']));
+    $meta['og_image'] = asset('assets/img/' . basename($o['immagine']));   // 16:10 crop suits OG
 }
 $meta['schema'] = [
     '@context' => 'https://schema.org', '@type' => 'VisualArtwork',
@@ -21,8 +21,10 @@ $meta['schema'] = [
 ob_start(); ?>
 <section class="section">
   <div class="shell">
-    <?php if (!empty($o['immagine'])): ?>
-      <?= plate($o['immagine'], $o['alt'] ?? $o['titolo'], 'plate--wide', false,
+    <?php // Entry pages show the whole work: the 16:10 card crop truncates tall
+          // formats like a portrait lithograph.
+    if (!empty($o['immagine_full']) || !empty($o['immagine'])): ?>
+      <?= plate($o['immagine_full'] ?? $o['immagine'], $o['alt'] ?? $o['titolo'], 'plate--wide', false,
                 $o['titolo'] . ', ' . $o['autore']) ?>
     <?php endif; ?>
     <div class="measure">

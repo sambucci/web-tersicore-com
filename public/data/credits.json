@@ -1,1 +1,352 @@
-[]
+[
+ {
+  "file": "tomba-delle-leonesse-danzatrice-anonimo.webp",
+  "title": "Tomba delle Leonesse, danzatrice",
+  "author": "Sailko",
+  "institution": "Necropoli dei Monterozzi, Tarquinia",
+  "license": "CC BY 3.0",
+  "license_url": "https://creativecommons.org/licenses/by/3.0",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Tomba_delle_leonesse,_520_ac_ca.,_02_danzatrice.jpg",
+  "modifications": "ritagliata in formato 16:10, ridimensionata a 880px, convertita in WebP"
+ },
+ {
+  "file": "tomba-del-triclinio-danzatori-anonimo-pittore-forse-attico.webp",
+  "title": "Tomba del Triclinio, danzatori",
+  "author": "Sailko",
+  "institution": "Museo Archeologico Nazionale, Tarquinia",
+  "license": "CC BY 3.0",
+  "license_url": "https://creativecommons.org/licenses/by/3.0",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Pittore_forse_attico,_affreschi_della_tomba_del_triclinio,_500-475_ac_ca,_05_danzatori.jpg",
+  "modifications": "ritagliata in formato 16:10, ridimensionata a 880px, convertita in WebP"
+ },
+ {
+  "file": "coppa-attica-a-figure-rosse-con-menadi-danzanti.webp",
+  "title": "Coppa attica a figure rosse con menadi danzanti",
+  "author": "ArchaiOptix",
+  "institution": "Antikenmuseum Basel und Sammlung Ludwig, Basilea",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Makron_ARV_463_53_dancing_maenads.jpg",
+  "modifications": "ritagliata in formato 16:10, ridimensionata a 880px, convertita in WebP"
+ },
+ {
+  "file": "tomba-dei-leopardi-danzatori-e-musici-anonimo.webp",
+  "title": "Tomba dei Leopardi, danzatori e musici",
+  "author": "Unknown authorUnknown author",
+  "institution": "Necropoli dei Monterozzi, Tarquinia",
+  "license": "Public domain",
+  "license_url": "",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Danseurs_et_musiciens,_tombe_des_l%C3%A9opards.jpg",
+  "modifications": "ritagliata in formato 16:10, ridimensionata a 880px, convertita in WebP"
+ },
+ {
+  "file": "villa-dei-misteri-menade-danzante-anonimo.webp",
+  "title": "Villa dei Misteri, menade danzante",
+  "author": "WolfgangRieger",
+  "institution": "Villa dei Misteri, Pompei",
+  "license": "Public domain",
+  "license_url": "",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Roman_fresco_Villa_dei_Misteri_Pompeii_-_detail_with_dancing_menad_02.jpg",
+  "modifications": "ritagliata in formato 16:10, ridimensionata a 880px, convertita in WebP"
+ },
+ {
+  "file": "vaso-sosibios-menade-danzante-sosibios.webp",
+  "title": "Vaso Sosibios, menade danzante",
+  "author": "Sosibios; detail: copy after Callimachus?",
+  "institution": "Musée du Louvre, Parigi",
+  "license": "Public domain",
+  "license_url": "",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Maenad_Sosibios_vase_Louvre_Ma442.jpg",
+  "modifications": "ritagliata in formato 16:10, ridimensionata a 880px, convertita in WebP"
+ },
+ {
+  "file": "il-banchetto-di-erode-la-danza-di-salome.webp",
+  "title": "Il banchetto di Erode, la danza di Salomè",
+  "author": "Filippo Lippi",
+  "institution": "Cattedrale di Santo Stefano, Prato",
+  "license": "Public domain",
+  "license_url": "",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Filippo_Lippi_-_Le_Banquet_d%27H%C3%A9rode.jpg",
+  "modifications": "ritagliata in formato 16:10, ridimensionata a 880px, convertita in WebP"
+ },
+ {
+  "file": "danza-macabra-di-lubecca-bernt-notke.webp",
+  "title": "Danza macabra di Lubecca",
+  "author": "Bernt Notke (copy, 1701, by Anton Wortmann)",
+  "institution": "Marienkirche, Lubecca, opera distrutta nel 1942",
+  "license": "Public domain",
+  "license_url": "",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Totentanz_Luebeck.jpg",
+  "modifications": "ritagliata in formato 16:10, ridimensionata a 880px, convertita in WebP"
+ },
+ {
+  "file": "danza-macabra-dell-abbazia-di-la-chaise-dieu-primo-pannello.webp",
+  "title": "Danza macabra dell'abbazia di La Chaise-Dieu, primo pannello",
+  "author": "Rvalette",
+  "institution": "Abbazia di Saint-Robert, La Chaise-Dieu",
+  "license": "CC0",
+  "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "source_url": "https://commons.wikimedia.org/wiki/File:La_Chaise-Dieu_-_La_danse_macabre_Panneau_1.jpg",
+  "modifications": "ritagliata in formato 16:10, ridimensionata a 880px, convertita in WebP"
+ },
+ {
+  "file": "il-ballo-degli-ardenti-anonimo-miniatore-delle-chroniques-di-froissart.webp",
+  "title": "Il ballo degli ardenti",
+  "author": "Unknown authorUnknown author",
+  "institution": "Bibliothèque nationale de France, Parigi, ms. Français 2646, f. 245v",
+  "license": "Public domain",
+  "license_url": "",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Le_Bal_des_Ardents_(1393).jpg",
+  "modifications": "ritagliata in formato 16:10, ridimensionata a 880px, convertita in WebP"
+ },
+ {
+  "file": "trionfo-della-morte-e-danza-macabra-giacomo-borlone-de-buschis-attribu.webp",
+  "title": "Trionfo della Morte e Danza macabra",
+  "author": "Nazasca",
+  "institution": "Oratorio dei Disciplini, Clusone",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Oratorio_dei_Disciplini-_Il_trionfo_della_morte_e_la_danza_macabra.jpg",
+  "modifications": "ritagliata in formato 16:10, ridimensionata a 880px, convertita in WebP"
+ },
+ {
+  "file": "le-tre-grazie-particolare-della-primavera.webp",
+  "title": "Le tre Grazie, particolare della Primavera",
+  "author": "Sandro Botticelli",
+  "institution": "Galleria degli Uffizi, Firenze",
+  "license": "Public domain",
+  "license_url": "",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Sandro_Botticelli_-_Three_Graces_in_Primavera.jpg",
+  "modifications": "ritagliata in formato 16:10, ridimensionata a 880px, convertita in WebP"
+ },
+ {
+  "file": "la-carola-nel-giardino-roman-de-la-rose.webp",
+  "title": "La carola nel giardino, Roman de la Rose",
+  "author": "Master of the Prayer Books of around 1500",
+  "institution": "British Library, Londra, Harley MS 4425, f. 14v",
+  "license": "CC0",
+  "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "source_url": "https://commons.wikimedia.org/wiki/File:The_Carolle_in_the_Garden_-_Roman_de_la_Rose_(c.1490-1500),_f.14v_-_BL_Harley_MS_4425.jpg",
+  "modifications": "ritagliata in formato 16:10, ridimensionata a 880px, convertita in WebP"
+ },
+ {
+  "file": "il-parnaso-andrea-mantegna.webp",
+  "title": "Il Parnaso",
+  "author": "Andrea Mantegna",
+  "institution": "Musée du Louvre, Parigi",
+  "license": "Public domain",
+  "license_url": "",
+  "source_url": "https://commons.wikimedia.org/wiki/File:La_Parnasse,_by_Andrea_Mantegna,_from_C2RMF_retouched.jpg",
+  "modifications": "ritagliata in formato 16:10, ridimensionata a 880px, convertita in WebP"
+ },
+ {
+  "file": "la-danza-nuziale-all-aperto-pieter-bruegel-il-vecchio.webp",
+  "title": "La danza nuziale all'aperto",
+  "author": "Pieter Brueghel the Elder",
+  "institution": "Detroit Institute of Arts, Detroit",
+  "license": "Public domain",
+  "license_url": "",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Pieter_Bruegel_the_Elder_-_The_Wedding_Dance_-_30.374_-_Detroit_Institute_of_Arts.jpg",
+  "modifications": "ritagliata in formato 16:10, ridimensionata a 880px, convertita in WebP"
+ },
+ {
+  "file": "la-danza-dei-contadini-pieter-bruegel-il-vecchio.webp",
+  "title": "La danza dei contadini",
+  "author": "Pieter_Bruegel_d._Ä._014.jpg: File Upload Bot (Eloquence) derivative work: Wikielwikingo (talk)",
+  "institution": "Kunsthistorisches Museum, Vienna",
+  "license": "Public domain",
+  "license_url": "",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Pieter_Bruegel_The_Peasant_Dance.jpg",
+  "modifications": "ritagliata in formato 16:10, ridimensionata a 880px, convertita in WebP"
+ },
+ {
+  "file": "figure-de-la-salle-dal-balet-comique-de-la-royne.webp",
+  "title": "Figure de la Salle, dal Balet comique de la Royne",
+  "author": "Jacques Patin",
+  "institution": "British Library, Londra",
+  "license": "Public domain",
+  "license_url": "",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Balet_Comique_de_la_Royne_1582_%22Figure_de_la_Salle%22_from_a_copy_at_the_British_Library_-_McGowan_1982.jpg",
+  "modifications": "ritagliata in formato 16:10, ridimensionata a 880px, convertita in WebP"
+ },
+ {
+  "file": "cucorongna-e-pernoualla-dai-balli-di-sfessania.webp",
+  "title": "Cucorongna e Pernoualla, dai Balli di Sfessania",
+  "author": "Jacques Callot",
+  "institution": "Metropolitan Museum of Art, New York",
+  "license": "CC0",
+  "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Cucorongna_-_Pernoualla,_from_the_Balli_di_Sfessania_MET_DP846870.jpg",
+  "modifications": "ritagliata in formato 16:10, ridimensionata a 880px, convertita in WebP"
+ },
+ {
+  "file": "danza-della-vita-umana-nicolas-poussin.webp",
+  "title": "Danza della vita umana",
+  "author": "Nicolas Poussin",
+  "institution": "The Wallace Collection, Londra",
+  "license": "Public domain",
+  "license_url": "",
+  "source_url": "https://commons.wikimedia.org/wiki/File:The_dance_to_the_music_of_time_c._1640.jpg",
+  "modifications": "ritagliata in formato 16:10, ridimensionata a 880px, convertita in WebP"
+ },
+ {
+  "file": "i-piaceri-del-ballo-antoine-watteau.webp",
+  "title": "I piaceri del ballo",
+  "author": "Watteau, Jean-Antoine (1684 - 1721) – Artist Details on Google Art Project",
+  "institution": "Dulwich Picture Gallery, Londra",
+  "license": "Public domain",
+  "license_url": "",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Watteau,_Jean-Antoine_-_Les_Plaisirs_du_Bal_-_Google_Art_Project.jpg",
+  "modifications": "ritagliata in formato 16:10, ridimensionata a 880px, convertita in WebP"
+ },
+ {
+  "file": "la-camargo-che-danza-nicolas-lancret.webp",
+  "title": "La Camargo che danza",
+  "author": "Nicolas Lancret",
+  "institution": "National Gallery of Art, Washington",
+  "license": "CC0",
+  "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Nicolas_Lancret,_La_Camargo_Dancing,_c._1730,_NGA_96.jpg",
+  "modifications": "ritagliata in formato 16:10, ridimensionata a 880px, convertita in WebP"
+ },
+ {
+  "file": "la-lezione-di-ballo-pietro-longhi.webp",
+  "title": "La lezione di ballo",
+  "author": "Pietro Longhi",
+  "institution": "Gallerie dell'Accademia, Venezia",
+  "license": "Public domain",
+  "license_url": "",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Ballando_lesson_by_Pietro_Longhi.jpg",
+  "modifications": "ritagliata in formato 16:10, ridimensionata a 880px, convertita in WebP"
+ },
+ {
+  "file": "the-analysis-of-beauty-tavola-ii-una-country-dance.webp",
+  "title": "The Analysis of Beauty, tavola II, una country dance",
+  "author": "William Hogarth",
+  "institution": "Yale Center for British Art, New Haven",
+  "license": "CC0",
+  "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "source_url": "https://commons.wikimedia.org/wiki/File:William_Hogarth_-_Analysis_of_Beauty,_Plate_II,_A_Country_Dance_-_B1981.25.1445_-_Yale_Center_for_British_Art.jpg",
+  "modifications": "ritagliata in formato 16:10, ridimensionata a 880px, convertita in WebP"
+ },
+ {
+  "file": "il-ballo-di-gala-antoine-jean-duclos-da-augustin-de-saint-aubin.webp",
+  "title": "Il ballo di gala",
+  "author": "Augustin de Saint-Aubin / Antoine-Jean Duclos",
+  "institution": "Metropolitan Museum of Art, New York",
+  "license": "CC0",
+  "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Le_Bal_Par%C3%A9_MET_DP119361.jpg",
+  "modifications": "ritagliata in formato 16:10, ridimensionata a 880px, convertita in WebP"
+ },
+ {
+  "file": "il-ballo-sulle-rive-del-manzanarre-francisco-goya.webp",
+  "title": "Il ballo sulle rive del Manzanarre",
+  "author": "Francisco Goya",
+  "institution": "Museo Nacional del Prado, Madrid",
+  "license": "Public domain",
+  "license_url": "",
+  "source_url": "https://commons.wikimedia.org/wiki/File:El_baile_a_orillas_del_Manzanares.jpg",
+  "modifications": "ritagliata in formato 16:10, ridimensionata a 880px, convertita in WebP"
+ },
+ {
+  "file": "il-minuetto-in-villa-giandomenico-tiepolo.webp",
+  "title": "Il minuetto in villa",
+  "author": "Sailko",
+  "institution": "Ca' Rezzonico, Venezia",
+  "license": "CC BY 3.0",
+  "license_url": "https://creativecommons.org/licenses/by/3.0",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Giandomenico_tiepolo,_affreschi_da_villa_di_zianigo,_1759-1797,_portego_del_mondo_nuovo,_minuetto_in_villa_02.jpg",
+  "modifications": "ritagliata in formato 16:10, ridimensionata a 880px, convertita in WebP"
+ },
+ {
+  "file": "marie-taglioni-nel-ruolo-della-sylphide-achille-deveria-e-henri-greved.webp",
+  "title": "Marie Taglioni nel ruolo della Sylphide",
+  "author": "Devéria, Achille (Paris, 06–02–1800 - Paris, 23–12–1857), dessinateur",
+  "institution": "Musée Carnavalet, Parigi",
+  "license": "CC0",
+  "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Marie_Taglioni_(1804-1884),_danseuse,_dans_le_r%C3%B4le-titre_La_Sylphide,_G.12260.jpg",
+  "modifications": "ritagliata in formato 16:10, ridimensionata a 880px, convertita in WebP"
+ },
+ {
+  "file": "fanny-elssler-nella-cachucha-anonimo.webp",
+  "title": "Fanny Elssler nella cachucha",
+  "author": "Scan by NYPL",
+  "institution": "New York Public Library, New York",
+  "license": "Public domain",
+  "license_url": "",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Fanny_Elssler_in_the_character_of_La_cachucha_(NYPL_b12149239-5185745).jpg",
+  "modifications": "ritagliata in formato 16:10, ridimensionata a 880px, convertita in WebP"
+ },
+ {
+  "file": "il-celebre-pas-de-quatre-di-jules-perrot.webp",
+  "title": "Il celebre Pas de Quatre di Jules Perrot",
+  "author": "Maquire, T. (18..-18.. ; lithographe). Lithographe Chalon, Alfred Edward (1780-1860). Peintre du modèle",
+  "institution": "Bibliothèque nationale de France, Parigi",
+  "license": "Public domain",
+  "license_url": "",
+  "source_url": "https://commons.wikimedia.org/wiki/File:The_celebrated_pas_de_quatre_composed_by_Jules_Perrot,_as_danced_at_Her_Majesty%27s_Theatre_July_12th_1845,_by_the_four_eminent_danseuses_Carlotta_Grisi,_Marie_Taglioni,_Lucile_Grahn_%26_Fanny_Cerrito_-_drawn_from_the..._-_btv1b8426470h.jpg",
+  "modifications": "ritagliata in formato 16:10, ridimensionata a 880px, convertita in WebP"
+ },
+ {
+  "file": "la-classe-di-danza-edgar-degas.webp",
+  "title": "La classe di danza",
+  "author": "Edgar Degas",
+  "institution": "Musée d'Orsay, Parigi",
+  "license": "Public domain",
+  "license_url": "",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Edgar_Degas_-_La_Classe_de_danse.jpg",
+  "modifications": "ritagliata in formato 16:10, ridimensionata a 880px, convertita in WebP"
+ },
+ {
+  "file": "l-etoile-danzatrice-sulla-scena-edgar-degas.webp",
+  "title": "L'étoile, danzatrice sulla scena",
+  "author": "Edgar Degas",
+  "institution": "Musée d'Orsay, Parigi",
+  "license": "Public domain",
+  "license_url": "",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Edgar_Degas_-_Ballet_(L%27%C3%89toile).jpg",
+  "modifications": "ritagliata in formato 16:10, ridimensionata a 880px, convertita in WebP"
+ },
+ {
+  "file": "ballo-al-moulin-de-la-galette-pierre-auguste-renoir.webp",
+  "title": "Ballo al Moulin de la Galette",
+  "author": "Pierre-Auguste Renoir",
+  "institution": "Musée d'Orsay, Parigi",
+  "license": "Public domain",
+  "license_url": "",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Pierre-Auguste_Renoir_-_Bal_du_moulin_de_la_Galette.jpeg",
+  "modifications": "ritagliata in formato 16:10, ridimensionata a 880px, convertita in WebP"
+ },
+ {
+  "file": "danza-a-bougival-pierre-auguste-renoir.webp",
+  "title": "Danza a Bougival",
+  "author": "Pierre-Auguste Renoir",
+  "institution": "Museum of Fine Arts, Boston",
+  "license": "Public domain",
+  "license_url": "",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Pierre-Auguste_Renoir_-_Suzanne_Valadon_-_Dance_at_Bougival.jpg",
+  "modifications": "ritagliata in formato 16:10, ridimensionata a 880px, convertita in WebP"
+ },
+ {
+  "file": "al-moulin-rouge-la-danza-henri-de-toulouse-lautrec.webp",
+  "title": "Al Moulin Rouge, la danza",
+  "author": "Henri de Toulouse-Lautrec",
+  "institution": "Philadelphia Museum of Art, Filadelfia",
+  "license": "Public domain",
+  "license_url": "",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Henri_de_Toulouse-Lautrec,_French_-_At_the_Moulin_Rouge-_The_Dance_-_Google_Art_Project.jpg",
+  "modifications": "ritagliata in formato 16:10, ridimensionata a 880px, convertita in WebP"
+ },
+ {
+  "file": "danza-di-mezza-estate-anders-zorn.webp",
+  "title": "Danza di mezza estate",
+  "author": "Anders Zorn",
+  "institution": "Nationalmuseum, Stoccolma",
+  "license": "Public domain",
+  "license_url": "",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Anders_Zorn_-_Midsummer_Dance_-_Google_Art_Project.jpg",
+  "modifications": "ritagliata in formato 16:10, ridimensionata a 880px, convertita in WebP"
+ }
+]

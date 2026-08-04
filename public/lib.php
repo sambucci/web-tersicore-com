@@ -91,11 +91,19 @@ function markdown(string $name): string {
     return $pd->text((string)file_get_contents($file));
 }
 
-/** Credit record for a shipped image file, keyed by basename. */
+/**
+ * Credit record for a shipped image file, keyed by basename.
+ * Each artwork ships twice: a 16:10 card crop and an uncropped '-full' version
+ * for the entry page. Both carry the same credit, so the suffix is stripped
+ * before lookup rather than duplicated in credits.json.
+ */
 function credit_for(string $file): ?array {
     static $m = null;
     if ($m === null) $m = by_key(credits(), 'file');
-    return $m[basename($file)] ?? null;
+    $b = basename($file);
+    if (isset($m[$b])) return $m[$b];
+    $base = preg_replace('/-full(\.[a-z0-9]+)$/i', '$1', $b);
+    return $m[$base] ?? null;
 }
 
 /**
