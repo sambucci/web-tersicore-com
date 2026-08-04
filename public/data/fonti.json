@@ -1,0 +1,1664 @@
+[
+ {
+  "id": "f01",
+  "slug": "domenico-da-piacenza-arte-saltandi",
+  "titolo": "De arte saltandi et choreas ducendi (De la arte di ballare et danzare)",
+  "autore": "Domenico da Piacenza",
+  "anno": 1455,
+  "citta": "Ferrara",
+  "lingua": "lat/ita",
+  "tipo": "trattato",
+  "era": "quattrocento",
+  "documenta": [],
+  "rilevanza": "",
+  "scansione": {
+   "istituzione": "Bibliothèque nationale de France",
+   "url": "https://gallica.bnf.fr/ark:/12148/btv1b10076277p",
+   "edizione": "ms. Italien 972, copia quattrocentesca"
+  },
+  "altre_edizioni": [],
+  "fonti_correlate": [
+   "f02"
+  ],
+  "termini": [],
+  "immagine": null,
+  "alt_immagine": null
+ },
+ {
+  "id": "f02",
+  "slug": "guglielmo-ebreo-pratica-arte-tripudii",
+  "titolo": "De pratica seu arte tripudii",
+  "autore": "Guglielmo Ebreo da Pesaro",
+  "anno": 1463,
+  "citta": "Pesaro",
+  "lingua": "ita",
+  "tipo": "trattato",
+  "era": "quattrocento",
+  "documenta": [],
+  "rilevanza": "",
+  "scansione": {
+   "istituzione": "Internet Archive (University of Toronto)",
+   "url": "https://archive.org/details/trattatodellarte00gugluoft",
+   "edizione": "edizione a stampa del testo, Bologna 1873"
+  },
+  "altre_edizioni": [],
+  "fonti_correlate": [
+   "f01"
+  ],
+  "termini": [],
+  "immagine": null,
+  "alt_immagine": null
+ },
+ {
+  "id": "f03",
+  "slug": "arena-ad-suos-compagnones",
+  "titolo": "Ad suos compagnones studiantes",
+  "autore": "Antonius de Arena",
+  "anno": 1529,
+  "citta": "Lione",
+  "lingua": "lat",
+  "tipo": "trattato",
+  "era": "cinquecento",
+  "documenta": [],
+  "rilevanza": "",
+  "scansione": {
+   "istituzione": "Internet Archive (British Library)",
+   "url": "https://archive.org/details/bim_eighteenth-century_antonius-de-arena-proven_arena-antoine_1758",
+   "edizione": "ristampa settecentesca, 1758"
+  },
+  "altre_edizioni": [],
+  "fonti_correlate": [
+   "f04",
+   "f05",
+   "f06",
+   "f07"
+  ],
+  "termini": [],
+  "immagine": null,
+  "alt_immagine": null
+ },
+ {
+  "id": "f04",
+  "slug": "caroso-il-ballarino",
+  "titolo": "Il ballarino",
+  "autore": "Fabritio Caroso",
+  "anno": 1581,
+  "citta": "Venezia",
+  "lingua": "ita",
+  "tipo": "trattato",
+  "era": "cinquecento",
+  "documenta": [],
+  "rilevanza": "",
+  "scansione": {
+   "istituzione": "Library of Congress",
+   "url": "https://archive.org/details/danceman230",
+   "edizione": "prima edizione, Venezia 1581"
+  },
+  "altre_edizioni": [],
+  "fonti_correlate": [
+   "f06",
+   "f09",
+   "f05",
+   "f07"
+  ],
+  "termini": [],
+  "immagine": null,
+  "alt_immagine": null
+ },
+ {
+  "id": "f05",
+  "slug": "arbeau-orchesographie",
+  "titolo": "Orchésographie",
+  "autore": "Thoinot Arbeau",
+  "anno": 1589,
+  "citta": "Langres",
+  "lingua": "fra",
+  "tipo": "trattato",
+  "era": "cinquecento",
+  "documenta": [],
+  "rilevanza": "",
+  "scansione": {
+   "istituzione": "Library of Congress",
+   "url": "https://archive.org/details/danceman219",
+   "edizione": "prima edizione, Langres 1589"
+  },
+  "altre_edizioni": [],
+  "fonti_correlate": [
+   "f04",
+   "f06",
+   "f07",
+   "f10"
+  ],
+  "termini": [],
+  "immagine": null,
+  "alt_immagine": null
+ },
+ {
+  "id": "f06",
+  "slug": "caroso-nobilta-di-dame",
+  "titolo": "Nobiltà di dame",
+  "autore": "Fabritio Caroso",
+  "anno": 1600,
+  "citta": "Venezia",
+  "lingua": "ita",
+  "tipo": "trattato",
+  "era": "cinquecento",
+  "documenta": [],
+  "rilevanza": "",
+  "scansione": {
+   "istituzione": "Library of Congress",
+   "url": "https://archive.org/details/danceman199",
+   "edizione": "prima edizione, Venezia 1600"
+  },
+  "altre_edizioni": [],
+  "fonti_correlate": [
+   "f04",
+   "f09",
+   "f07",
+   "f10"
+  ],
+  "termini": [],
+  "immagine": null,
+  "alt_immagine": null
+ },
+ {
+  "id": "f07",
+  "slug": "negri-nuove-inventioni-di-balli",
+  "titolo": "Nuove inventioni di balli",
+  "autore": "Cesare Negri",
+  "anno": 1604,
+  "citta": "Milano",
+  "lingua": "ita",
+  "tipo": "trattato",
+  "era": "cinquecento",
+  "documenta": [],
+  "rilevanza": "",
+  "scansione": {
+   "istituzione": "Library of Congress",
+   "url": "https://archive.org/details/danceman121",
+   "edizione": "edizione Milano 1604"
+  },
+  "altre_edizioni": [],
+  "fonti_correlate": [
+   "f08",
+   "f10",
+   "f06",
+   "f05"
+  ],
+  "termini": [],
+  "immagine": null,
+  "alt_immagine": null
+ },
+ {
+  "id": "f08",
+  "slug": "negri-arte-para-aprender-a-dancar",
+  "titolo": "Arte para aprender a dançar",
+  "autore": "Cesare Negri",
+  "anno": 1630,
+  "citta": "Madrid",
+  "lingua": "spa",
+  "tipo": "trattato",
+  "era": "cinquecento",
+  "documenta": [],
+  "rilevanza": "",
+  "scansione": {
+   "istituzione": "Bibliothèque nationale de France",
+   "url": "https://gallica.bnf.fr/ark:/12148/btv1b10035940c",
+   "edizione": "traduzione spagnola manoscritta del Seicento"
+  },
+  "altre_edizioni": [],
+  "fonti_correlate": [
+   "f07",
+   "f09",
+   "f10",
+   "f06"
+  ],
+  "termini": [],
+  "immagine": null,
+  "alt_immagine": null
+ },
+ {
+  "id": "f09",
+  "slug": "caroso-raccolta-di-varij-balli",
+  "titolo": "Raccolta di varij balli",
+  "autore": "Fabritio Caroso",
+  "anno": 1630,
+  "citta": "Roma",
+  "lingua": "ita",
+  "tipo": "trattato",
+  "era": "cinquecento",
+  "documenta": [],
+  "rilevanza": "",
+  "scansione": {
+   "istituzione": "Bibliothèque nationale de France",
+   "url": "https://gallica.bnf.fr/ark:/12148/bpt6k1167913z",
+   "edizione": "edizione Roma 1630"
+  },
+  "altre_edizioni": [],
+  "fonti_correlate": [
+   "f04",
+   "f06",
+   "f08",
+   "f10"
+  ],
+  "termini": [],
+  "immagine": null,
+  "alt_immagine": null
+ },
+ {
+  "id": "f10",
+  "slug": "boiseul-traitte-contre-les-danses",
+  "titolo": "Traitté contre les danses",
+  "autore": "Jean Boiseul",
+  "anno": 1606,
+  "citta": "La Rochelle",
+  "lingua": "fra",
+  "tipo": "trattato",
+  "era": "cinquecento",
+  "documenta": [],
+  "rilevanza": "",
+  "scansione": {
+   "istituzione": "Library of Congress",
+   "url": "https://archive.org/details/danceman023",
+   "edizione": "prima edizione, 1606"
+  },
+  "altre_edizioni": [],
+  "fonti_correlate": [
+   "f07",
+   "f06",
+   "f05",
+   "f08"
+  ],
+  "termini": [],
+  "immagine": null,
+  "alt_immagine": null
+ },
+ {
+  "id": "f11",
+  "slug": "playford-dancing-master",
+  "titolo": "The Dancing Master",
+  "autore": "John Playford",
+  "anno": 1698,
+  "citta": "Londra",
+  "lingua": "eng",
+  "tipo": "manuale",
+  "era": "seisettecento",
+  "documenta": [],
+  "rilevanza": "",
+  "scansione": {
+   "istituzione": "Library of Congress",
+   "url": "https://archive.org/details/danceman004",
+   "edizione": "edizione londinese del 1698"
+  },
+  "altre_edizioni": [],
+  "fonti_correlate": [
+   "f23"
+  ],
+  "termini": [],
+  "immagine": null,
+  "alt_immagine": null
+ },
+ {
+  "id": "f12",
+  "slug": "feuillet-choregraphie",
+  "titolo": "Chorégraphie, ou l'art de décrire la dance",
+  "autore": "Raoul-Auger Feuillet",
+  "anno": 1700,
+  "citta": "Parigi",
+  "lingua": "fra",
+  "tipo": "notazione",
+  "era": "seisettecento",
+  "documenta": [],
+  "rilevanza": "",
+  "scansione": {
+   "istituzione": "Bibliothèque nationale de France",
+   "url": "https://gallica.bnf.fr/ark:/12148/btv1b86232407",
+   "edizione": "prima edizione, Parigi 1700"
+  },
+  "altre_edizioni": [],
+  "fonti_correlate": [
+   "f13",
+   "f14",
+   "f15",
+   "f16"
+  ],
+  "termini": [],
+  "immagine": null,
+  "alt_immagine": null
+ },
+ {
+  "id": "f13",
+  "slug": "feuillet-choregraphie-1701",
+  "titolo": "Chorégraphie, ou l'art de décrire la dance",
+  "autore": "Raoul-Auger Feuillet",
+  "anno": 1701,
+  "citta": "Parigi",
+  "lingua": "fra",
+  "tipo": "notazione",
+  "era": "seisettecento",
+  "documenta": [],
+  "rilevanza": "",
+  "scansione": {
+   "istituzione": "Bibliothèque nationale de France",
+   "url": "https://gallica.bnf.fr/ark:/12148/bpt6k1048479h",
+   "edizione": "seconda edizione, Parigi 1701"
+  },
+  "altre_edizioni": [],
+  "fonti_correlate": [
+   "f12",
+   "f14",
+   "f15",
+   "f16"
+  ],
+  "termini": [],
+  "immagine": null,
+  "alt_immagine": null
+ },
+ {
+  "id": "f14",
+  "slug": "feuillet-recueil-danses-bal-1703",
+  "titolo": "Recueil de danses de bal pour l'année 1703",
+  "autore": "Raoul-Auger Feuillet",
+  "anno": 1702,
+  "citta": "Parigi",
+  "lingua": "fra",
+  "tipo": "notazione",
+  "era": "seisettecento",
+  "documenta": [],
+  "rilevanza": "",
+  "scansione": {
+   "istituzione": "Library of Congress",
+   "url": "https://archive.org/details/danceman211",
+   "edizione": "edizione Parigi 1702"
+  },
+  "altre_edizioni": [],
+  "fonti_correlate": [
+   "f12",
+   "f13",
+   "f15",
+   "f16"
+  ],
+  "termini": [],
+  "immagine": null,
+  "alt_immagine": null
+ },
+ {
+  "id": "f15",
+  "slug": "feuillet-recueil-de-dances-1704",
+  "titolo": "Recüeil de dances",
+  "autore": "Raoul-Auger Feuillet",
+  "anno": 1704,
+  "citta": "Parigi",
+  "lingua": "fra",
+  "tipo": "notazione",
+  "era": "seisettecento",
+  "documenta": [],
+  "rilevanza": "",
+  "scansione": {
+   "istituzione": "Library of Congress",
+   "url": "https://archive.org/details/danceman198",
+   "edizione": "edizione Parigi 1704"
+  },
+  "altre_edizioni": [],
+  "fonti_correlate": [
+   "f12",
+   "f13",
+   "f14",
+   "f16"
+  ],
+  "termini": [],
+  "immagine": null,
+  "alt_immagine": null
+ },
+ {
+  "id": "f16",
+  "slug": "feuillet-recueil-de-contredances",
+  "titolo": "Recueil de contredances",
+  "autore": "Raoul-Auger Feuillet",
+  "anno": 1706,
+  "citta": "Parigi",
+  "lingua": "fra",
+  "tipo": "notazione",
+  "era": "seisettecento",
+  "documenta": [],
+  "rilevanza": "",
+  "scansione": {
+   "istituzione": "Library of Congress",
+   "url": "https://archive.org/details/danceman070",
+   "edizione": "edizione Parigi 1706"
+  },
+  "altre_edizioni": [],
+  "fonti_correlate": [
+   "f12",
+   "f13",
+   "f14",
+   "f15"
+  ],
+  "termini": [],
+  "immagine": null,
+  "alt_immagine": null
+ },
+ {
+  "id": "f17",
+  "slug": "weaver-collection-ball-dances",
+  "titolo": "A Collection of Ball-Dances Perform'd at Court",
+  "autore": "John Weaver",
+  "anno": 1706,
+  "citta": "Londra",
+  "lingua": "eng",
+  "tipo": "notazione",
+  "era": "seisettecento",
+  "documenta": [],
+  "rilevanza": "",
+  "scansione": {
+   "istituzione": "Library of Congress",
+   "url": "https://archive.org/details/danceman164",
+   "edizione": "prima edizione, Londra 1706"
+  },
+  "altre_edizioni": [],
+  "fonti_correlate": [
+   "f22",
+   "f25",
+   "f16",
+   "f15"
+  ],
+  "termini": [],
+  "immagine": null,
+  "alt_immagine": null
+ },
+ {
+  "id": "f18",
+  "slug": "feuillet-recueil-de-dances-1709",
+  "titolo": "Recueil de dances composées",
+  "autore": "Raoul-Auger Feuillet",
+  "anno": 1709,
+  "citta": "Parigi",
+  "lingua": "fra",
+  "tipo": "notazione",
+  "era": "seisettecento",
+  "documenta": [],
+  "rilevanza": "",
+  "scansione": {
+   "istituzione": "Library of Congress",
+   "url": "https://archive.org/details/danceman073",
+   "edizione": "edizione Parigi 1709"
+  },
+  "altre_edizioni": [],
+  "fonti_correlate": [
+   "f12",
+   "f13",
+   "f14",
+   "f15"
+  ],
+  "termini": [],
+  "immagine": null,
+  "alt_immagine": null
+ },
+ {
+  "id": "f19",
+  "slug": "essex-treatise-of-chorography",
+  "titolo": "For the Further Improvement of Dancing",
+  "autore": "John Essex",
+  "anno": 1710,
+  "citta": "Londra",
+  "lingua": "eng",
+  "tipo": "notazione",
+  "era": "seisettecento",
+  "documenta": [],
+  "rilevanza": "",
+  "scansione": {
+   "istituzione": "Library of Congress",
+   "url": "https://archive.org/details/danceman069",
+   "edizione": "prima edizione, Londra 1710"
+  },
+  "altre_edizioni": [],
+  "fonti_correlate": [
+   "f28",
+   "f18",
+   "f20",
+   "f21"
+  ],
+  "termini": [],
+  "immagine": null,
+  "alt_immagine": null
+ },
+ {
+  "id": "f20",
+  "slug": "pemberton-essay-further-improvement",
+  "titolo": "An Essay for the Further Improvement of Dancing",
+  "autore": "Edmund Pemberton",
+  "anno": 1711,
+  "citta": "Londra",
+  "lingua": "eng",
+  "tipo": "notazione",
+  "era": "seisettecento",
+  "documenta": [],
+  "rilevanza": "",
+  "scansione": {
+   "istituzione": "Library of Congress",
+   "url": "https://archive.org/details/danceman134",
+   "edizione": "prima edizione, Londra 1711"
+  },
+  "altre_edizioni": [],
+  "fonti_correlate": [
+   "f19",
+   "f18",
+   "f21",
+   "f22"
+  ],
+  "termini": [],
+  "immagine": null,
+  "alt_immagine": null
+ },
+ {
+  "id": "f21",
+  "slug": "feuillet-dezais-choregraphie-1713",
+  "titolo": "Chorégraphie ou l'art de décrire la dance",
+  "autore": "Raoul-Auger Feuillet e Jacques Dezais",
+  "anno": 1713,
+  "citta": "Parigi",
+  "lingua": "fra",
+  "tipo": "notazione",
+  "era": "seisettecento",
+  "documenta": [],
+  "rilevanza": "",
+  "scansione": {
+   "istituzione": "Library of Congress",
+   "url": "https://archive.org/details/danceman072",
+   "edizione": "terza edizione, Parigi 1713"
+  },
+  "altre_edizioni": [],
+  "fonti_correlate": [
+   "f20",
+   "f22",
+   "f19",
+   "f18"
+  ],
+  "termini": [],
+  "immagine": null,
+  "alt_immagine": null
+ },
+ {
+  "id": "f22",
+  "slug": "weaver-orchesography",
+  "titolo": "Orchesography, or the Art of Dancing by Characters",
+  "autore": "John Weaver",
+  "anno": 1715,
+  "citta": "Londra",
+  "lingua": "eng",
+  "tipo": "notazione",
+  "era": "seisettecento",
+  "documenta": [],
+  "rilevanza": "",
+  "scansione": {
+   "istituzione": "Library of Congress",
+   "url": "https://archive.org/details/danceman074",
+   "edizione": "seconda edizione, Londra 1715"
+  },
+  "altre_edizioni": [],
+  "fonti_correlate": [
+   "f17",
+   "f25",
+   "f21",
+   "f20"
+  ],
+  "termini": [],
+  "immagine": null,
+  "alt_immagine": null
+ },
+ {
+  "id": "f23",
+  "slug": "lambranzi-nuova-scuola-balli-teatrali",
+  "titolo": "Nuova e curiosa scuola de' balli theatrali",
+  "autore": "Gregorio Lambranzi",
+  "anno": 1716,
+  "citta": "Norimberga",
+  "lingua": "ita/ted",
+  "tipo": "manuale",
+  "era": "seisettecento",
+  "documenta": [],
+  "rilevanza": "",
+  "scansione": {
+   "istituzione": "Bibliothèque nationale de France",
+   "url": "https://gallica.bnf.fr/ark:/12148/btv1b100719191",
+   "edizione": "prima edizione, Norimberga 1716"
+  },
+  "altre_edizioni": [],
+  "fonti_correlate": [
+   "f11"
+  ],
+  "termini": [],
+  "immagine": null,
+  "alt_immagine": null
+ },
+ {
+  "id": "f24",
+  "slug": "taubert-rechtschaffener-tantzmeister",
+  "titolo": "Rechtschaffener Tantzmeister",
+  "autore": "Gottfried Taubert",
+  "anno": 1717,
+  "citta": "Lipsia",
+  "lingua": "ted",
+  "tipo": "trattato",
+  "era": "seisettecento",
+  "documenta": [],
+  "rilevanza": "",
+  "scansione": {
+   "istituzione": "Internet Archive (Google Books)",
+   "url": "https://archive.org/details/bub_gb_XgQ5AAAAIAAJ",
+   "edizione": "prima edizione, Lipsia 1717"
+  },
+  "altre_edizioni": [],
+  "fonti_correlate": [
+   "f25",
+   "f27",
+   "f28",
+   "f29"
+  ],
+  "termini": [],
+  "immagine": null,
+  "alt_immagine": null
+ },
+ {
+  "id": "f25",
+  "slug": "weaver-anatomical-lectures",
+  "titolo": "Anatomical and Mechanical Lectures upon Dancing",
+  "autore": "John Weaver",
+  "anno": 1721,
+  "citta": "Londra",
+  "lingua": "eng",
+  "tipo": "trattato",
+  "era": "seisettecento",
+  "documenta": [],
+  "rilevanza": "",
+  "scansione": {
+   "istituzione": "Internet Archive (Wellcome Collection)",
+   "url": "https://archive.org/details/b30504363",
+   "edizione": "prima edizione, Londra 1721"
+  },
+  "altre_edizioni": [],
+  "fonti_correlate": [
+   "f17",
+   "f22",
+   "f24",
+   "f27"
+  ],
+  "termini": [],
+  "immagine": null,
+  "alt_immagine": null
+ },
+ {
+  "id": "f26",
+  "slug": "rameau-abbrege-nouvelle-methode",
+  "titolo": "Abbregé de la nouvelle méthode",
+  "autore": "Pierre Rameau",
+  "anno": 1725,
+  "citta": "Parigi",
+  "lingua": "fra",
+  "tipo": "notazione",
+  "era": "seisettecento",
+  "documenta": [],
+  "rilevanza": "",
+  "scansione": {
+   "istituzione": "Library of Congress",
+   "url": "https://archive.org/details/danceman141",
+   "edizione": "prima edizione, Parigi 1725"
+  },
+  "altre_edizioni": [],
+  "fonti_correlate": [
+   "f31",
+   "f22",
+   "f21",
+   "f20"
+  ],
+  "termini": [],
+  "immagine": null,
+  "alt_immagine": null
+ },
+ {
+  "id": "f27",
+  "slug": "dufort-trattato-del-ballo-nobile",
+  "titolo": "Trattato del ballo nobile",
+  "autore": "Giambattista Dufort",
+  "anno": 1728,
+  "citta": "Napoli",
+  "lingua": "ita",
+  "tipo": "trattato",
+  "era": "seisettecento",
+  "documenta": [],
+  "rilevanza": "",
+  "scansione": {
+   "istituzione": "Library of Congress",
+   "url": "https://archive.org/details/danceman060",
+   "edizione": "prima edizione, Napoli 1728"
+  },
+  "altre_edizioni": [],
+  "fonti_correlate": [
+   "f28",
+   "f25",
+   "f29",
+   "f30"
+  ],
+  "termini": [],
+  "immagine": null,
+  "alt_immagine": null
+ },
+ {
+  "id": "f28",
+  "slug": "essex-the-dancing-master",
+  "titolo": "The Dancing-Master, or the Art of Dancing Explained",
+  "autore": "John Essex",
+  "anno": 1728,
+  "citta": "Londra",
+  "lingua": "eng",
+  "tipo": "trattato",
+  "era": "seisettecento",
+  "documenta": [],
+  "rilevanza": "",
+  "scansione": {
+   "istituzione": "Library of Congress",
+   "url": "https://archive.org/details/danceman143",
+   "edizione": "edizione Londra 1728"
+  },
+  "altre_edizioni": [],
+  "fonti_correlate": [
+   "f19",
+   "f27",
+   "f25",
+   "f29"
+  ],
+  "termini": [],
+  "immagine": null,
+  "alt_immagine": null
+ },
+ {
+  "id": "f29",
+  "slug": "tomlinson-art-of-dancing",
+  "titolo": "The Art of Dancing Explained by Reading and Figures",
+  "autore": "Kellom Tomlinson",
+  "anno": 1735,
+  "citta": "Londra",
+  "lingua": "eng",
+  "tipo": "trattato",
+  "era": "seisettecento",
+  "documenta": [],
+  "rilevanza": "",
+  "scansione": {
+   "istituzione": "Library of Congress",
+   "url": "https://archive.org/details/danceman158",
+   "edizione": "prima edizione, Londra 1735"
+  },
+  "altre_edizioni": [],
+  "fonti_correlate": [
+   "f30",
+   "f27",
+   "f28",
+   "f31"
+  ],
+  "termini": [],
+  "immagine": null,
+  "alt_immagine": null
+ },
+ {
+  "id": "f30",
+  "slug": "ferriol-arte-de-danzar-a-la-francesa",
+  "titolo": "Arte de danzar a la francesa",
+  "autore": "Bartholomé Ferriol y Boxeraus",
+  "anno": 1737,
+  "citta": "Capua",
+  "lingua": "spa",
+  "tipo": "trattato",
+  "era": "seisettecento",
+  "documenta": [],
+  "rilevanza": "",
+  "scansione": {
+   "istituzione": "Library of Congress",
+   "url": "https://archive.org/details/danceman118",
+   "edizione": "prima edizione, 1737"
+  },
+  "altre_edizioni": [],
+  "fonti_correlate": [
+   "f29",
+   "f27",
+   "f28",
+   "f31"
+  ],
+  "termini": [],
+  "immagine": null,
+  "alt_immagine": null
+ },
+ {
+  "id": "f31",
+  "slug": "rameau-le-maitre-a-danser",
+  "titolo": "Le maître à danser",
+  "autore": "Pierre Rameau",
+  "anno": 1748,
+  "citta": "Parigi",
+  "lingua": "fra",
+  "tipo": "trattato",
+  "era": "seisettecento",
+  "documenta": [],
+  "rilevanza": "",
+  "scansione": {
+   "istituzione": "Library of Congress",
+   "url": "https://archive.org/details/danceman142",
+   "edizione": "edizione Parigi 1748"
+  },
+  "altre_edizioni": [],
+  "fonti_correlate": [
+   "f26",
+   "f32",
+   "f33",
+   "f30"
+  ],
+  "termini": [],
+  "immagine": null,
+  "alt_immagine": null
+ },
+ {
+  "id": "f32",
+  "slug": "hogarth-analysis-of-beauty",
+  "titolo": "The Analysis of Beauty",
+  "autore": "William Hogarth",
+  "anno": 1753,
+  "citta": "Londra",
+  "lingua": "eng",
+  "tipo": "trattato",
+  "era": "seisettecento",
+  "documenta": [],
+  "rilevanza": "",
+  "scansione": {
+   "istituzione": "Internet Archive",
+   "url": "https://archive.org/details/analysisofbeauty00hoga",
+   "edizione": "prima edizione, Londra 1753"
+  },
+  "altre_edizioni": [],
+  "fonti_correlate": [
+   "f33",
+   "f31",
+   "f34",
+   "f36"
+  ],
+  "termini": [],
+  "immagine": null,
+  "alt_immagine": null
+ },
+ {
+  "id": "f33",
+  "slug": "cahusac-danse-ancienne-et-moderne",
+  "titolo": "La danse ancienne et moderne",
+  "autore": "Louis de Cahusac",
+  "anno": 1754,
+  "citta": "L'Aia",
+  "lingua": "fra",
+  "tipo": "trattato",
+  "era": "seisettecento",
+  "documenta": [],
+  "rilevanza": "",
+  "scansione": {
+   "istituzione": "Library of Congress",
+   "url": "https://archive.org/details/danceman034",
+   "edizione": "prima edizione, 1754"
+  },
+  "altre_edizioni": [],
+  "fonti_correlate": [
+   "f32",
+   "f31",
+   "f34",
+   "f36"
+  ],
+  "termini": [],
+  "immagine": null,
+  "alt_immagine": null
+ },
+ {
+  "id": "f34",
+  "slug": "noverre-lettres-sur-la-danse",
+  "titolo": "Lettres sur la danse et sur les ballets",
+  "autore": "Jean-Georges Noverre",
+  "anno": 1760,
+  "citta": "Lione",
+  "lingua": "fra",
+  "tipo": "trattato",
+  "era": "seisettecento",
+  "documenta": [],
+  "rilevanza": "",
+  "scansione": {
+   "istituzione": "Internet Archive (University of Toronto)",
+   "url": "https://archive.org/details/lettressurladans00noveuoft",
+   "edizione": "prima edizione, Lione 1760"
+  },
+  "altre_edizioni": [],
+  "fonti_correlate": [
+   "f33",
+   "f32",
+   "f36",
+   "f31"
+  ],
+  "termini": [],
+  "immagine": null,
+  "alt_immagine": null
+ },
+ {
+  "id": "f35",
+  "slug": "la-cuisse-repertoire-des-bals",
+  "titolo": "Le répertoire des bals",
+  "autore": "de La Cuisse",
+  "anno": 1762,
+  "citta": "Parigi",
+  "lingua": "fra",
+  "tipo": "notazione",
+  "era": "seisettecento",
+  "documenta": [],
+  "rilevanza": "",
+  "scansione": {
+   "istituzione": "Library of Congress",
+   "url": "https://archive.org/details/danceman213",
+   "edizione": "edizione Parigi 1762"
+  },
+  "altre_edizioni": [],
+  "fonti_correlate": [
+   "f37",
+   "f38",
+   "f26",
+   "f22"
+  ],
+  "termini": [],
+  "immagine": null,
+  "alt_immagine": null
+ },
+ {
+  "id": "f36",
+  "slug": "natividade-tratado-fundamentos-danca",
+  "titolo": "Tratado dos principaes fundamentos da dança",
+  "autore": "Natividade",
+  "anno": 1767,
+  "citta": "Coimbra",
+  "lingua": "por",
+  "tipo": "trattato",
+  "era": "seisettecento",
+  "documenta": [],
+  "rilevanza": "",
+  "scansione": {
+   "istituzione": "Library of Congress",
+   "url": "https://archive.org/details/danceman024",
+   "edizione": "prima edizione, Coimbra 1767"
+  },
+  "altre_edizioni": [],
+  "fonti_correlate": [
+   "f39",
+   "f34",
+   "f40",
+   "f33"
+  ],
+  "termini": [],
+  "immagine": null,
+  "alt_immagine": null
+ },
+ {
+  "id": "f37",
+  "slug": "malpied-traite-sur-lart-de-la-danse",
+  "titolo": "Traité sur l'art de la danse",
+  "autore": "Malpied",
+  "anno": 1770,
+  "citta": "Parigi",
+  "lingua": "fra",
+  "tipo": "notazione",
+  "era": "seisettecento",
+  "documenta": [],
+  "rilevanza": "",
+  "scansione": {
+   "istituzione": "Library of Congress",
+   "url": "https://archive.org/details/danceman220",
+   "edizione": "edizione Parigi, c. 1770"
+  },
+  "altre_edizioni": [],
+  "fonti_correlate": [
+   "f38",
+   "f35",
+   "f26",
+   "f22"
+  ],
+  "termini": [],
+  "immagine": null,
+  "alt_immagine": null
+ },
+ {
+  "id": "f38",
+  "slug": "feldtenstein-erweiterung-der-kunst",
+  "titolo": "Erweiterung der Kunst nach der Choregraphie zu tanzen",
+  "autore": "C. J. von Feldtenstein",
+  "anno": 1772,
+  "citta": "Braunschweig",
+  "lingua": "ted",
+  "tipo": "notazione",
+  "era": "seisettecento",
+  "documenta": [],
+  "rilevanza": "",
+  "scansione": {
+   "istituzione": "Library of Congress",
+   "url": "https://archive.org/details/danceman066",
+   "edizione": "prima edizione, 1772"
+  },
+  "altre_edizioni": [],
+  "fonti_correlate": [
+   "f37",
+   "f35",
+   "f26",
+   "f22"
+  ],
+  "termini": [],
+  "immagine": null,
+  "alt_immagine": null
+ },
+ {
+  "id": "f39",
+  "slug": "gallini-treatise-art-of-dancing",
+  "titolo": "A Treatise on the Art of Dancing",
+  "autore": "Giovanni-Andrea Gallini",
+  "anno": 1772,
+  "citta": "Londra",
+  "lingua": "eng",
+  "tipo": "trattato",
+  "era": "seisettecento",
+  "documenta": [],
+  "rilevanza": "",
+  "scansione": {
+   "istituzione": "Library of Congress",
+   "url": "https://archive.org/details/danceman080",
+   "edizione": "edizione Londra 1772"
+  },
+  "altre_edizioni": [],
+  "fonti_correlate": [
+   "f36",
+   "f40",
+   "f34",
+   "f33"
+  ],
+  "termini": [],
+  "immagine": null,
+  "alt_immagine": null
+ },
+ {
+  "id": "f40",
+  "slug": "magri-trattato-teorico-prattico",
+  "titolo": "Trattato teorico-prattico di ballo",
+  "autore": "Gennaro Magri",
+  "anno": 1779,
+  "citta": "Napoli",
+  "lingua": "ita",
+  "tipo": "trattato",
+  "era": "seisettecento",
+  "documenta": [],
+  "rilevanza": "",
+  "scansione": {
+   "istituzione": "Library of Congress",
+   "url": "https://archive.org/details/danceman115",
+   "edizione": "prima edizione, Napoli 1779"
+  },
+  "altre_edizioni": [],
+  "fonti_correlate": [
+   "f39",
+   "f36",
+   "f34",
+   "f33"
+  ],
+  "termini": [],
+  "immagine": null,
+  "alt_immagine": null
+ },
+ {
+  "id": "f41",
+  "slug": "menestrier-des-ballets-anciens-et-modernes",
+  "titolo": "Des ballets anciens et modernes",
+  "autore": "Claude-François Ménestrier",
+  "anno": 1682,
+  "citta": "Parigi",
+  "lingua": "fra",
+  "tipo": "trattato",
+  "era": "seisettecento",
+  "documenta": [],
+  "rilevanza": "",
+  "scansione": {
+   "istituzione": "Internet Archive (Google Books)",
+   "url": "https://archive.org/details/bub_gb_LJY7kwh1IDAC",
+   "edizione": "prima edizione, Parigi 1682"
+  },
+  "altre_edizioni": [],
+  "fonti_correlate": [
+   "f24",
+   "f25",
+   "f27",
+   "f28"
+  ],
+  "termini": [],
+  "immagine": null,
+  "alt_immagine": null
+ },
+ {
+  "id": "f42",
+  "slug": "wilson-analysis-of-country-dancing",
+  "titolo": "An Analysis of Country Dancing",
+  "autore": "Thomas Wilson",
+  "anno": 1808,
+  "citta": "Londra",
+  "lingua": "eng",
+  "tipo": "manuale",
+  "era": "ottocento",
+  "documenta": [],
+  "rilevanza": "",
+  "scansione": {
+   "istituzione": "Library of Congress",
+   "url": "https://archive.org/details/danceman170",
+   "edizione": "prima edizione, Londra 1808"
+  },
+  "altre_edizioni": [],
+  "fonti_correlate": [
+   "f43",
+   "f48",
+   "f50",
+   "f60"
+  ],
+  "termini": [],
+  "immagine": null,
+  "alt_immagine": null
+ },
+ {
+  "id": "f43",
+  "slug": "wilson-complete-system-country-dancing",
+  "titolo": "The Complete System of English Country Dancing",
+  "autore": "Thomas Wilson",
+  "anno": 1815,
+  "citta": "Londra",
+  "lingua": "eng",
+  "tipo": "manuale",
+  "era": "ottocento",
+  "documenta": [],
+  "rilevanza": "",
+  "scansione": {
+   "istituzione": "Library of Congress",
+   "url": "https://archive.org/details/danceman168",
+   "edizione": "edizione Londra, c. 1815"
+  },
+  "altre_edizioni": [],
+  "fonti_correlate": [
+   "f42",
+   "f48",
+   "f50",
+   "f60"
+  ],
+  "termini": [],
+  "immagine": null,
+  "alt_immagine": null
+ },
+ {
+  "id": "f44",
+  "slug": "blasis-traite-elementaire",
+  "titolo": "Traité élémentaire, théorique et pratique de l'art de la danse",
+  "autore": "Carlo Blasis",
+  "anno": 1820,
+  "citta": "Milano",
+  "lingua": "fra",
+  "tipo": "trattato",
+  "era": "ottocento",
+  "documenta": [],
+  "rilevanza": "",
+  "scansione": {
+   "istituzione": "Bibliothèque nationale de France",
+   "url": "https://gallica.bnf.fr/ark:/12148/bpt6k6546277m",
+   "edizione": "prima edizione, Milano 1820"
+  },
+  "altre_edizioni": [],
+  "fonti_correlate": [
+   "f46",
+   "f54",
+   "f58",
+   "f45"
+  ],
+  "termini": [],
+  "immagine": null,
+  "alt_immagine": null
+ },
+ {
+  "id": "f45",
+  "slug": "strathy-elements-art-of-dancing",
+  "titolo": "Elements of the Art of Dancing",
+  "autore": "Alexander Strathy",
+  "anno": 1822,
+  "citta": "Edimburgo",
+  "lingua": "eng",
+  "tipo": "trattato",
+  "era": "ottocento",
+  "documenta": [],
+  "rilevanza": "",
+  "scansione": {
+   "istituzione": "Library of Congress",
+   "url": "https://archive.org/details/danceman154",
+   "edizione": "prima edizione, Edimburgo 1822"
+  },
+  "altre_edizioni": [],
+  "fonti_correlate": [
+   "f44",
+   "f46",
+   "f58",
+   "f51"
+  ],
+  "termini": [],
+  "immagine": null,
+  "alt_immagine": null
+ },
+ {
+  "id": "f46",
+  "slug": "blasis-code-of-terpsichore",
+  "titolo": "The Code of Terpsichore",
+  "autore": "Carlo Blasis",
+  "anno": 1830,
+  "citta": "Londra",
+  "lingua": "eng",
+  "tipo": "trattato",
+  "era": "ottocento",
+  "documenta": [],
+  "rilevanza": "",
+  "scansione": {
+   "istituzione": "Library of Congress",
+   "url": "https://archive.org/details/danceman251",
+   "edizione": "edizione londinese, traduzione di R. Barton"
+  },
+  "altre_edizioni": [],
+  "fonti_correlate": [
+   "f44",
+   "f54",
+   "f58",
+   "f45"
+  ],
+  "termini": [],
+  "immagine": null,
+  "alt_immagine": null
+ },
+ {
+  "id": "f47",
+  "slug": "theleur-letters-on-dancing",
+  "titolo": "Letters on Dancing",
+  "autore": "E. A. Théleur",
+  "anno": 1832,
+  "citta": "Londra",
+  "lingua": "eng",
+  "tipo": "notazione",
+  "era": "ottocento",
+  "documenta": [],
+  "rilevanza": "",
+  "scansione": {
+   "istituzione": "Library of Congress",
+   "url": "https://archive.org/details/danceman156",
+   "edizione": "prima edizione, Londra 1832"
+  },
+  "altre_edizioni": [],
+  "fonti_correlate": [
+   "f49",
+   "f57"
+  ],
+  "termini": [],
+  "immagine": null,
+  "alt_immagine": null
+ },
+ {
+  "id": "f48",
+  "slug": "cellarius-la-danse-des-salons",
+  "titolo": "La danse des salons",
+  "autore": "Henri Cellarius",
+  "anno": 1849,
+  "citta": "Parigi",
+  "lingua": "fra",
+  "tipo": "manuale",
+  "era": "ottocento",
+  "documenta": [],
+  "rilevanza": "",
+  "scansione": {
+   "istituzione": "Library of Congress",
+   "url": "https://archive.org/details/danceman038",
+   "edizione": "edizione Parigi 1849, illustrata da Gavarni"
+  },
+  "altre_edizioni": [],
+  "fonti_correlate": [
+   "f50",
+   "f60",
+   "f52",
+   "f53"
+  ],
+  "termini": [],
+  "immagine": null,
+  "alt_immagine": null
+ },
+ {
+  "id": "f49",
+  "slug": "saint-leon-stenochoregraphie",
+  "titolo": "La sténochorégraphie",
+  "autore": "Arthur Saint-Léon",
+  "anno": 1852,
+  "citta": "Parigi",
+  "lingua": "fra",
+  "tipo": "notazione",
+  "era": "ottocento",
+  "documenta": [],
+  "rilevanza": "",
+  "scansione": {
+   "istituzione": "Bibliothèque nationale de France",
+   "url": "https://gallica.bnf.fr/ark:/12148/bpt6k56841007",
+   "edizione": "prima edizione, Parigi 1852"
+  },
+  "altre_edizioni": [],
+  "fonti_correlate": [
+   "f47",
+   "f57"
+  ],
+  "termini": [],
+  "immagine": null,
+  "alt_immagine": null
+ },
+ {
+  "id": "f50",
+  "slug": "durang-fashionable-dancers-casket",
+  "titolo": "The Fashionable Dancer's Casket",
+  "autore": "Charles Durang",
+  "anno": 1856,
+  "citta": "Filadelfia",
+  "lingua": "eng",
+  "tipo": "manuale",
+  "era": "ottocento",
+  "documenta": [],
+  "rilevanza": "",
+  "scansione": {
+   "istituzione": "Library of Congress",
+   "url": "https://archive.org/details/danceman063",
+   "edizione": "edizione Filadelfia 1856"
+  },
+  "altre_edizioni": [],
+  "fonti_correlate": [
+   "f60",
+   "f52",
+   "f53",
+   "f48"
+  ],
+  "termini": [],
+  "immagine": null,
+  "alt_immagine": null
+ },
+ {
+  "id": "f51",
+  "slug": "adice-theorie-gymnastique-danse",
+  "titolo": "Théorie de la gymnastique de la danse théâtrale",
+  "autore": "G.-Léopold Adice",
+  "anno": 1859,
+  "citta": "Parigi",
+  "lingua": "fra",
+  "tipo": "trattato",
+  "era": "ottocento",
+  "documenta": [],
+  "rilevanza": "",
+  "scansione": {
+   "istituzione": "Bibliothèque nationale de France",
+   "url": "https://gallica.bnf.fr/ark:/12148/bpt6k311742d",
+   "edizione": "prima edizione, Parigi 1859"
+  },
+  "altre_edizioni": [],
+  "fonti_correlate": [
+   "f59",
+   "f54",
+   "f58",
+   "f46"
+  ],
+  "termini": [],
+  "immagine": null,
+  "alt_immagine": null
+ },
+ {
+  "id": "f52",
+  "slug": "ferrero-art-of-dancing",
+  "titolo": "The Art of Dancing, Historically Illustrated",
+  "autore": "Edward Ferrero",
+  "anno": 1859,
+  "citta": "New York",
+  "lingua": "eng",
+  "tipo": "manuale",
+  "era": "ottocento",
+  "documenta": [],
+  "rilevanza": "",
+  "scansione": {
+   "istituzione": "Library of Congress",
+   "url": "https://archive.org/details/danceman067",
+   "edizione": "prima edizione, New York 1859"
+  },
+  "altre_edizioni": [],
+  "fonti_correlate": [
+   "f60",
+   "f50",
+   "f53",
+   "f48"
+  ],
+  "termini": [],
+  "immagine": null,
+  "alt_immagine": null
+ },
+ {
+  "id": "f53",
+  "slug": "howe-american-dancing-master",
+  "titolo": "American Dancing Master and Ball-Room Prompter",
+  "autore": "Elias Howe",
+  "anno": 1862,
+  "citta": "Boston",
+  "lingua": "eng",
+  "tipo": "manuale",
+  "era": "ottocento",
+  "documenta": [],
+  "rilevanza": "",
+  "scansione": {
+   "istituzione": "Library of Congress",
+   "url": "https://archive.org/details/danceman102",
+   "edizione": "edizione Boston 1862"
+  },
+  "altre_edizioni": [],
+  "fonti_correlate": [
+   "f52",
+   "f60",
+   "f50",
+   "f48"
+  ],
+  "termini": [],
+  "immagine": null,
+  "alt_immagine": null
+ },
+ {
+  "id": "f54",
+  "slug": "blasis-nouveau-manuel-complet",
+  "titolo": "Nouveau manuel complet de la danse",
+  "autore": "Carlo Blasis",
+  "anno": 1866,
+  "citta": "Parigi",
+  "lingua": "fra",
+  "tipo": "trattato",
+  "era": "ottocento",
+  "documenta": [],
+  "rilevanza": "",
+  "scansione": {
+   "istituzione": "Library of Congress",
+   "url": "https://archive.org/details/danceman020",
+   "edizione": "edizione Parigi 1866"
+  },
+  "altre_edizioni": [],
+  "fonti_correlate": [
+   "f44",
+   "f46",
+   "f58",
+   "f59"
+  ],
+  "termini": [],
+  "immagine": null,
+  "alt_immagine": null
+ },
+ {
+  "id": "f55",
+  "slug": "giraudet-traite-de-la-danse",
+  "titolo": "Traité de la danse",
+  "autore": "Eugène Giraudet",
+  "anno": 1890,
+  "citta": "Parigi",
+  "lingua": "fra",
+  "tipo": "manuale",
+  "era": "ottocento",
+  "documenta": [],
+  "rilevanza": "",
+  "scansione": {
+   "istituzione": "Library of Congress",
+   "url": "https://archive.org/details/danceman085",
+   "edizione": "edizione Parigi, c. 1890"
+  },
+  "altre_edizioni": [],
+  "fonti_correlate": [
+   "f56",
+   "f53",
+   "f52",
+   "f60"
+  ],
+  "termini": [],
+  "immagine": null,
+  "alt_immagine": null
+ },
+ {
+  "id": "f56",
+  "slug": "dodworth-dancing-relations",
+  "titolo": "Dancing and Its Relations to Education and Social Life",
+  "autore": "Allen Dodworth",
+  "anno": 1885,
+  "citta": "New York",
+  "lingua": "eng",
+  "tipo": "manuale",
+  "era": "ottocento",
+  "documenta": [],
+  "rilevanza": "",
+  "scansione": {
+   "istituzione": "Internet Archive",
+   "url": "https://archive.org/details/dancingitsrelati00dodw_0",
+   "edizione": "prima edizione, New York 1885"
+  },
+  "altre_edizioni": [],
+  "fonti_correlate": [
+   "f55",
+   "f53",
+   "f52",
+   "f60"
+  ],
+  "termini": [],
+  "immagine": null,
+  "alt_immagine": null
+ },
+ {
+  "id": "f57",
+  "slug": "zorn-grammatik-der-tanzkunst",
+  "titolo": "Grammatik der Tanzkunst",
+  "autore": "Friedrich Albert Zorn",
+  "anno": 1887,
+  "citta": "Lipsia",
+  "lingua": "ted",
+  "tipo": "notazione",
+  "era": "ottocento",
+  "documenta": [],
+  "rilevanza": "",
+  "scansione": {
+   "istituzione": "Internet Archive (University of Toronto)",
+   "url": "https://archive.org/details/grammarofartofda00zornuoft",
+   "edizione": "traduzione inglese, Boston 1905"
+  },
+  "altre_edizioni": [],
+  "fonti_correlate": [
+   "f49",
+   "f47"
+  ],
+  "termini": [],
+  "immagine": null,
+  "alt_immagine": null
+ },
+ {
+  "id": "f58",
+  "slug": "blasis-notes-upon-dancing",
+  "titolo": "Notes upon Dancing, Historical and Practical",
+  "autore": "Carlo Blasis",
+  "anno": 1847,
+  "citta": "Londra",
+  "lingua": "eng",
+  "tipo": "trattato",
+  "era": "ottocento",
+  "documenta": [],
+  "rilevanza": "",
+  "scansione": {
+   "istituzione": "Internet Archive (Google Books)",
+   "url": "https://archive.org/details/bub_gb_C780ChKFfZ8C",
+   "edizione": "prima edizione, Londra 1847"
+  },
+  "altre_edizioni": [],
+  "fonti_correlate": [
+   "f44",
+   "f46",
+   "f54",
+   "f51"
+  ],
+  "termini": [],
+  "immagine": null,
+  "alt_immagine": null
+ },
+ {
+  "id": "f59",
+  "slug": "czerwinski-geschichte-der-tanzkunst",
+  "titolo": "Geschichte der Tanzkunst bei den cultivirten Völkern",
+  "autore": "Albert Czerwinski",
+  "anno": 1862,
+  "citta": "Lipsia",
+  "lingua": "ted",
+  "tipo": "trattato",
+  "era": "ottocento",
+  "documenta": [],
+  "rilevanza": "",
+  "scansione": {
+   "istituzione": "Library of Congress",
+   "url": "https://archive.org/details/danceman052",
+   "edizione": "prima edizione, 1862"
+  },
+  "altre_edizioni": [],
+  "fonti_correlate": [
+   "f51",
+   "f54",
+   "f58",
+   "f46"
+  ],
+  "termini": [],
+  "immagine": null,
+  "alt_immagine": null
+ },
+ {
+  "id": "f60",
+  "slug": "gawlikowski-guide-complet-de-la-danse",
+  "titolo": "Guide complet de la danse",
+  "autore": "Gawlikowski",
+  "anno": 1858,
+  "citta": "Parigi",
+  "lingua": "fra",
+  "tipo": "manuale",
+  "era": "ottocento",
+  "documenta": [],
+  "rilevanza": "",
+  "scansione": {
+   "istituzione": "Library of Congress",
+   "url": "https://archive.org/details/danceman084",
+   "edizione": "edizione Parigi 1858"
+  },
+  "altre_edizioni": [],
+  "fonti_correlate": [
+   "f52",
+   "f50",
+   "f53",
+   "f48"
+  ],
+  "termini": [],
+  "immagine": null,
+  "alt_immagine": null
+ }
+]
