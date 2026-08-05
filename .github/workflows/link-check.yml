@@ -35,6 +35,11 @@ jobs:
         with:
           python-version: '3.12'
 
+      - name: Install the CA bundle
+        # The checker verifies TLS strictly. certifi keeps the trust store the
+        # same here and on a local Windows run, whose system store is incomplete.
+        run: python -m pip install --quiet --upgrade certifi
+
       - name: Control set (gate)
         run: python tools/link_check.py --controls-only
 

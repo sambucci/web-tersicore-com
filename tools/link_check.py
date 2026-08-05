@@ -72,9 +72,27 @@ CONTROLS = [
 
 
 # ------------------------------------------------------------------- fetching
+def _ssl_context():
+    """
+    Windows Python ships an incomplete CA store, so verification against
+    commons.wikimedia.org fails with CERTIFICATE_VERIFY_FAILED even though the
+    certificate is fine. That turned every Commons URL in the inventory into a
+    false failure on a local run while the Linux CI runner saw them all as 200.
+    certifi's bundle fixes it; without certifi we keep strict verification and
+    let the failure surface honestly rather than disabling verification.
+    """
+    try:
+        import certifi
+        return ssl.create_default_context(cafile=certifi.where())
+    except ImportError:
+        return ssl.create_default_context()
+
+
+_CTX = _ssl_context()
+
+
 def _opener():
-    ctx = ssl.create_default_context()
-    return urllib.request.build_opener(urllib.request.HTTPSHandler(context=ctx))
+    return urllib.request.build_opener(urllib.request.HTTPSHandler(context=_CTX))
 
 
 def fetch(url: str, method: str = "GET", timeout: int = TIMEOUT):
@@ -144,13 +162,23 @@ def identity_archive_org(url: str, titolo: str, autore: str):
     if not m:
         return None
     ident = m.group(1)
-    status, _, body, kind, err = fetch(f"https://archive.org/metadata/{ident}", "GET", TIMEOUT)
-    if status != 200 or not body:
-        return ("unverifiable", f"metadata API returned {status or kind}")
-    try:
-        md = json.loads(body).get("metadata", {})
-    except Exception:
-        return ("unverifiable", "metadata API returned unparseable JSON")
+    # The IA metadata API intermittently answers 200 with a non-JSON body under
+    # load. One shot at it reports a live item as unverifiable, so retry before
+    # concluding anything.
+    md, last = None, ""
+    for attempt in range(3):
+        status, _, body, kind, err = fetch(f"https://archive.org/metadata/{ident}", "GET", TIMEOUT)
+        if status != 200 or not body:
+            last = f"metadata API returned {status or kind}"
+        else:
+            try:
+                md = json.loads(body).get("metadata", {})
+                break
+            except Exception:
+                last = "metadata API returned unparseable JSON"
+        time.sleep(2.0 * (attempt + 1))
+    if md is None:
+        return ("unverifiable", last)
     if not md:
         return ("gone", f"archive.org has no item with identifier '{ident}'")
     got_t = md.get("title", "")
@@ -235,7 +263,22 @@ def inventory():
                               "url": c[key], "titolo": c.get("title", ""),
                               "autore": c.get("author", ""), "istituzione": c.get("institution", ""),
                               "page": "/crediti/"})
-    return items
+
+    # A Commons file page is both an artwork's url_opera and its credit's
+    # source_url, and one licence page backs many credits. Checking the same URL
+    # twice costs a request against a rate-limited host and prints every finding
+    # twice. Keep the first occurrence and record where else it appears.
+    seen, deduped = {}, []
+    for it in items:
+        if it["url"] in seen:
+            other = seen[it["url"]]
+            if it["page"] not in other["also_on"]:
+                other["also_on"].append(it["page"])
+            continue
+        it["also_on"] = []
+        seen[it["url"]] = it
+        deduped.append(it)
+    return deduped
 
 
 # --------------------------------------------------------------------- runner
@@ -311,6 +354,12 @@ HEADER_RULES = """\
 5. `mismatch` means the link answered but the institution's own record no longer
    names the work this site claims. That is the failure mode an HTTP check
    cannot see, and it is the one that matters most here.
+
+6. `tls_error` is almost always the checking machine rather than the host. A
+   Windows Python with an incomplete system CA store rejects certificates that
+   are perfectly valid. This checker uses certifi's bundle when it is installed;
+   if you see a wall of TLS failures against one host, install certifi and
+   re-run before believing any of it.
 
 **Every environment is a partial view.** This run happened on: {env}.
 Reachability from a datacenter runner and from a residential connection fail in
