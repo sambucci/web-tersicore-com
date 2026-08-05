@@ -400,6 +400,9 @@ hr { border: 0; border-top: 1px solid var(--rule); margin: var(--s5) 0; }
 .rail--sticky { position: sticky; top: 0; z-index: 5; background: var(--ground); border-bottom: 1px solid var(--rule); }
 .rail--sticky .rail__track { border-top: 0; }
 
-/* home lead */
-.lead-plate { margin-block: 0 var(--s5); }
+/* home lead: a portrait plate does not want the full shell. At 1120px the
+   Pas de Quatre rendered 990x1338 and pushed the whole spine below the fold, so
+   it is centred at plate size and reads as a print on a mount. */
+.lead-plate { margin-block: 0 var(--s5); max-width: 560px; margin-inline: auto; }
+.lead-plate .plate__cap { text-align: center; }
 .home-intro { padding-block: var(--s6) var(--s4); }
