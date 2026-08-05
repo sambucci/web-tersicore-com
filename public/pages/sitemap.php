@@ -9,7 +9,11 @@ $urls = [
     ['/iconografia/',  '0.8'],
     ['/cronologia/',   '0.7'],
     ['/metodo/',       '0.5'],
+    ['/chi-siamo/',    '0.5'],
     ['/crediti/',      '0.3'],
+    ['/contatti/',     '0.3'],
+    ['/privacy/',      '0.2'],
+    ['/termini/',      '0.2'],
 ];
 foreach (fonti()       as $f) { $urls[] = ['/fonti/' . $f['slug'] . '/', '0.8']; }
 foreach (lessico()     as $t) { $urls[] = ['/lessico/' . $t['slug'] . '/', '0.7']; }

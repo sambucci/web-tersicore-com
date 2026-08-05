@@ -12,6 +12,12 @@
         <li><a href="/metodo/">Metodo</a></li>
         <li><a href="/crediti/">Crediti</a></li>
       </ul>
+      <ul class="site-foot__legal">
+        <li><a href="/chi-siamo/">Chi siamo</a></li>
+        <li><a href="/contatti/">Contatti</a></li>
+        <li><a href="/privacy/">Privacy e cookie</a></li>
+        <li><a href="/termini/">Termini di utilizzo</a></li>
+      </ul>
     </nav>
     <p class="site-foot__note">
       Le opere schedate sono anteriori al 1900 e di pubblico dominio. Le riproduzioni ospitate qui provengono

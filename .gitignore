@@ -65,3 +65,14 @@ Thumbs.db
 # Python bytecode from the local checker and its rule tests
 __pycache__/
 *.pyc
+
+# Handler message channel: local-only, never committed. These carry fleet meta
+# (the Handler, sibling sites, Luca), which stays off GitHub in both buckets.
+# The ignore entries below must match the directory names actually in use: the
+# channel shipped as inbox/ and outbox/ while only handler-in/ and handler-out/
+# were ignored, so the first Handler message was one `git add -A` from being
+# published. Keep both spellings.
+inbox/
+outbox/
+handler-in/
+handler-out/

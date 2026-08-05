@@ -46,8 +46,11 @@ switch (true) {
     case $route === 'iconografia'  && $n === 1:    require __DIR__ . '/pages/iconografia-index.php'; break;
     case $route === 'iconografia'  && $n === 2:    require __DIR__ . '/pages/opera.php'; break;
     case $route === 'cronologia'   && $n === 1:    require __DIR__ . '/pages/cronologia.php'; break;
-    case $route === 'metodo'       && $n === 1:    require __DIR__ . '/pages/metodo.php'; break;
     case $route === 'crediti'      && $n === 1:    require __DIR__ . '/pages/crediti.php'; break;
+
+    // Prose pages, all the same shape: data/content/<slug>.md
+    case $n === 1 && in_array($route, ['metodo', 'chi-siamo', 'privacy', 'contatti', 'termini'], true):
+        require __DIR__ . '/pages/testo.php'; break;
 
     default:
         $status = 404;

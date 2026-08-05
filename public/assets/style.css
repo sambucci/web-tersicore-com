@@ -345,6 +345,12 @@ hr { border: 0; border-top: 1px solid var(--rule); margin: var(--s5) 0; }
   letter-spacing: var(--track); color: var(--ink-muted); text-decoration: none;
 }
 .site-foot__nav a:hover { color: var(--accent-deep); }
+/* legal row: same voice, set back so it reads as the secondary rank it is */
+.site-foot__legal { list-style: none; margin: calc(var(--s4) * -1 + var(--s1)) 0 var(--s4); padding: 0;
+  display: flex; flex-wrap: wrap; gap: var(--s1) var(--s4); }
+.site-foot__legal a { font-family: var(--sans); font-size: var(--fs-meta); text-transform: uppercase;
+  letter-spacing: var(--track); color: var(--ink-muted); text-decoration: none; opacity: .85; }
+.site-foot__legal a:hover { color: var(--accent-deep); opacity: 1; }
 .site-foot__note {
   font-family: var(--sans); font-size: var(--fs-sm); color: var(--ink-muted);
   max-width: 46rem; margin: 0; line-height: 1.55;
