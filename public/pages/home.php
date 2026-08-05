@@ -46,25 +46,24 @@ ob_start(); ?>
 
 <section class="section home-intro">
   <div class="shell">
-    <div class="measure">
-      <h1>Le fonti primarie della danza occidentale</h1>
-      <p class="lead">Dal Quattrocento all'Ottocento la danza è stata scritta prima di essere
-      filmata: in trattati, manuali e sistemi di notazione che restano l'unica testimonianza
-      diretta di come si ballava.</p>
-      <p>Questo sito scheda quelle fonti e collega ciascuna alla copia digitalizzata presso
-      l'istituzione che la conserva. Ogni collegamento è aperto e verificato uno per uno.</p>
-      <hr class="rule-accent">
-      <p class="meta"><?= count($F) ?> fonti<span class="meta__sep"></span><?= count($L) ?> voci di lessico<span class="meta__sep"></span><?= count($I) ?> opere</p>
+    <div class="opening">
+      <div class="opening__text">
+        <h1>Le fonti primarie della danza occidentale</h1>
+        <p class="lead">Dal Quattrocento all'Ottocento la danza è stata scritta prima di essere
+        filmata: in trattati, manuali e sistemi di notazione che restano l'unica testimonianza
+        diretta di come si ballava.</p>
+        <p>Questo sito scheda quelle fonti e collega ciascuna alla copia digitalizzata presso
+        l'istituzione che la conserva. Ogni collegamento è aperto e verificato uno per uno.</p>
+        <hr class="rule-accent">
+        <?= meta_row([count($F) . ' fonti', count($L) . ' voci di lessico', count($I) . ' opere']) ?>
+      </div>
+      <div class="opening__plate">
+        <?= plate($LEAD,
+            'Quattro ballerine romantiche in posa, litografia del Pas de Quatre di Jules Perrot, 1845',
+            '', false,
+            'Il celebre Pas de Quatre di Jules Perrot, danzato da Carlotta Grisi, Marie Taglioni, Lucile Grahn e Fanny Cerrito, 1845') ?>
+      </div>
     </div>
-  </div>
-</section>
-
-<section class="section">
-  <div class="shell">
-    <?= plate($LEAD,
-        'Quattro ballerine romantiche in posa, litografia del Pas de Quatre di Jules Perrot, 1845',
-        'lead-plate', false,
-        'Il celebre Pas de Quatre di Jules Perrot, danzato da Carlotta Grisi, Marie Taglioni, Lucile Grahn e Fanny Cerrito, 1845') ?>
   </div>
 </section>
 
