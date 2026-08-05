@@ -26,6 +26,10 @@ ob_start(); ?>
   <div class="shell">
     <h2><?= esc($era['label']) ?></h2>
     <p class="count"><?= esc($era['range']) ?><span class="meta__sep"></span><?= count($rows) ?> fonti</p>
+    <?php $saggio = markdown('era-' . $key); if ($saggio): ?>
+    <div class="measure prose"><?= $saggio ?></div>
+    <hr class="rule-accent">
+    <?php endif; ?>
     <ul class="grid grid--3">
       <?php foreach ($rows as $f): ?>
       <li class="card">
