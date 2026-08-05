@@ -467,6 +467,15 @@ HEADER_RULES = """\
    if you see a wall of TLS failures against one host, install certifi and
    re-run before believing any of it.
 
+**This site's paired measurement (rule 6).** Measured 2026-08-05 on commit de4e7bd, same
+104-URL inventory, same code, one run each: **104/104 healthy from a local residential
+Windows connection and 104/104 from a GitHub datacenter runner. Gap 0, with zero URLs
+differing in verdict.** Band applied: effectively zero for single-probe operation, so a gap
+of 0 is no penalty. That is a property of this inventory rather than a general result: every
+source here is a large public institution (archive.org, gallica.bnf.fr, commons.wikimedia.org,
+loc.gov, creativecommons.org), none of which runs the bot rules that penalise datacenter IPs
+on hobbyist and commerce sources. A site with a different source mix must measure its own pair.
+
 **Every environment is a partial view.** This run happened on: {env}.
 Reachability from a datacenter runner and from a residential connection fail in
 opposite directions: datacenter IP ranges get blocked by institutional WAFs that
