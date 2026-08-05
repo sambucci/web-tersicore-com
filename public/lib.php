@@ -92,18 +92,31 @@ function markdown(string $name): string {
 }
 
 /**
- * Credit record for a shipped image file, keyed by basename.
- * Each artwork ships twice: a 16:10 card crop and an uncropped '-full' version
- * for the entry page. Both carry the same credit, so the suffix is stripped
- * before lookup rather than duplicated in credits.json.
+ * One source image ships in several renditions: a 'card-' crop for grids, a
+ * 'plate-' or '-full' version for entry pages, a 'hero-' detail. They all carry
+ * the same credit, so lookup reduces a filename to its canonical stem instead of
+ * requiring a credits.json row per rendition. Without this a source entry showed
+ * its plate with no credit line at all, since credits.json keyed the 'plate-'
+ * name while the entry referenced the 'card-' one.
  */
+function credit_stem(string $file): string {
+    $b = pathinfo(basename($file), PATHINFO_FILENAME);
+    $b = preg_replace('/^(card|plate|hero)-/i', '', $b);
+    return strtolower(preg_replace('/-full$/i', '', $b));
+}
+
 function credit_for(string $file): ?array {
-    static $m = null;
-    if ($m === null) $m = by_key(credits(), 'file');
+    static $exact = null, $stems = null;
+    if ($exact === null) {
+        $exact = by_key(credits(), 'file');
+        $stems = [];
+        foreach (credits() as $c) {
+            $s = credit_stem($c['file'] ?? '');
+            if ($s !== '' && !isset($stems[$s])) $stems[$s] = $c;
+        }
+    }
     $b = basename($file);
-    if (isset($m[$b])) return $m[$b];
-    $base = preg_replace('/-full(\.[a-z0-9]+)$/i', '$1', $b);
-    return $m[$base] ?? null;
+    return $exact[$b] ?? $stems[credit_stem($b)] ?? null;
 }
 
 /**
@@ -146,7 +159,11 @@ function image_credit_text(array $c): string {
 function meta_row(array $bits): string {
     $bits = array_values(array_filter($bits, fn($b) => $b !== '' && $b !== null));
     if (!$bits) return '';
-    return '<p class="meta">' . implode('<span class="meta__sep"></span>', array_map('esc', $bits)) . '</p>';
+    // The separator carries a comma that is hidden visually. The rule is drawn by
+    // CSS, so without it a screen reader reads the line as one run-on word:
+    // "Kellom Tomlinson1735Londrainglesetrattato".
+    $sep = '<span class="meta__sep" aria-hidden="true"></span><span class="vh">, </span>';
+    return '<p class="meta">' . implode($sep, array_map('esc', $bits)) . '</p>';
 }
 
 function era_label(string $key): string { return ERE[$key]['label'] ?? $key; }

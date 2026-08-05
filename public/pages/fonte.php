@@ -20,8 +20,12 @@ $opere       = opere_per_fonte($f['id']);
 ob_start(); ?>
 <section class="section">
   <div class="shell">
-    <?php if (!empty($f['immagine'])): ?>
-      <?= plate($f['immagine'], $f['alt_immagine'] ?? ('Frontespizio di ' . $f['titolo']), 'plate--wide', false) ?>
+    <?php // The whole plate on the entry page; the card crop is for index grids only.
+    if (!empty($f['immagine_full']) || !empty($f['immagine'])): ?>
+      <?= plate($f['immagine_full'] ?: $f['immagine'],
+                $f['alt_immagine'] ?? ('Frontespizio di ' . $f['titolo']),
+                'plate--wide lead-plate', false,
+                $f['titolo'] . ', ' . $f['anno']) ?>
     <?php endif; ?>
     <div class="measure">
       <p class="label"><?= esc(era_label($f['era'])) ?></p>
