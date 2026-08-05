@@ -161,8 +161,9 @@
    "tordiglione",
    "trabuchetto"
   ],
-  "immagine": null,
-  "alt_immagine": null
+  "immagine": "card-caroso-ballarino.webp",
+  "alt_immagine": "Pagina del Ballarino di Caroso, 1581, con l'intavolatura di liuto della Spagnoletta",
+  "immagine_full": "plate-caroso-ballarino.webp"
  },
  {
   "id": "f05",
@@ -201,8 +202,9 @@
    "courante",
    "pavana"
   ],
-  "immagine": null,
-  "alt_immagine": null
+  "immagine": "card-arbeau-orchesographie.webp",
+  "alt_immagine": "Pagina dell'Orchesographie di Arbeau, 1589, con la tavola dei passi",
+  "immagine_full": "plate-arbeau-orchesographie.webp"
  },
  {
   "id": "f06",
@@ -481,8 +483,9 @@
    "sissonne",
    "tems de courante"
   ],
-  "immagine": null,
-  "alt_immagine": null
+  "immagine": "card-feuillet-choregraphie.webp",
+  "alt_immagine": "Pagina della Chorégraphie di Feuillet, 1700, con i segni della notazione",
+  "immagine_full": "plate-feuillet-choregraphie.webp"
  },
  {
   "id": "f13",
@@ -517,8 +520,9 @@
    "f16"
   ],
   "termini": [],
-  "immagine": null,
-  "alt_immagine": null
+  "immagine": "card-feuillet-folie-despagne.webp",
+  "alt_immagine": "Notazione coreografica della Folie d'Espagne, con il tracciato del percorso sulla sala",
+  "immagine_full": "plate-feuillet-folie-despagne.webp"
  },
  {
   "id": "f14",
@@ -1082,8 +1086,9 @@
    "f31"
   ],
   "termini": [],
-  "immagine": null,
-  "alt_immagine": null
+  "immagine": "card-tomlinson-sarabanda.webp",
+  "alt_immagine": "Tavola della sarabanda dall'Art of Dancing di Tomlinson, 1735: due danzatori incisi a figura intera sopra il tracciato dei passi",
+  "immagine_full": "plate-tomlinson-sarabanda.webp"
  },
  {
   "id": "f30",

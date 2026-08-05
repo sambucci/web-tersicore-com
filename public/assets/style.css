@@ -358,3 +358,48 @@ hr { border: 0; border-top: 1px solid var(--rule); margin: var(--s5) 0; }
   .site-head, .site-foot, .filter, .skip { display: none; }
   body { background: #fff; }
 }
+
+/* ---------- century spine: the home page and /cronologia/ share this ---------- */
+.cent { padding-block: var(--s5); border-bottom: 1px solid var(--rule-soft); }
+.cent:last-of-type { border-bottom: 0; }
+.cent__head { margin-bottom: var(--s3); }
+.cent__head h2 { margin: 0 0 var(--s0); color: var(--accent); }
+.cent__body { display: grid; gap: var(--s5); grid-template-columns: 1fr; align-items: start; }
+@media (min-width: 900px) { .cent__body { grid-template-columns: 1fr 300px; gap: var(--s6); } }
+
+.spine { list-style: none; margin: 0; padding: 0 0 0 var(--s5); border-left: 1px solid var(--rule); }
+.spine li { position: relative; padding: var(--s2) 0; border-bottom: 1px solid var(--rule-soft); }
+.spine li:last-child { border-bottom: 0; }
+.spine li::before {
+  content: ''; position: absolute; left: calc(var(--s5) * -1); top: 1.15em;
+  width: 9px; height: 9px; border-radius: 50%;
+  background: var(--ground); border: 1px solid var(--ink-muted);
+  transform: translateX(-4.5px);
+}
+.spine li[data-kind="fonte"]::before { background: var(--accent); border-color: var(--accent); }
+.spine__yr {
+  font-family: var(--sans); font-size: var(--fs-meta); letter-spacing: var(--track);
+  color: var(--ink-muted); display: inline-block; min-width: 4rem;
+}
+.spine__t { text-decoration: none; font-weight: 600; }
+.spine__t:hover { text-decoration: underline; }
+.spine__sub {
+  display: block; font-family: var(--sans); font-size: var(--fs-meta);
+  text-transform: uppercase; letter-spacing: var(--track);
+  color: var(--ink-muted); padding-left: 4rem;
+}
+.spine__more { border-bottom: 0; }
+.spine__more a {
+  font-family: var(--sans); font-size: var(--fs-meta);
+  text-transform: uppercase; letter-spacing: var(--track);
+}
+.aside { margin: 0; position: sticky; top: var(--s3); }
+@media (max-width: 899px) { .aside { position: static; } }
+
+/* sticky century rail, promoted from the variant */
+.rail--sticky { position: sticky; top: 0; z-index: 5; background: var(--ground); border-bottom: 1px solid var(--rule); }
+.rail--sticky .rail__track { border-top: 0; }
+
+/* home lead */
+.lead-plate { margin-block: 0 var(--s5); }
+.home-intro { padding-block: var(--s6) var(--s4); }
