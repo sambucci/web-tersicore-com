@@ -14,6 +14,7 @@ initial-prompt.md
 operator-brief.md
 design-brief.md
 memory.md
+handoff-to-handler.md
 /deploy.yml
 
 # Externally fed sites only: the ingest doctrine and whatever contract document the
