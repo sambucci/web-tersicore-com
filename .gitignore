@@ -69,11 +69,15 @@ __pycache__/
 
 # Handler message channel: local-only, never committed. These carry fleet meta
 # (the Handler, sibling sites, Luca), which stays off GitHub in both buckets.
-# The ignore entries below must match the directory names actually in use: the
-# channel shipped as inbox/ and outbox/ while only handler-in/ and handler-out/
-# were ignored, so the first Handler message was one `git add -A` from being
-# published. Keep both spellings.
-inbox/
-outbox/
+#
+# The channel is ALSO covered by .git/info/exclude, which the Handler now uses so
+# it leaves no diff in the working tree. These lines stay anyway, because
+# .git/info/exclude is not committed and does not survive a fresh clone: on a new
+# machine the channel would be unignored again with no sign of it.
+#
+# The stale inbox/ and outbox/ pair is gone. It existed because the channel
+# shipped under those names for an hour while only the handler-* names were
+# ignored, which put the first Handler message one `git add -A` from GitHub.
+# Whatever the names, verify rather than assume: `git check-ignore -v handler-in/`.
 handler-in/
 handler-out/
