@@ -27,6 +27,7 @@ import random
 import re
 import socket
 import ssl
+import subprocess
 import sys
 import time
 import urllib.error
@@ -69,6 +70,24 @@ CONTROLS = [
     ("DNS-dead: RFC 2606 reserved name that cannot resolve",
      "https://tersicore-control.invalid/scan", "dns_dead"),
 ]
+
+
+# --------------------------------------------------- rule 4: boundary matching
+def url_host(url: str) -> str:
+    return (urllib.parse.urlparse(url).hostname or "").lower().rstrip(".")
+
+
+def host_matches(host: str, pattern: str) -> bool:
+    """
+    Host equality or a true subdomain. Substring matching is a false-positive
+    generator: an entry for 'x.com' matches inside 'jazzbarisax.com' and
+    relabels a live source. 'uk.glassdoor.com' must still match 'glassdoor.com'.
+    """
+    host = (host or "").lower().rstrip(".")
+    pattern = (pattern or "").lower().lstrip(".").rstrip(".")
+    if not host or not pattern:
+        return False
+    return host == pattern or host.endswith("." + pattern)
 
 
 # ------------------------------------------------------------------- fetching
@@ -138,23 +157,80 @@ def fetch(url: str, method: str = "GET", timeout: int = TIMEOUT, full: bool = Fa
         return None, url, "", "network", f"{type(e).__name__}: {e}"
 
 
+def _curl(url: str, relaxed: bool):
+    """
+    Rungs 2 and 3 of the probe ladder. `relaxed` belongs to rung 3 ALONE and
+    lives inside this call: a blanket -k at the top of the file would pin every
+    URL to the bottom rung and collapse "alive" and "alive with a broken
+    certificate" into one verdict with no visible symptom.
+    """
+    cmd = ["curl", "-s", "-L", "-o", os.devnull, "-A", UA,
+           "-m", str(TIMEOUT), "-w", "%{http_code}", url]
+    if relaxed:
+        cmd.insert(1, "-k")
+        if sys.platform == "win32":
+            cmd.insert(1, "--ssl-revoke-best-effort")
+    try:
+        r = subprocess.run(cmd, capture_output=True, text=True, timeout=TIMEOUT + 20)
+    except Exception as e:                                   # noqa: BLE001
+        return None, f"curl failed: {type(e).__name__}"
+    code = (r.stdout or "").strip()[-3:]
+    if code.isdigit() and code != "000":
+        return int(code), ""
+    return None, (r.stderr or "curl produced no status").strip()[:160]
+
+
+# HTTP statuses that are an unambiguous answer from a host that already
+# completed a TLS handshake. Rungs 2 and 3 differ from rung 1 only in client and
+# TLS behaviour, so they cannot turn one of these into a 200; escalating them
+# only adds load. Transport failures and 5xx DO climb the ladder.
+DEFINITE = {400, 401, 403, 404, 410, 451}
+
+
 def check_reachable(url: str):
-    """HEAD first, fall back to GET. Retries with backoff on transient failures."""
-    last = None
-    for attempt in range(RETRIES):
-        status, final, body, kind, err = fetch(url, "HEAD", TIMEOUT)
-        # Many institutional servers reject or mishandle HEAD.
-        if status in (403, 405, 501, None):
-            status, final, body, kind, err = fetch(url, "GET", TIMEOUT)
-        last = (status, final, body, kind, err)
-        if status and 200 <= status < 400:
-            return last
-        if kind == "dns":
-            return last                      # deterministic, do not retry
-        if status and status in (401, 403, 404, 410):
-            return last                      # deterministic answer from the host
-        time.sleep(1.5 * (attempt + 1) + random.random())
-    return last
+    """
+    Probe ladder, rules 1, 2 and 7.
+
+      screening : HEAD on rung 1. A pass here is a pass; it is never a failure.
+      rung 1    : strict urllib GET. Confirms every candidate failure (rule 1).
+      rule 2    : a second spaced GET before any failure is allowed to be reported.
+      rung 2    : strict curl, a different TLS and HTTP client entirely.
+      rung 3    : relaxed TLS. Answering only here means alive with a TLS caveat.
+
+    Returns (status, final_url, body, kind, err, rung).
+    """
+    # --- screening pass. HEAD 403/405/501/404 means nothing on its own.
+    st, fin, body, kind, err = fetch(url, "HEAD", TIMEOUT)
+    if st and 200 <= st < 400:
+        return st, fin, body, kind, err, "head"
+
+    # --- rung 1, real GET. Rule 1: no candidate failure is reported unconfirmed.
+    st, fin, body, kind, err = fetch(url, "GET", TIMEOUT)
+    if st and 200 <= st < 400:
+        return st, fin, body, kind, err, "rung1"
+
+    # --- rule 2: one failure is noise. Require a second, spaced.
+    time.sleep(2.5 + random.random() * 2)
+    st2, fin2, body2, kind2, err2 = fetch(url, "GET", TIMEOUT)
+    if st2 and 200 <= st2 < 400:
+        return st2, fin2, body2, kind2, err2, "rung1-retry"
+    st, fin, body, kind, err = st2, fin2, body2, kind2, err2
+
+    # A host that answered with a definite status has a working transport.
+    if st in DEFINITE:
+        return st, fin, body, kind, err, "rung1"
+
+    # --- rung 2, strict curl.
+    c_st, c_err = _curl(url, relaxed=False)
+    if c_st and 200 <= c_st < 400:
+        return c_st, url, "", None, "", "rung2"
+
+    # --- rung 3, relaxed TLS. Alive here is alive, with a caveat that is stated.
+    r_st, r_err = _curl(url, relaxed=True)
+    if r_st and 200 <= r_st < 400:
+        return r_st, url, "", "tls_caveat",                "answers only with relaxed TLS: the chain is incomplete or the "                "revocation check fails, which browsers repair and strict clients refuse", "rung3"
+
+    return st, fin, body, kind, err, "dead"
 
 
 # --------------------------------------------------------------- identity check
@@ -170,9 +246,17 @@ STOP = {"della", "delle", "dell", "dans", "pour", "avec", "that", "with", "which
 
 
 def identity_archive_org(url: str, titolo: str, autore: str):
-    m = re.search(r"archive\.org/(?:details|download)/([^/?#]+)", url)
-    if not m:
+    # Host is matched on a boundary, never as a substring, and the path pattern
+    # is anchored. An unanchored r"archive\.org/details/..." also matches
+    # notarchive.org and evil.example/archive.org/details/x.
+    if not host_matches(url_host(url), "archive.org"):
         return None
+    m = re.match(r"^https?://[^/]+/(?:details|download)/([^/?#]+)", url)
+    if not m:
+        # Rule 5: the host IS probeable and the identifier did not extract. That
+        # is an instrument fault, not a pass. Returning "no probe" here would
+        # suppress the identity check silently and the entry would read clean.
+        return ("probe_error", "archive.org URL whose item identifier did not parse")
     ident = m.group(1)
     # Read the FULL body: these responses run to 75-80KB and a capped read
     # yields truncated JSON. Retry as well, for genuine transients.
@@ -204,9 +288,11 @@ def identity_archive_org(url: str, titolo: str, autore: str):
 
 
 def identity_gallica(url: str, titolo: str, autore: str):
-    m = re.search(r"gallica\.bnf\.fr/ark:/12148/([^/?#]+)", url)
-    if not m:
+    if not host_matches(url_host(url), "gallica.bnf.fr"):
         return None
+    m = re.match(r"^https?://[^/]+/ark:/12148/([^/?#]+)", url)
+    if not m:
+        return ("probe_error", "Gallica URL whose ark did not parse")
     ark = m.group(1)
     status, _, body, kind, err = fetch(
         f"https://gallica.bnf.fr/services/OAIRecord?ark={ark}", "GET", TIMEOUT, full=True)
@@ -303,9 +389,15 @@ def classify(status, kind, err, body):
     if status is None:
         return "unreachable", f"no answer ({err})"
     if status in (401, 403):
-        return "gated", f"HTTP {status}: the host refuses anonymous clients, so reachability cannot be judged from here"
-    if status in (429,):
-        return "gated", "HTTP 429: rate-limited, so reachability cannot be judged from this run"
+        return "gated", (f"HTTP {status} on every probe: the host refuses anonymous clients, "
+                         "so reachability cannot be judged from here")
+    if status == 429:
+        # Rule 5 separates these two on purpose. A host refusing every probe the
+        # same way is handled by the unverifiable classification and needs
+        # nothing further. A host that answers sometimes is a rate limiter, and
+        # the report has to name it rather than quietly excluding it.
+        return "rate_limited", ("HTTP 429: this host rate-limits. It stays in the inventory and is "
+                                "named here rather than excluded, which would suppress a real failure later")
     if status in (404, 410):
         return "http_dead", f"HTTP {status}"
     if 500 <= status < 600:
@@ -323,21 +415,24 @@ def run(items, do_identity=True):
         wait = PER_HOST_DELAY - (time.time() - last_hit[host])
         if wait > 0:
             time.sleep(wait)
-        status, final, body, kind, err = check_reachable(it["url"])
+        status, final, body, kind, err, rung = check_reachable(it["url"])
         last_hit[host] = time.time()
         state, detail = classify(status, kind, err, body)
+        if rung == "rung3":
+            # Rule 7: alive, and the caveat is stated rather than folded into "ok".
+            state, detail = "ok_tls_caveat", err
 
         ident_state, ident_detail = ("skipped", "")
-        if do_identity and state == "ok" and it["kind"] in ("fonte", "edizione"):
+        if do_identity and state in ("ok", "ok_tls_caveat") and it["kind"] in ("fonte", "edizione"):
             wait = PER_HOST_DELAY - (time.time() - last_hit[host])
             if wait > 0:
                 time.sleep(wait)
             ident_state, ident_detail = identity_check(it["url"], it["titolo"], it["autore"])
             last_hit[host] = time.time()
 
-        results.append({**it, "state": state, "detail": detail, "http": status,
+        results.append({**it, "state": state, "detail": detail, "http": status, "rung": rung,
                         "final_url": final, "identity": ident_state, "identity_detail": ident_detail})
-        print(f"[{i}/{len(items)}] {state:<12} {ident_state:<12} {it['url'][:78]}", flush=True)
+        print(f"[{i}/{len(items)}] {state:<14} {ident_state:<12} {rung:<11} {it['url'][:66]}", flush=True)
     return results
 
 
@@ -386,7 +481,7 @@ def report(results, controls, started):
     by_state = defaultdict(list)
     for r in results:
         by_state[r["state"]].append(r)
-    ident_bad = [r for r in results if r["identity"] in ("mismatch", "gone")]
+    ident_bad = [r for r in results if r["identity"] in ("mismatch", "gone", "probe_error")]
     ident_unver = [r for r in results if r["identity"] == "unverifiable"]
 
     L = []
@@ -419,7 +514,8 @@ def report(results, controls, started):
     A("")
     A("| state | count |")
     A("|---|---|")
-    for k in ("ok", "gated", "server_error", "http_dead", "dns_dead", "unreachable", "tls_error", "other"):
+    for k in ("ok", "ok_tls_caveat", "gated", "rate_limited", "server_error",
+              "http_dead", "dns_dead", "unreachable", "tls_error", "other"):
         if by_state.get(k):
             A(f"| {k} | {len(by_state[k])} |")
     A(f"| identity mismatch or gone | {len(ident_bad)} |")
@@ -453,6 +549,12 @@ def report(results, controls, started):
           "May be transient or may be this environment. Re-run before acting.")
     table(by_state.get("server_error", []), "Server error",
           "A fault at the host. Usually temporary; re-check on the next run before acting.")
+    table(by_state.get("rate_limited", []), "Rate-limited hosts (named, and kept in the inventory)",
+          "These answer sometimes. They are named here rather than excluded: adding a flapping host "
+          "to an exclusion list is a suppression failure arriving as a housekeeping improvement.")
+    table(by_state.get("ok_tls_caveat", []), "Alive with a TLS caveat",
+          "These answered only on the relaxed rung of the probe ladder. They are ALIVE. The chain is "
+          "incomplete or revocation checking fails, which a browser repairs and a strict client refuses.")
     table(by_state.get("gated", []), "Gated, unverifiable from this environment",
           "The host refused anonymous or automated clients. This says nothing about whether the "
           "scan is still there. A human needs to open these in a browser.")
@@ -469,8 +571,10 @@ def report(results, controls, started):
 def run_controls():
     out = []
     for label, url, expected in CONTROLS:
-        status, final, body, kind, err = check_reachable(url)
+        status, final, body, kind, err, rung = check_reachable(url)
         state, _ = classify(status, kind, err, body)
+        if rung == "rung3":
+            state = "ok_tls_caveat"
         got = "ok" if state == "ok" else state
         out.append((label, url, expected, got))
         print(f"control: {got:<12} (expected {expected:<10}) {label}", flush=True)

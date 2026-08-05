@@ -7,6 +7,7 @@ plan.md
 design-constraints.md
 design-brief-skeleton.md
 imagery.md
+stack.md
 bootstrap-instructions.md
 siteground-sheet.md
 pre-flight.md
@@ -60,3 +61,7 @@ audit-report.*
 # OS noise
 Thumbs.db
 .DS_Store
+
+# Python bytecode from the local checker and its rule tests
+__pycache__/
+*.pyc
