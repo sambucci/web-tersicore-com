@@ -99,8 +99,16 @@ def _opener():
     return urllib.request.build_opener(urllib.request.HTTPSHandler(context=_CTX))
 
 
-def fetch(url: str, method: str = "GET", timeout: int = TIMEOUT):
-    """Return (status, final_url, body_head, error_kind, error_text)."""
+def fetch(url: str, method: str = "GET", timeout: int = TIMEOUT, full: bool = False):
+    """
+    Return (status, final_url, body, error_kind, error_text).
+
+    `full` reads the whole body instead of the first 64KB. Metadata responses
+    must use it: archive.org returns 75 to 80KB for the Library of Congress
+    items, so a capped read hands json.loads a truncated document and ten live
+    sources report as unverifiable on every single run. Reachability checks stay
+    capped, since they only ever need the status line.
+    """
     req = urllib.request.Request(url, method=method, headers={
         "User-Agent": UA,
         "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
@@ -110,7 +118,7 @@ def fetch(url: str, method: str = "GET", timeout: int = TIMEOUT):
         with _opener().open(req, timeout=timeout) as r:
             body = b""
             if method == "GET":
-                body = r.read(65536)
+                body = r.read() if full else r.read(65536)
             return r.status, r.geturl(), body.decode("utf-8", "replace"), None, ""
     except urllib.error.HTTPError as e:
         try:
@@ -166,12 +174,11 @@ def identity_archive_org(url: str, titolo: str, autore: str):
     if not m:
         return None
     ident = m.group(1)
-    # The IA metadata API intermittently answers 200 with a non-JSON body under
-    # load. One shot at it reports a live item as unverifiable, so retry before
-    # concluding anything.
+    # Read the FULL body: these responses run to 75-80KB and a capped read
+    # yields truncated JSON. Retry as well, for genuine transients.
     md, last = None, ""
     for attempt in range(3):
-        status, _, body, kind, err = fetch(f"https://archive.org/metadata/{ident}", "GET", TIMEOUT)
+        status, _, body, kind, err = fetch(f"https://archive.org/metadata/{ident}", "GET", TIMEOUT, full=True)
         if status != 200 or not body:
             last = f"metadata API returned {status or kind}"
         else:
@@ -202,13 +209,13 @@ def identity_gallica(url: str, titolo: str, autore: str):
         return None
     ark = m.group(1)
     status, _, body, kind, err = fetch(
-        f"https://gallica.bnf.fr/services/OAIRecord?ark={ark}", "GET", TIMEOUT)
+        f"https://gallica.bnf.fr/services/OAIRecord?ark={ark}", "GET", TIMEOUT, full=True)
     if status != 200 or "<dc:title>" not in (body or ""):
         # Fall back to SRU, which answers when OAIRecord does not.
         q = urllib.parse.quote(f'gallica all "{titolo[:60]}"')
         status2, _, body2, _, _ = fetch(
             f"https://gallica.bnf.fr/SRU?operation=searchRetrieve&version=1.2"
-            f"&maximumRecords=5&query={q}", "GET", TIMEOUT)
+            f"&maximumRecords=5&query={q}", "GET", TIMEOUT, full=True)
         if status2 == 200 and ark in (body2 or ""):
             return ("ok", "confirmed via Gallica SRU (OAIRecord did not answer)")
         return ("unverifiable", f"OAIRecord returned {status or kind}, SRU did not confirm the ark")
