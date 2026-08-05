@@ -47,6 +47,7 @@ ingest-config.php
 # else, add that path here and tell Luca so the doctrine default can follow.
 /audit/
 /reports/
+/ci_artifact/
 link-check-report.*
 audit-report.*
 *.audit.json
