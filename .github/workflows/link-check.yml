@@ -1,32 +1,41 @@
-name: Link check (CI half of the paired measurement)
+name: Monthly link check
 
-# The CI half of this site's audit. It has NO schedule on purpose.
+# The mechanical track. The whole inventory is institutional deep links and link
+# rot is this site's dominant failure mode, so this runs monthly.
 #
-# GitHub disables a scheduled workflow after ~60 days without repository
-# activity, and an autopilot reference site is exactly that profile: nothing
-# commits here between audits. A monthly cron on this repo would have run in
-# September and October 2026 and then silently stopped, with no symptom anywhere,
-# which is the same failure class as analytics going flat.
+# ON THE 60-DAY DISABLE, recorded here so nobody re-derives the wrong conclusion:
+# GitHub scopes that rule to PUBLIC repositories ("In a public repository,
+# scheduled workflows are automatically disabled when no repository activity has
+# occurred in 60 days", docs.github.com/actions, disable-and-enable-workflows,
+# read 2026-08-05). web-tersicore-com is PRIVATE, so the rule does not reach it
+# and this cron needs no keeping warm. An earlier version of this file removed
+# the schedule on that mistaken reading. The schedule is correct.
 #
-# So the cadence lives in the local scheduled routine
-# ("tersicore-semiannual-judgment-review", March and September), which runs the
-# same checker locally and then dispatches THIS workflow to get the second half
-# of the rule 6 paired measurement. With no cron here, the 60-day rule cannot
-# apply to it at all, which is the point: nothing has to be kept warm.
+# It also runs on workflow_dispatch, which is how the semi-annual local routine
+# collects the CI half of the rule 6 paired measurement. Cron for cadence,
+# dispatch for the pair.
 #
-# It never edits or deletes anything: every finding is a proposal for a human,
-# and the report says so in its own header.
+# It never edits or deletes site data: every finding is a proposal for a human,
+# and the report says so in its own header. The one thing it writes back is a
+# single row in audit-history.tsv, which makes silence diagnostic and builds a
+# trend record of source health.
 
 on:
+  schedule:
+    - cron: '17 4 3 * *'      # 04:17 UTC on the 3rd of each month
   workflow_dispatch:
     inputs:
       controls_only:
         description: 'Dry run: exercise the control set only, do not walk the inventory'
         type: boolean
         default: false
+      heartbeat_test:
+        description: 'Prove the history append, commit and push path works, without a full run'
+        type: boolean
+        default: false
 
 permissions:
-  contents: read
+  contents: write      # appends one row to audit-history.tsv
   issues: write
 
 concurrency:
@@ -54,12 +63,12 @@ jobs:
         run: python tools/link_check.py --controls-only
 
       - name: Run link check
-        if: ${{ inputs.controls_only != true }}
+        if: ${{ inputs.controls_only != true && inputs.heartbeat_test != true }}
         id: check
         run: python tools/link_check.py --out audit/link-check-report.md --json audit/link-check.audit.json
 
       - name: Upload report
-        if: ${{ inputs.controls_only != true }}
+        if: ${{ inputs.controls_only != true && inputs.heartbeat_test != true }}
         uses: actions/upload-artifact@v4
         with:
           name: link-check-report
@@ -67,7 +76,7 @@ jobs:
           retention-days: 90
 
       - name: Open an issue when there are actionable findings
-        if: ${{ inputs.controls_only != true && steps.check.outputs.actionable != '0' }}
+        if: ${{ inputs.controls_only != true && inputs.heartbeat_test != true && steps.check.outputs.actionable != '0' }}
         uses: actions/github-script@v7
         with:
           script: |
@@ -88,8 +97,48 @@ jobs:
               labels: ['link-rot'],
             });
 
+      # One row per run, committed. Three things at once: the run history is
+      # visible in the repo rather than only in Actions, so a workflow that stops
+      # firing becomes diagnosable from a missing row; and the columns accumulate
+      # into a trend record of source health, which on a site whose only failure
+      # mode is link rot is the number worth watching.
+      - name: Append this run to the history
+        if: ${{ inputs.controls_only != true && always() }}
+        env:
+          # Values arrive as plain env vars. Building the row inside ${{ }} needs
+          # single-quoted literals, and a double-quoted one is a silent syntax
+          # error that only surfaces on the first scheduled run.
+          HB:       ${{ inputs.heartbeat_test }}
+          TOTAL:    ${{ steps.check.outputs.total }}
+          HEALTHY:  ${{ steps.check.outputs.healthy }}
+          IOK:      ${{ steps.check.outputs.identity_ok }}
+          IBAD:     ${{ steps.check.outputs.identity_bad }}
+          CTRL_OK:  ${{ steps.check.outputs.controls_ok }}
+        run: |
+          set -euo pipefail
+          if [ "${HB}" = "true" ]; then
+            KIND=test; TOTAL=0; HEALTHY=0; IOK=0; IBAD=0; CTRL=pass
+          else
+            KIND=scheduled
+            if [ "${CTRL_OK}" = "true" ]; then CTRL=pass; else CTRL=FAIL; fi
+          fi
+          printf '%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\n' \
+            "$(date -u +%Y-%m-%d)" "${GITHUB_RUN_ID}" "${KIND}" \
+            "${TOTAL:-0}" "${HEALTHY:-0}" "${IOK:-0}" "${IBAD:-0}" "${CTRL:-unknown}" \
+            >> audit-history.tsv
+          git config user.name  "tersicore-audit"
+          git config user.email "actions@github.com"
+          git add audit-history.tsv
+          # This message carries no CI-skip token, and does not spell one out
+          # either: GitHub matches that token anywhere in the message, so a commit
+          # merely describing the mechanism would suppress its own workflows.
+          git commit -m "Audit history: run ${GITHUB_RUN_ID} (${KIND})" || exit 0
+          # checkout leaves a detached HEAD, so a bare `git push` has no upstream.
+          git pull --rebase --quiet origin "${GITHUB_REF_NAME}" || true
+          git push origin "HEAD:${GITHUB_REF_NAME}"
+
       - name: Fail the run if the control set was unreliable
-        if: ${{ inputs.controls_only != true && steps.check.outputs.controls_ok == 'false' }}
+        if: ${{ inputs.controls_only != true && inputs.heartbeat_test != true && steps.check.outputs.controls_ok == 'false' }}
         run: |
           echo "::error::Control set failed, so this run's findings are not trustworthy."
           exit 1

@@ -1,0 +1,2 @@
+date	run_id	kind	total	healthy	identity_ok	identity_bad	controls
+2026-08-05	baseline	manual	104	104	60	0	pass
