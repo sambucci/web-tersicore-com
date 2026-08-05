@@ -74,18 +74,22 @@ CONTROLS = [
 # ------------------------------------------------------------------- fetching
 def _ssl_context():
     """
-    Windows Python ships an incomplete CA store, so verification against
-    commons.wikimedia.org fails with CERTIFICATE_VERIFY_FAILED even though the
-    certificate is fine. That turned every Commons URL in the inventory into a
-    false failure on a local run while the Linux CI runner saw them all as 200.
-    certifi's bundle fixes it; without certifi we keep strict verification and
-    let the failure surface honestly rather than disabling verification.
+    Trust the UNION of the system CA store and certifi's bundle.
+
+    Neither alone is enough on Windows, and each fails against a different half
+    of this inventory. The system store rejects commons.wikimedia.org; certifi's
+    bundle alone rejects archive.org and gallica.bnf.fr. Loading only certifi
+    turned 63 healthy institutional URLs into TLS failures and, correctly, made
+    the control set fail. Verification stays strict either way: this widens the
+    set of trusted roots, it never disables checking.
     """
+    ctx = ssl.create_default_context()          # system roots
     try:
         import certifi
-        return ssl.create_default_context(cafile=certifi.where())
+        ctx.load_verify_locations(cafile=certifi.where())   # plus certifi's roots
     except ImportError:
-        return ssl.create_default_context()
+        pass
+    return ctx
 
 
 _CTX = _ssl_context()
